@@ -1,0 +1,7 @@
+# "uuid","xml src","md src","marketing loc","docs loc"
+# $1    , $2      , $3     , $4            , $5
+
+# uuid, mdc, docs, xml, md
+awk -F ',' '{printf "%-15s,%-40s,%-120s,%-200s,%-200s,%-120s\n",$1,$2,$5,$6,$3,$4}' redirects.csv | head -1 > redirs
+awk -F ',' '{printf "%-15s,%-40s,%-120s,%-200s,%-200s,%-120s\n",$1,$2,$5,$6,$3,$4}' redirects.csv | sort -t',' -k3 | uniq >> redirs
+mv redirs redirects.csv
