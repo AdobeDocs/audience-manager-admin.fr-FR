@@ -1,18 +1,18 @@
 ---
-description: L'outil d'administration d'Audience Manager vous permet d'ajouter et de configurer des entreprises, des serveurs, des rapports, des formats et des utilisateurs. Vous pouvez également afficher ou modifier votre profil personnel.
-seo-description: L'outil d'administration d'Audience Manager vous permet d'ajouter et de configurer des entreprises, des serveurs, des rapports, des formats et des utilisateurs. Vous pouvez également afficher ou modifier votre profil personnel.
-seo-title: Accueil d'Audience Manager Admin
-title: Accueil d'Audience Manager Admin
-uuid: 4534 b 622-4 c 8 d -4 c 42-8019-1614 faaba 9 d 6
+description: L’outil d’administration d’Audience Manager vous permet d’ajouter et de configurer des entreprises, des serveurs, des rapports, des formats et des utilisateurs. Vous pouvez également afficher ou modifier votre profil personnel.
+seo-description: L’outil d’administration d’Audience Manager vous permet d’ajouter et de configurer des entreprises, des serveurs, des rapports, des formats et des utilisateurs. Vous pouvez également afficher ou modifier votre profil personnel.
+seo-title: Accueil d’administration d’Audience Manager
+title: Accueil d’administration d’Audience Manager
+uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 translation-type: tm+mt
 source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 
 ---
 
 
-# Accueil d'Audience Manager Admin {#audience-manager-admin-home}
+# Accueil d’administration d’Audience Manager {#audience-manager-admin-home}
 
-L'outil d'administration d'Audience Manager vous permet d'ajouter et de configurer des entreprises, des serveurs, des rapports, des formats et des utilisateurs. Vous pouvez également afficher ou modifier votre profil personnel.
+L’outil d’administration d’Audience Manager vous permet d’ajouter et de configurer des entreprises, des serveurs, des rapports, des formats et des utilisateurs. Vous pouvez également afficher ou modifier votre profil personnel.
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
@@ -22,12 +22,12 @@ L'outil d'administration d'Audience Manager vous permet d'ajouter et de configur
        c_home.xml 
      </draft-comment>Placez le pointeur sur un titre pour obtenir une brève description. </p> <p> 
      <ul id="ul_A0416FDB65EB4774821C05664E14AB86"> 
-      <li id="li_C528ED722C7241C8A0F492B250322EA7"><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7"> Procédures : Autoriser l'accès à la superposition d'Amazon S 3 pour les destinations par lots</a> </li> 
-      <li id="li_582FD48ADC894E00AE5961E2E80A3A92"><a href="admin-destination-troubleshooting.md#set-up-destinations-export"> Comment configurer vos destinations pour exporter le cloud d'expérience…</a> </li> 
-      <li id="li_AB7BFF82D42649F3B72DA7737B05E355"><a href="formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE"> Macros de format HTTP</a> </li> 
-      <li id="li_FEC2B72DC2A04BEAAC36259C0882CECB"><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> Exigences et recommandations relatives à l'API</a> </li> 
-      <li id="li_5994853C069A44B2A1A8F3169119F001"><a href="formats/enable-outbound-seq.md#concept_526744C9433F40BF8269E18245B2F0BD"> Activer les transferts de fichiers de séquence Hadoop pour sortantes</a> </li> 
-      <li id="li_EC1DE0200F4B4EA1A7FBAB6A05D9F746"><a href="companies/admin-device-graph-options.md#concept_563615F1018340C683E0EE075F8F639D"> Options graphiques de périphérique pour les entreprises</a> </li> 
+      <li id="li_C528ED722C7241C8A0F492B250322EA7"><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7"> Comment : Autoriser l’accès au compartiment multicompte Amazon S3 pour les destinations par lot</a> </li> 
+      <li id="li_582FD48ADC894E00AE5961E2E80A3A92"><a href="admin-destination-troubleshooting.md#set-up-destinations-export"> Comment configurer vos destinations pour exporter Experience Cloud...</a> </li> 
+      <li id="li_AB7BFF82D42649F3B72DA7737B05E355"><a href="formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE"> Macros au format HTTP</a> </li> 
+      <li id="li_FEC2B72DC2A04BEAAC36259C0882CECB"><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> Configuration requise et recommandations pour l’API</a> </li> 
+      <li id="li_5994853C069A44B2A1A8F3169119F001"><a href="formats/enable-outbound-seq.md#concept_526744C9433F40BF8269E18245B2F0BD"> Activer les transferts de fichiers de séquence Hadoop pour les fichiers sortants</a> </li> 
+      <li id="li_EC1DE0200F4B4EA1A7FBAB6A05D9F746"><a href="companies/admin-device-graph-options.md#concept_563615F1018340C683E0EE075F8F639D"> Options graphiques des périphériques pour les entreprises</a> </li> 
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>Notes de mise à jour</b> </p> 
     <ul id="ul_1AA5CED5DA0F4B78B8BC4D74539E97EF"> 
