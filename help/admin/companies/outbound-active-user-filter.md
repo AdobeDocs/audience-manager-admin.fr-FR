@@ -1,32 +1,32 @@
 ---
-description: Suivez ces instructions pour générer un fichier de synchronisation complet incluant uniquement les utilisateurs récemment actifs. Vous pouvez filtrer les utilisateurs actifs afin de transmettre les données pertinentes à un système de ciblage sur site ou de limiter la taille des fichiers envoyés à un DSP. Vous ne pouvez pas utiliser ce filtre avec une synchronisation incrémentielle.
-seo-description: Suivez ces instructions pour générer un fichier de synchronisation complet incluant uniquement les utilisateurs récemment actifs. Vous pouvez filtrer les utilisateurs actifs afin de transmettre les données pertinentes à un système de ciblage sur site ou de limiter la taille des fichiers envoyés à un DSP. Vous ne pouvez pas utiliser ce filtre avec une synchronisation incrémentielle.
-seo-title: Filtrage des données sortantes par les utilisateurs actifs uniquement
-title: Filtrage des données sortantes par les utilisateurs actifs uniquement
-uuid: a 2 b 4 a 385-eee 3-458 c-b 978-09509 cacb 397
+description: Suivez ces instructions pour générer un fichier de synchronisation complet incluant uniquement les utilisateurs récemment actifs. Vous pouvez filtrer pour que les utilisateurs actifs puissent transmettre les données pertinentes à un système de ciblage sur site ou limiter la taille des fichiers envoyés à un fournisseur de services de sécurité. Vous ne pouvez pas utiliser ce filtre avec une synchronisation incrémentielle.
+seo-description: Suivez ces instructions pour générer un fichier de synchronisation complet incluant uniquement les utilisateurs récemment actifs. Vous pouvez filtrer pour que les utilisateurs actifs puissent transmettre les données pertinentes à un système de ciblage sur site ou limiter la taille des fichiers envoyés à un fournisseur de services de sécurité. Vous ne pouvez pas utiliser ce filtre avec une synchronisation incrémentielle.
+seo-title: Filtrage des données sortantes par utilisateurs actifs uniquement
+title: Filtrage des données sortantes par utilisateurs actifs uniquement
+uuid: a2b4a385-eee3-458c-b978-09509cacb397
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
 ---
 
 
-# Filtrage des données sortantes par les utilisateurs actifs uniquement {#filter-outbound-data-by-active-users-only}
+# Filtrage des données sortantes par utilisateurs actifs uniquement {#filter-outbound-data-by-active-users-only}
 
-Suivez ces instructions pour générer un fichier de synchronisation complet incluant uniquement les utilisateurs récemment actifs. Vous pouvez filtrer les utilisateurs actifs afin de transmettre les données pertinentes à un système de ciblage sur site ou de limiter la taille des fichiers envoyés à un DSP. Vous ne pouvez pas utiliser ce filtre avec une synchronisation incrémentielle.
+Suivez ces instructions pour générer un fichier de synchronisation complet incluant uniquement les utilisateurs récemment actifs. Vous pouvez filtrer pour que les utilisateurs actifs puissent transmettre les données pertinentes à un système de ciblage sur site ou limiter la taille des fichiers envoyés à un fournisseur de services de sécurité. Vous ne pouvez pas utiliser ce filtre avec une synchronisation incrémentielle.
 
 >[!NOTE]
 >
->Il n'est pas nécessaire qu'un visiteur soit visible sur un site client sélectionné ou dans son trafic publicitaire pour être qualifié comme « actif ».  » » Ils peuvent être vus par tout [!DNL Audience Manager] client ou partenaire comme étant « actif ».  » »
+>Un visiteur n’a pas besoin d’être vu sur un site client sélectionné ou dans son trafic publicitaire pour être considéré comme "actif". Tout [!DNL Audience Manager] client ou partenaire peut les considérer comme étant "actifs".
 
-Pour filtrer uniquement les utilisateurs actifs :
+Pour filtrer par utilisateurs actifs uniquement :
 
 1. Cliquez sur **[!UICONTROL Companies]**.
-1. Sélectionnez la société avec laquelle vous souhaitez travailler et cliquez **[!UICONTROL Destinations]** sur.
+1. Sélectionnez l’entreprise avec laquelle vous souhaitez travailler, puis cliquez sur **[!UICONTROL Destinations]**.
 1. Dans la [!UICONTROL Batch Data] section, définissez les options suivantes :
 
    * **[!UICONTROL Sync Type]**: Sélectionnez **[!UICONTROL Customer]** ou **[!UICONTROL Platform]**.
-   * **[!UICONTROL Sync Type Lookback Period]**: Cet intervalle définit la plage de votre fichier de données. Les choix incluent **[!UICONTROL 24 hours]****[!UICONTROL 7 days]****[!UICONTROL 30 days]**.
-   * **[!UICONTROL Incremental Sync Scheduled Run]**: Sélectionnez **[!UICONTROL Never]**. Souvenez-vous que ce filtre s'applique uniquement aux fichiers de synchronisation complets.
-   * **[!UICONTROL Full Sync Scheduled Run]**: Détermine la fréquence de réception de ce fichier. Les choix incluent **[!UICONTROL 24 hours]****[!UICONTROL 7 days]**, **[!UICONTROL 30 days]** ou **[!UICONTROL Never]** (désactiver).
+   * **[!UICONTROL Sync Type Lookback Period]**: Cet intervalle de temps définit la plage de votre fichier de données. Les choix incluent **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]**.
+   * **[!UICONTROL Incremental Sync Scheduled Run]**: Sélectionnez **[!UICONTROL Never]**. N’oubliez pas que ce filtre s’applique uniquement aux fichiers de synchronisation complète.
+   * **[!UICONTROL Full Sync Scheduled Run]**: Cela détermine la fréquence à laquelle vous souhaitez recevoir ce fichier. Les choix incluent **[!UICONTROL 24 hours]**, **[!UICONTROL 7 days]**, **[!UICONTROL 30 days]** ou **[!UICONTROL Never]** (à désactiver).
 
 1. Cliquez sur **[!UICONTROL Save]**.
