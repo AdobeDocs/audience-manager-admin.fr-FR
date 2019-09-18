@@ -1,8 +1,8 @@
 ---
 description: Afficher ou modifier les fournisseurs de données pour les conteneurs.
 seo-description: Afficher ou modifier les fournisseurs de données pour les conteneurs.
-seo-title: Gestion des conteneurs
-title: Gestion des conteneurs
+seo-title: ' Gestion des conteneurs'
+title: ' Gestion des conteneurs'
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
