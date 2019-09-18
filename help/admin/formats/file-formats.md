@@ -115,7 +115,7 @@ Macros utilisées dans les lignes de données uniquement. Pour obtenir des exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
-   <td colname="col2"> <p>Renvoie une liste qui contient plusieurs ID pour un partenaire de données. Cela s’avère utile si vous disposez d’une grande organisation avec plusieurs subdivisions ou d’autres groupes d’organisations avec lesquels vous êtes autorisé à partager des données. Cette macro renvoie une liste des ID pour ces groupes subordonnés. </p> </td> 
+   <td colname="col2"> <p>Renvoie une liste qui contient plusieurs ID pour un partenaire de données. Cela s’avère utile si vous disposez d’une grande organisation avec plusieurs subdivisions ou d’autres groupes d’organisation avec lesquels vous êtes autorisé à partager des données. Cette macro renvoie une liste des ID pour ces groupes subordonnés. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPUUIDS</code> </p> </td> 
