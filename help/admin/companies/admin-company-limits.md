@@ -1,8 +1,8 @@
 ---
 description: Gérez les limites suivantes pour les modèles algorithmiques, segments, destinations et caractéristiques de l’entreprise.
 seo-description: Gérez les limites suivantes pour les modèles algorithmiques, segments, destinations et caractéristiques de l’entreprise.
-seo-title: Gérer les limites de la société
-title: Gérer les limites de la société
+seo-title: ' Gérer les limites de la société'
+title: ' Gérer les limites de la société'
 uuid: 67a19fb2-8322-47ce-afa4-f6b78c52f814
 translation-type: tm+mt
 source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
