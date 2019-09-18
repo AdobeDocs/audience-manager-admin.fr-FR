@@ -2,7 +2,7 @@
 description: Répertorie les macros que vous pouvez utiliser pour créer des fichiers de données HTTP. HTTP envoie des données au format JSON.
 seo-description: Répertorie les macros que vous pouvez utiliser pour créer des fichiers de données HTTP. HTTP envoie des données au format JSON.
 seo-title: ' Macros au format HTTP'
-title: ' Macros au format HTTP'
+title: Macros au format HTTP
 uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
 translation-type: tm+mt
 source-git-commit: 1a547e421346a6bf281e2b3ff3a0bcb5cf1d78df
