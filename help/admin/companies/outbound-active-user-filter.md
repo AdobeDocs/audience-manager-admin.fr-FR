@@ -1,8 +1,8 @@
 ---
 description: Suivez ces instructions pour générer un fichier de synchronisation complet incluant uniquement les utilisateurs récemment actifs. Vous pouvez filtrer pour que les utilisateurs actifs puissent transmettre les données pertinentes à un système de ciblage sur site ou limiter la taille des fichiers envoyés à un fournisseur de services de sécurité. Vous ne pouvez pas utiliser ce filtre avec une synchronisation incrémentielle.
 seo-description: Suivez ces instructions pour générer un fichier de synchronisation complet incluant uniquement les utilisateurs récemment actifs. Vous pouvez filtrer pour que les utilisateurs actifs puissent transmettre les données pertinentes à un système de ciblage sur site ou limiter la taille des fichiers envoyés à un fournisseur de services de sécurité. Vous ne pouvez pas utiliser ce filtre avec une synchronisation incrémentielle.
-seo-title: Filtrage des données sortantes par utilisateurs actifs uniquement
-title: Filtrage des données sortantes par utilisateurs actifs uniquement
+seo-title: ' Filtrage des données sortantes par utilisateurs actifs uniquement'
+title: ' Filtrage des données sortantes par utilisateurs actifs uniquement'
 uuid: a2b4a385-eee3-458c-b978-09509cacb397
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
