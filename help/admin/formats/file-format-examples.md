@@ -40,7 +40,7 @@ Ces macros peuvent être utilisées dans n’importe quel champ de format. Pour 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>ORDER_ID </code> </p> </td> 
-   <td colname="col2"> <p>Format : <code>&lt;TYPE_SYNC&gt;_ &lt;ID_ORDRE&gt;_&lt;ID_DPID&gt;_&lt;MODE_SYNC&gt;_&lt;FICHIER_CALCUL&gt;.sync </code> </p> <p>Output : <code>ftp_ 215_888_iter_1449756724.sync </code> </p> </td> 
+   <td colname="col2"> <p>Format : <code>&lt;TYPE_SYNC&gt;_ &lt;ID_ORDRE&gt;_&lt;ID_DPID&gt;_&lt;MODE_SYNC&gt;_&lt;FICHIER_TIMESTAMP&gt;.sync </code> </p> <p>Output : <code>ftp_ 215_888_iter_1449756724.sync </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SYNC_MODE </code> </p> </td> 
