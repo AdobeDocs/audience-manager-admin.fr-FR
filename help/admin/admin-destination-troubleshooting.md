@@ -1,7 +1,7 @@
 ---
 description: Informations relatives à la configuration des destinations dans Audience Manager et à l’élimination des problèmes courants.
 seo-description: Informations relatives à la configuration des destinations dans Audience Manager et à l’élimination des problèmes courants.
-seo-title: Résolution des problèmes de configuration de destination
+seo-title: ' Résolution des problèmes de configuration de destination'
 title: Résolution des problèmes de configuration de destination
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 translation-type: tm+mt
