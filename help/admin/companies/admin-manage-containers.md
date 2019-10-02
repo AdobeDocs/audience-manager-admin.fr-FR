@@ -1,26 +1,26 @@
 ---
 description: Afficher ou modifier les fournisseurs de données pour les conteneurs.
 seo-description: Afficher ou modifier les fournisseurs de données pour les conteneurs.
-seo-title: ' Gestion des conteneurs'
+seo-title: Gestion des conteneurs
 title: ' Gestion des conteneurs'
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
 translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+source-git-commit: 63d12d92ad7196ac880d249435a7fe312c82280d
 
 ---
 
 
-# Gestion des conteneurs {#manage-containers}
+# Manage Containers {#manage-containers}
 
-Afficher ou modifier les fournisseurs de données pour les conteneurs.
+View or edit data providers for containers.
 
 <!-- t_containers.xml -->
 
 >[!NOTE]
 >
->Par défaut, les entreprises sont créées avec un conteneur unique. Vous pouvez créer d’autres conteneurs pour une entreprise dans l’interface utilisateur, dans **[!UICONTROL Manage Data > Tags]**.
+>By default, companies are created with one container. Vous pouvez créer d’autres conteneurs pour une entreprise dans l’interface utilisateur, dans **[!UICONTROL Tools > Tags]**.
 
-1. Cliquez sur **[!UICONTROL Companies]**, puis recherchez et cliquez sur l’entreprise souhaitée pour afficher sa [!UICONTROL Profile] page.
+1. Click **[!UICONTROL Companies]**, then locate and click the desired company to display its [!UICONTROL Profile] page.
 
    Utilisez la [!UICONTROL Search] zone ou les commandes de pagination au bas de la liste pour trouver la société souhaitée. Vous pouvez trier chaque colonne par ordre croissant ou décroissant en cliquant sur l’en-tête de la colonne de votre choix.
 
