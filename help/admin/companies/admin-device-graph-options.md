@@ -1,11 +1,11 @@
 ---
 description: Les options de graphique de périphérique sont disponibles pour les entreprises qui participent à Adobe Experience Cloud Device Co-op. Si un client entretient également une relation contractuelle avec un fournisseur tiers de graphiques de périphériques intégré à Audience Manager, cette section affiche les options pour ce graphique de périphériques. Ces options se trouvent sous Entreprises > nom de l’entreprise > Profil > Options graphiques du périphérique.
 seo-description: Les options de graphique de périphérique sont disponibles pour les entreprises qui participent à Adobe Experience Cloud Device Co-op. Si un client entretient également une relation contractuelle avec un fournisseur tiers de graphiques de périphériques intégré à Audience Manager, cette section affiche les options pour ce graphique de périphériques. Ces options se trouvent sous Entreprises > nom de l’entreprise > Profil > Options graphiques du périphérique.
-seo-title: ' Options graphiques des périphériques pour les entreprises'
-title: ' Options graphiques des périphériques pour les entreprises'
+seo-title: Options graphiques des périphériques pour les entreprises
+title: Options graphiques des périphériques pour les entreprises
 uuid: a8ced843-710c-4a8f-a0d7-ea89d010a7a5
 translation-type: tm+mt
-source-git-commit: 10adb6b06160f5a5c4068483b407e5798fc10150
+source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
 
@@ -46,7 +46,7 @@ Ces cases à cocher sont activées dans le [!DNL Admin UI] cas où un partenaire
 
 ![](assets/adminUI2.png)
 
->[!MORE_LIKE_This]
+>[!MORELIKETHIS]
 >
 >* [Définition des options de règle de fusion de profil](https://marketing.adobe.com/resources/help/en_US/aam/merge-rule-definitions.html)
 >* [Paramètres de source de données et options de menu](https://marketing.adobe.com/resources/help/en_US/aam/datasource-settings-definitions.html)
