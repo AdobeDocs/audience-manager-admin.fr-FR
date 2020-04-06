@@ -5,20 +5,20 @@ seo-title: Journalisation de l'audit
 title: Journalisation de l'audit
 uuid: null
 translation-type: tm+mt
-source-git-commit: 6c09d99165c1294999f4a4d7ce763082e6d2cb8f
+source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
 
 ---
 
 
-# Journalisation de l'audit {#audit-logging}
+# Journalisation de l&#39;audit {#audit-logging}
 
 Utilisez-le [!UICONTROL  Audit Logging] comme premier emplacement lors du débogage des problèmes des clients.
 
-> [!NOTE]
+>[!NOTE]
 >
-> La [!UICONTROL Audit Logging] fonctionnalité et la documentation sont actuellement en cours d'élaboration et peuvent être modifiées. Veuillez enregistrer les problèmes rencontrés dans [!DNL JIRA] ([!DNL UI] l'équipe).
+>La [!UICONTROL Audit Logging] fonctionnalité et la documentation sont actuellement en cours d&#39;élaboration et peuvent être modifiées. Veuillez consigner les problèmes rencontrés dans [!DNL JIRA] ([!DNL UI] l&#39;équipe).
 
-![Vue Journalisation de l'audit](assets/audit-logging-img.png)
+![de journalisation de l&#39;audit](assets/audit-logging-img.png)
 
 <!-- 
 
