@@ -5,9 +5,9 @@ seo-title: Création ou modification d’un serveur FTP
 title: Création ou modification d’un serveur FTP
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 translation-type: tm+mt
-source-git-commit: e0dc190f8765ec91431a2c02a62c6bf5458c7e3d
+source-git-commit: 78d694670e7abdc18938c5be729ad499e2647825
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '423'
 ht-degree: 5%
 
 ---
@@ -44,6 +44,9 @@ Utilisez la [!UICONTROL Servers] page de l’outil d’administration d’Audien
    >N&#39;oubliez pas d&#39;ajouter notre adresse [!DNL FTP][!DNL IP] à votre liste d&#39;adresses IP autorisées : **52.44.29.204**.
 
 1. Pour **[!UICONTROL SSH Key]** l&#39;authentification :
+   >[!NOTE]
+   >
+   >Lors de la configuration de l&#39;authentification par clé SSH, veillez à toujours générer les clés publiques et privées au format OpenSSH uniquement.
    1. Générez la paire de clés publique/privée à partir de n&#39;importe quelle [!DNL Linux] machine ou [!DNL Mac] machine.
    1. Donnez la clé **** publique au client pour qu’il effectue la mise à jour sur son [!DNL SFTP] serveur. Ils doivent inclure tout le texte de la clé publique sur leur serveur, y compris `-----BEGIN RSA PRIVATE KEY-----` et `-----END RSA PRIVATE KEY-----` . En échange, ils doivent fournir le nom d&#39;utilisateur sous lequel ils installent la clé.
    1. Mettez à jour le champ de nom d’utilisateur avec celui fourni par le client et le champ de clé avec la clé **** privée.
