@@ -1,18 +1,21 @@
 ---
-description: Utilisez la page Entreprises pour afficher la liste des entreprises dans votre configuration d’Audience Manager. Vous pouvez modifier ou supprimer des entreprises existantes ou créer de nouvelles entreprises, à condition que les rôles utilisateur appropriés soient attribués à vous.
-seo-description: Utilisez la page Entreprises pour afficher la liste des entreprises dans votre configuration d’Audience Manager. Vous pouvez modifier ou supprimer des entreprises existantes ou créer de nouvelles entreprises, à condition que les rôles utilisateur appropriés soient attribués à vous.
+description: Utilisez la page Sociétés pour vue d'une liste de sociétés dans votre configuration d'Audience Manager. Vous pouvez modifier ou supprimer des sociétés existantes ou créer de nouvelles sociétés, à condition que les rôles d’utilisateur appropriés vous soient attribués.
+seo-description: Utilisez la page Sociétés pour vue d'une liste de sociétés dans votre configuration d'Audience Manager. Vous pouvez modifier ou supprimer des sociétés existantes ou créer de nouvelles sociétés, à condition que les rôles d’utilisateur appropriés vous soient attribués.
 seo-title: Entreprises
 title: Entreprises
 uuid: 64b467f4-5e2f-4637-a62d-9c70c8a1a5be
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 2%
 
 ---
 
 
 # Entreprises {#companies}
 
-Utilisez la [!UICONTROL Companies] page pour afficher la liste des entreprises dans votre configuration d’Audience Manager. Vous pouvez modifier ou supprimer des entreprises existantes ou créer de nouvelles entreprises, à condition que les rôles utilisateur appropriés soient attribués à vous.
+Utilisez la [!UICONTROL Companies] page pour vue d&#39;une liste de sociétés dans votre configuration d&#39;Audience Manager. Vous pouvez modifier ou supprimer des sociétés existantes ou créer de nouvelles sociétés, à condition que les rôles d’utilisateur appropriés vous soient attribués.
 
 ![](assets/companies.png)
 
