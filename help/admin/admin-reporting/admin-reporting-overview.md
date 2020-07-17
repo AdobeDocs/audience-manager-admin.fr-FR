@@ -1,18 +1,21 @@
 ---
-description: Gérez les rapports Audience Manager en créant de nouveaux rapports ou en modifiant ou supprimant des rapports existants. Vous pouvez également affecter un utilisateur du portail en tant qu’utilisateur Tableau.
-seo-description: Gérez les rapports Audience Manager en créant de nouveaux rapports ou en modifiant ou supprimant des rapports existants. Vous pouvez également affecter un utilisateur du portail en tant qu’utilisateur Tableau.
+description: Gérez les rapports d’Audience Manager en créant de nouveaux rapports ou en modifiant ou supprimant des rapports existants. Vous pouvez également affecter un utilisateur du portail en tant qu’utilisateur Tableau.
+seo-description: Gérez les rapports d’Audience Manager en créant de nouveaux rapports ou en modifiant ou supprimant des rapports existants. Vous pouvez également affecter un utilisateur du portail en tant qu’utilisateur Tableau.
 seo-title: Création de rapports
 title: Création de rapports
 uuid: d857044b-926d-4862-b8bc-799cb3ecca56
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 2%
 
 ---
 
 
 # Création de rapports {#reporting}
 
-Gérez les rapports Audience Manager en créant de nouveaux rapports ou en modifiant ou supprimant des rapports existants. Vous pouvez également affecter un utilisateur du portail en tant qu’ [!DNL Tableau] utilisateur.
+Gérez les rapports d’Audience Manager en créant de nouveaux rapports ou en modifiant ou supprimant des rapports existants. Vous pouvez également affecter un utilisateur du portail en tant qu’ [!DNL Tableau] utilisateur.
 
 <!-- c_reporting.xml -->
 
@@ -20,4 +23,4 @@ Gérez les rapports Audience Manager en créant de nouveaux rapports ou en modif
 
 Vous pouvez trier chaque colonne par ordre croissant ou décroissant en cliquant sur l’en-tête de la colonne de votre choix.
 
-Utilisez la [!UICONTROL Search] zone ou les commandes de pagination au bas de la liste pour trouver le rapport souhaité.
+Utilisez la [!UICONTROL Search] zone ou les commandes de pagination au bas de la liste pour trouver le rapport de votre choix.
