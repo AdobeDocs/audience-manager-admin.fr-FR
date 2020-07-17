@@ -2,9 +2,9 @@
 product: audience-manager
 audience: admin
 user-guide-title: Guide de l’administrateur d’Audience Manager
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5510710a65beb47cc6e8ee48a64a4efe91e4b904
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 100%
 
