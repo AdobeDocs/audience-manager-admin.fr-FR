@@ -1,24 +1,27 @@
 ---
 description: 'Utilisez la journalisation de l’audit comme premier emplacement lors du débogage des problèmes des clients. '
 seo-description: 'Utilisez la journalisation de l’audit comme premier emplacement lors du débogage des problèmes des clients. '
-seo-title: Journalisation de l'audit
-title: Journalisation de l'audit
+seo-title: Journalisation d’audit
+title: Journalisation d’audit
 uuid: null
 translation-type: tm+mt
 source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 9%
 
 ---
 
 
-# Journalisation de l&#39;audit {#audit-logging}
+# Journalisation d’audit {#audit-logging}
 
 Utilisez-le [!UICONTROL  Audit Logging] comme premier emplacement lors du débogage des problèmes des clients.
 
 >[!NOTE]
 >
->La [!UICONTROL Audit Logging] fonctionnalité et la documentation sont actuellement en cours d&#39;élaboration et peuvent être modifiées. Veuillez consigner les problèmes rencontrés dans [!DNL JIRA] ([!DNL UI] l&#39;équipe).
+>La [!UICONTROL Audit Logging] fonctionnalité et la documentation sont actuellement en cours d&#39;élaboration et peuvent faire l&#39;objet de modifications. Veuillez consigner tous les problèmes rencontrés dans [!DNL JIRA] ([!DNL UI] l&#39;équipe).
 
-![de journalisation de l&#39;audit](assets/audit-logging-img.png)
+![vue de journalisation d&#39;audit](assets/audit-logging-img.png)
 
 <!-- 
 
