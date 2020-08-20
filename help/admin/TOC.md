@@ -2,8 +2,9 @@
 product: audience-manager
 audience: admin
 user-guide-title: Guide de l’administrateur d’Audience Manager
+user-guide-description: The Audience Manager Admin tool lets you add and configure companies, servers, reports, formats, and users. You can also view or edit your personal profile.
 translation-type: tm+mt
-source-git-commit: 5510710a65beb47cc6e8ee48a64a4efe91e4b904
+source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 100%
