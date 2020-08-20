@@ -5,7 +5,7 @@ seo-title: Macros Format du fichier
 title: Macros Format du fichier
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 translation-type: tm+mt
-source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
+source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Ces macros peuvent être utilisées dans n’importe quel champ de format. Pour 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
-   <td colname="col2"> <p>ID du fournisseur de données de Cible. </p> </td> 
+   <td colname="col2"> <p>ID du fournisseur de données de cible. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>MASTER_DPID</code> </p> </td> 
@@ -106,7 +106,7 @@ Macros utilisées dans les lignes de données uniquement. Pour obtenir des exemp
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Insère un caractère d’accolade fermé }. </p> </td> 
+   <td colname="col2"> <p>Insère un caractère d’accolade fermé <code>}</code> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -118,7 +118,7 @@ Macros utilisées dans les lignes de données uniquement. Pour obtenir des exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
-   <td colname="col2"> <p>Renvoie une liste qui contient plusieurs ID pour un partenaire de données. Cela s’avère utile si vous disposez d’une grande organisation avec plusieurs sous-divisions ou d’autres groupes d’organisation avec lesquels vous pouvez partager des données. Cette macro renvoie une liste des identifiants pour ces groupes subordonnés. </p> </td> 
+   <td colname="col2"> <p>Renvoie une liste qui contient plusieurs ID pour un partenaire de données. Cela s’avère utile si vous disposez d’une grande organisation avec plusieurs sous-divisions ou d’autres groupes d’organisation avec lesquels vous pouvez partager des données. Cette macro renvoie une liste des identifiants pour ces groupes Secondaires. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPUUIDS</code> </p> </td> 
@@ -138,7 +138,7 @@ Macros utilisées dans les lignes de données uniquement. Pour obtenir des exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Insère un caractère d’accolade ouvert {. </p> </td> 
+   <td colname="col2"> <p>Insère un caractère d’accolade ouvert <code>{</code> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
