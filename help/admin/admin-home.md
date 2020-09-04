@@ -5,10 +5,10 @@ seo-title: Accueil de l’administrateur d’Audience Manager
 title: Accueil de l’administrateur d’Audience Manager
 uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 translation-type: tm+mt
-source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
+source-git-commit: 04497025c7712f486737034550f64939541d3218
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,10 +20,7 @@ L’outil d’administration d’Audience Manager vous permet d’ajouter et de 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
   <tr> 
-   <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Éléments nouveaux ou en vedette</b> </p> <p> 
-     <draft-comment otherprops="merge">
-       c_home.xml 
-     </draft-comment>Placez le pointeur sur un titre pour obtenir une brève description. </p> <p> 
+   <td colname="col1" colsep="0" rowsep="0" valign="top"> <p class="head"> <b>Éléments nouveaux ou en vedette</b> </p> <p>Placez le pointeur sur un titre pour obtenir une brève description. </p> <p> 
      <ul id="ul_A0416FDB65EB4774821C05664E14AB86"> 
       <li id="li_C528ED722C7241C8A0F492B250322EA7"><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7"> Guide pratique : autoriser le partage des accès entre comptes dans les compartiments Amazon S3 pour les destinations par lots</a> </li> 
       <li id="li_582FD48ADC894E00AE5961E2E80A3A92"><a href="admin-destination-troubleshooting.md#set-up-destinations-export"> Comment configurer vos destinations à exporter vers Experience Cloud...</a> </li> 
