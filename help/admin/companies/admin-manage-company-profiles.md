@@ -15,46 +15,46 @@ ht-degree: 5%
 
 # Création d’un profil d’entreprise {#create-a-company-profile}
 
-Utilisez la [!UICONTROL Companies] page de l’outil d’administration des Audiences Manager pour créer une société.
+Utilisez la page [!UICONTROL Companies] de l’outil d’administration des Audiences Manager pour créer une société.
 
 <!-- t_create_company.xml -->
 
 >[!NOTE]
 >
->Vous devez avoir le **[!UICONTROL DEXADMIN]** rôle pour créer de nouvelles sociétés.
+>Vous devez avoir le rôle **[!UICONTROL DEXADMIN]** pour pouvoir créer de nouvelles sociétés.
 
 1. Cliquez sur **[!UICONTROL Companies]** > **[!UICONTROL Add Company]**.
 1. Renseignez les champs suivants :
 
    * **[!UICONTROL Name]**: (Obligatoire) Indiquez le nom de la société.
    * **[!UICONTROL Description]**: (Obligatoire) Fournissez des informations descriptives sur la société, comme l&#39;industrie ou son nom complet.
-   * **[!UICONTROL Subdomain]**: (Obligatoire) Spécifiez le sous-domaine de la société. Le texte que vous saisissez correspond au sous-domaine de l’appel de événement. Ça ne peut pas être changé. Il doit s’agir d’une chaîne de caractères [!DNL URL]valides.
+   * **[!UICONTROL Subdomain]**: (Obligatoire) Spécifiez le sous-domaine de la société. Le texte que vous saisissez correspond au sous-domaine de l’appel de événement. Ça ne peut pas être changé. Il doit s’agir d’une chaîne de caractères [!DNL URL] valides.
 
-      Par exemple, si votre société a été nommée [!DNL AcmeCorp], le sous-domaine sera [!DNL acmecorp]défini.
+      Par exemple, si votre société est nommée [!DNL AcmeCorp], le sous-domaine sera [!DNL acmecorp].
 
-      L’Audience Manager utilise le sous-domaine pour le [!UICONTROL Data Collection Server] (DCS). Dans l&#39;exemple précédent, si votre société [!DNL URL] est pleine [!UICONTROL DCS] serait [!DNL acmecorp.demdex.net].
+      L’Audience Manager utilise le sous-domaine pour le [!UICONTROL Data Collection Server] (DCS). Dans l’exemple précédent, si votre société complète [!DNL URL] dans [!UICONTROL DCS] serait [!DNL acmecorp.demdex.net].
 
    * **[!UICONTROL Lifecyle]**: Spécifiez l’étape souhaitée pour la société :
-      * **[!UICONTROL Active]**: Indiquez que la société sera un client d’Audience Manager principal. Un [!UICONTROL Active] compte signifie un client payant, non seulement pour le conseil, mais pour l&#39;Audience Manager SKU.
+      * **[!UICONTROL Active]**: Indiquez que la société sera un client d’Audience Manager principal. Un compte [!UICONTROL Active] signifie un client payant, non seulement pour consulter, mais pour l&#39;Audience Manager SKU.
       * **[!UICONTROL Demo]**: Indiquez que la société sera utilisée à des fins de démonstration uniquement. Les données du rapports seront automatiquement masquées.
-      * **[!UICONTROL Prospect]**: Indiquez que la société est un client d’Audience Manager potentiel, tel qu’une société à laquelle est attribuée une configuration gratuite [!DNL POC] ou un compte pour une démonstration commerciale.
+      * **[!UICONTROL Prospect]**: Indiquez que la société est un client d’Audience Manager potentiel, tel qu’une société à laquelle est attribuée une configuration gratuite  [!DNL POC] ou un compte pour une démonstration commerciale.
       * **[!UICONTROL Test]**: Indiquez que la société sera utilisée à des fins de test interne uniquement.
    * **[!UICONTROL Account Types]**: Spécifiez le jeu complet de types de compte pour cette société. Aucun type de compte n&#39;est mutuellement exclusif avec aucun autre type.
       * **[!UICONTROL Full AAM]**: Indiquez que la société aura un compte Adobe Audience Manager complet et que les utilisateurs auront un accès à la connexion.
-      * **[!UICONTROL MMP]**: Indiquez que la société a été activée pour utiliser les [!UICONTROL Master Marketing Profile] ([!UICONTROL MMP]) fonctionnalités. Le [!UICONTROL MMP] permet le partage des audiences sur l’Experience Cloud à l’aide d’un [!UICONTROL Experience Cloud ID] ([!DNL MCID]) attribué à chaque visiteur, puis utilisé par l’Audience Manager. Si vous sélectionnez ce type de compte, la [!UICONTROL Experience Cloud ID Service] sélection est également automatique.
+      * **[!UICONTROL MMP]**: Spécifiez que la société a été activée pour utiliser les fonctionnalités  [!UICONTROL Master Marketing Profile] ([!UICONTROL MMP]). Le [!UICONTROL MMP] permet le partage des audiences sur l’Experience Cloud à l’aide d’un [!UICONTROL Experience Cloud ID] ([!DNL MCID]) affecté à chaque visiteur, puis utilisé par l’Audience Manager. Si vous sélectionnez ce type de compte, le [!UICONTROL Experience Cloud ID Service] est également automatiquement sélectionné.
 
-         Pour plus d’informations, voir [Audiences Services - Principal Marketing Profil](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
+         Pour plus d&#39;informations, voir [Audiences Services - Principal Marketing Profil](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
    * **[!UICONTROL Data Source]**: Indiquez que la société est un fournisseur de données tiers dans l’Audience Manager.
    * **[!UICONTROL Targeting Partner]**: Indiquez que la société agit comme plateforme de ciblage pour les clients d’Audience Manager.
-   * **[!UICONTROL Visitor ID Service]**: Indiquez que la société a été activée pour utiliser le [!UICONTROL Experience Cloud Visitor ID Service].
+   * **[!UICONTROL Visitor ID Service]**: Indiquez que la société a été activée pour utiliser le  [!UICONTROL Experience Cloud Visitor ID Service].
 
-      Le [!UICONTROL Experience Cloud Visitor ID Service] fournit un ID de visiteur universel pour toutes les solutions Experience Cloud. For more information, see the [Experience Cloud Visitor ID Service user guide](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html).
+      [!UICONTROL Experience Cloud Visitor ID Service] fournit un ID de visiteur universel pour toutes les solutions Experience Cloud. Pour plus d’informations, consultez le [Guide de l’utilisateur du service d’identification des Visiteurs Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html).
 
-   * **[!UICONTROL Agency]**: Indiquez que la société aura un [!UICONTROL Agency] compte.
+   * **[!UICONTROL Agency]**: Indiquez que la société aura un  [!UICONTROL Agency] compte.
 
 
 
-1. Cliquez sur **[!UICONTROL Create]**. Suivez les instructions de la section [Modifier un Profil](../companies/admin-manage-company-profiles.md#edit-company-profile)de Société.
+1. Cliquez sur **[!UICONTROL Create]**. Suivez les instructions de la section [Modifier un Profil de Société](../companies/admin-manage-company-profiles.md#edit-company-profile).
 
    ![Résultat de l’étape](assets/add_company.png)
 
@@ -64,9 +64,9 @@ Modifiez un profil de société, notamment son nom, sa description, son sous-dom
 
 <!-- t_edit_company_profile.xml -->
 
-1. Cliquez sur **[!UICONTROL Companies]**, puis recherchez et cliquez sur la société souhaitée pour afficher sa [!UICONTROL Profile] page.
+1. Cliquez sur **[!UICONTROL Companies]**, puis recherchez et cliquez sur la société souhaitée pour afficher sa page [!UICONTROL Profile].
 
-   Utilisez la [!UICONTROL Search] zone ou les commandes de pagination au bas de la liste pour trouver la société souhaitée. Vous pouvez trier chaque colonne par ordre croissant ou décroissant en cliquant sur l’en-tête de la colonne de votre choix.
+   Utilisez la zone [!UICONTROL Search] ou les commandes de pagination au bas de la liste pour trouver la société souhaitée. Vous pouvez trier chaque colonne par ordre croissant ou décroissant en cliquant sur l’en-tête de la colonne de votre choix.
 
    ![Résultat de l’étape](assets/profile_company.png)
 
@@ -74,29 +74,29 @@ Modifiez un profil de société, notamment son nom, sa description, son sous-dom
 
    * **[!UICONTROL Name]**: Modifiez le nom de la société. Il s’agit d’un champ obligatoire.
    * **[!UICONTROL Description]**: Modifiez la description de la société. Il s’agit d’un champ obligatoire.
-   * **[!UICONTROL Subdomain]**: (Obligatoire) Spécifiez le sous-domaine de la société. Le texte que vous saisissez correspond au sous-domaine de l’appel de événement. Ça ne peut pas être changé. Il doit s’agir d’une chaîne de caractères [!DNL URL]valides.
+   * **[!UICONTROL Subdomain]**: (Obligatoire) Spécifiez le sous-domaine de la société. Le texte que vous saisissez correspond au sous-domaine de l’appel de événement. Ça ne peut pas être changé. Il doit s’agir d’une chaîne de caractères [!DNL URL] valides.
 
-      Par exemple, si votre société a été nommée [!DNL AcmeCorp], le sous-domaine sera [!DNL acmecorp]défini.
+      Par exemple, si votre société est nommée [!DNL AcmeCorp], le sous-domaine sera [!DNL acmecorp].
 
-      L’Audience Manager utilise le sous-domaine pour le [!UICONTROL Data Collection Server] (DCS). Dans l&#39;exemple précédent, si votre société [!DNL URL] est pleine [!UICONTROL DCS] serait [!DNL acmecorp.demdex.net].
+      L’Audience Manager utilise le sous-domaine pour le [!UICONTROL Data Collection Server] (DCS). Dans l’exemple précédent, si votre société complète [!DNL URL] dans [!UICONTROL DCS] serait [!DNL acmecorp.demdex.net].
 
    * **[!UICONTROL imsOrgld]**: ([!UICONTROL Identity Management System Organization ID]) Cet identifiant vous permet de connecter votre société au Adobe Experience Cloud.
    * **[!UICONTROL Lifecyle]**: Spécifiez l’étape souhaitée pour la société :
       * **[!UICONTROL Active]**: Indiquez que la société sera un client d’Audience Manager principal. Un compte Principal signifie un client payant, non seulement pour consulter, mais pour l&#39;UGS Audience Manager.
       * **[!UICONTROL Demo]**: Indiquez que la société sera utilisée à des fins de démonstration uniquement. Les données du rapports seront automatiquement masquées.
-      * **[!UICONTROL Prospect]**: Indiquez que la société est un client d’Audience Manager potentiel, tel qu’une société à laquelle est attribuée une configuration gratuite [!DNL POC] ou un compte pour une démonstration commerciale.
+      * **[!UICONTROL Prospect]**: Indiquez que la société est un client d’Audience Manager potentiel, tel qu’une société à laquelle est attribuée une configuration gratuite  [!DNL POC] ou un compte pour une démonstration commerciale.
       * **[!UICONTROL Test]**: Indiquez que la société sera utilisée à des fins de test interne uniquement.
    * **[!UICONTROL Account Types]**: Spécifiez le jeu complet de types de compte pour cette société. Aucun type de compte n&#39;est mutuellement exclusif avec aucun autre type.
       * **[!UICONTROL Full AAM]**: Indiquez que la société aura un compte Adobe Audience Manager complet et que les utilisateurs auront un accès à la connexion.
       * **[!UICONTROL MMP]**: Indiquez que la société a été activée pour utiliser les fonctionnalités du Profil ([!UICONTROL MMP]) de marketing de Principal.
 
          Si vous sélectionnez ce type de compte, **[!UICONTROL Visitor ID Service]** est également automatiquement sélectionné.
-Pour plus d’informations, voir [Audiences Services - Principal Marketing Profil](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
+Pour plus d&#39;informations, voir [Audiences Services - Principal Marketing Profil](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
    * **[!UICONTROL Data Source]**: Indiquez que la société est un fournisseur de données tiers dans l’Audience Manager.
    * **[!UICONTROL Targeting Partner]**: Indiquez que la société agit comme plateforme de ciblage pour les clients d’Audience Manager.
    * **[!UICONTROL Visitor ID Service]**: Indiquez que la société a été activée pour utiliser le service d’identification des Visiteurs Experience Cloud.
 
-      Le service d’identifiant visiteur Experience Cloud fournit un identifiant visiteur universel pour toutes les solutions Experience Cloud. For more information, see the [Experience Cloud Visitor ID Service user guide](https://microsite.omniture.com/t2/help/en_US/mcvid/mcvid_service.html).
+      Le service d’identifiant visiteur Experience Cloud fournit un identifiant visiteur universel pour toutes les solutions Experience Cloud. Pour plus d’informations, consultez le [Guide de l’utilisateur du service d’identification des Visiteurs Experience Cloud](https://microsite.omniture.com/t2/help/en_US/mcvid/mcvid_service.html).
 
    * **[!UICONTROL Agency]**: Indiquez que la société aura un compte d&#39;agence.
    * **[!UICONTROL Features]**: Sélectionnez les options souhaitées:
@@ -107,19 +107,19 @@ Pour plus d’informations, voir [Audiences Services - Principal Marketing Profi
 
 1. Cliquez sur **[!UICONTROL Submit Updates]**.
 
-## Suppression d’un Profil de Société {#delete-company-profile}
+## Supprimer un Profil de Société {#delete-company-profile}
 
-Utilisez la [!UICONTROL Companies] page de l&#39;outil d&#39;Audience Manager [!UICONTROL Admin] pour supprimer une société existante.
+Utilisez la page [!UICONTROL Companies] de l&#39;outil Audience Manager [!UICONTROL Admin] pour supprimer une société existante.
 
 <!-- t_delete_company.xml -->
 
 >[!NOTE]
 >
->Vous devez avoir le [!UICONTROL DEXADMIN] rôle pour supprimer les sociétés existantes.
+>Vous devez avoir le rôle [!UICONTROL DEXADMIN] pour pouvoir supprimer des sociétés existantes.
 
 1. Pour supprimer une société existante, cliquez sur **[!UICONTROL Companies]**.
 
    ![Résultat de l’étape](assets/companies.png)
 
-1. Cliquez ![](assets/icon_delete.png) dans la **[!UICONTROL Actions]** colonne de la société souhaitée.
+1. Cliquez sur ![](assets/icon_delete.png) dans la colonne **[!UICONTROL Actions]** de la société souhaitée.
 1. Cliquez sur **[!UICONTROL OK]** pour confirmer la suppression.
