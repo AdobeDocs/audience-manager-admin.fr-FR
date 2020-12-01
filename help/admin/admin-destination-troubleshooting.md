@@ -25,49 +25,49 @@ Les problèmes courants de configuration de destination sont les suivants :
 
 ### Destination mal configurée
 
-* **Clé[!UICONTROL UserID]incorrecte :** La [!UICONTROL UserID] clé est la [!UICONTROL MasterDPID] clé de cette destination et est la base des valeurs d’ID qui seront délimitées. Même si une [!UICONTROL UserID] clé peut être sélectionnée par le biais de la liste déroulante, cela ne signifie pas nécessairement qu’il existe des identifiants/caractéristiques/segments associés à cette valeur. Si le [!UICONTROL Outbound] processus (qui s’exécute après la création des destinations) ne trouve aucun utilisateur associé à cette [!UICONTROL UserID] clé, aucune donnée n’est délimitée.
-* **Aucune source de données dans le fichier sélectionnée :** Lors du choix d’un type de destination autre que [!UICONTROL S2S]le type de destination, une section s’affiche au bas de l’écran, intitulée [!UICONTROL Configure Data Sources]. Lorsque cette section apparaît pour la première fois, aucune valeur n’est sélectionnée. Si vous oubliez de cocher la [!UICONTROL All First Party] case ou de sélectionner individuellement des sources de données dans la [!UICONTROL Available Data Sources] fenêtre, aucune donnée ne sera délimitée.
+* **[!UICONTROL UserID] Clé incorrecte :** La  [!UICONTROL UserID]   [!UICONTROL MasterDPID] clé correspond à la destination et constitue la base des valeurs d’ID qui seront délimitées. Même si une clé [!UICONTROL UserID] est sélectionnable via la liste déroulante, cela ne signifie pas nécessairement qu’il existe des identifiants/caractéristiques/segments associés à cette valeur. Si le processus [!UICONTROL Outbound] (qui s&#39;exécute après la création des destinations) ne trouve aucun utilisateur associé à cette clé [!UICONTROL UserID], aucune donnée n&#39;est délimitée.
+* **Non dans les sources de données de fichier sélectionnées :** lors du choix d’un type de destination autre que  [!UICONTROL S2S]le type de destination, une section s’affiche au bas de l’écran, intitulée  [!UICONTROL Configure Data Sources]. Lorsque cette section apparaît pour la première fois, aucune valeur n’est sélectionnée. Si vous oubliez de cocher la case [!UICONTROL All First Party] ou de sélectionner individuellement des sources de données dans la fenêtre [!UICONTROL Available Data Sources], aucune donnée ne sera délimitée.
 
 ### Format mal configuré
 
-Lors de la sélection d’un format pour vos données délimitées, il est préférable, si possible, de réutiliser un format existant. L’utilisation d’un format déjà éprouvé permet de garantir que vos données sortantes seront générées avec succès. Pour savoir exactement comment un format existant est formaté, cliquez sur l’ [!UICONTROL Formats] option dans la barre de menus et recherchez votre format par nom ou par numéro d’identification. Les formats ou les macros mal formés utilisés dans les formats fourniront une sortie mal formatée ou empêcheront l’affichage complet des informations.
+Lors de la sélection d’un format pour vos données délimitées, il est préférable, si possible, de réutiliser un format existant. L’utilisation d’un format déjà éprouvé permet de garantir que vos données sortantes seront générées avec succès. Pour savoir exactement comment un format existant est formaté, cliquez sur l&#39;option [!UICONTROL Formats] dans la barre de menus et recherchez votre format par nom ou par numéro d&#39;identification. Les formats ou les macros mal formés utilisés dans les formats fourniront une sortie mal formatée ou empêcheront l’affichage complet des informations.
 
-Pour plus d’informations sur la configuration des formats et l’utilisation des macros, voir Macros [au format de](formats/file-formats.md#) fichier et Macros [au format](formats/web-formats.md)HTTP.
+Pour plus d’informations sur la configuration des formats et l’utilisation des macros, voir [Macros au format de fichier](formats/file-formats.md#) et [Macros au format HTTP](formats/web-formats.md).
 
 ### Serveur mal configuré
 
 * **[!DNL FTP]**
    * **[!UICONTROL Domain]**
-      * N’entrez aucun préfixe pour les noms d’hôtes. Si vous avez un compte [!DNL ftp://hello.com], entrez simplement [!DNL hello.com] dans ce champ.
+      * N’entrez aucun préfixe pour les noms d’hôtes. Si vous recevez un compte [!DNL ftp://hello.com], entrez simplement [!DNL hello.com] dans ce champ.
    * **[!UICONTROL Port/Type Combination]**
-      * Pour un [!DNL FTP] transfert, le type de transfert préféré est [!DNL SFTP].
-      * Lors de la sélection du [!DNL SFTP] type, le port est presque toujours 22.
-      * Lors de la sélection du [!DNL FTPs/TLS] type, le port est presque toujours 21.
-      * Le [!DNL FTPs/TLS] type n&#39;est pas le même qu&#39;un [!DNL FTP] transfert régulier. Nous ne soutenons pas les [!DNL FTP] transferts réguliers (non sécurisés).
+      * Pour un transfert [!DNL FTP], le type de transfert préféré est [!DNL SFTP].
+      * Lors de la sélection du type [!DNL SFTP], le port est presque toujours 22.
+      * Lors de la sélection du type [!DNL FTPs/TLS], le port est presque toujours 21.
+      * Le type [!DNL FTPs/TLS] n&#39;est pas identique à un transfert normal [!DNL FTP]. Nous ne prenons pas en charge les transferts réguliers (non sécurisés) [!DNL FTP].
    * **[!UICONTROL Remote Path]**
       * Lorsque vous choisissez un sous-chemin distant, il doit être entré sans barre oblique de début.
-      * Si votre fichier transféré est censé être placé dans le [!DNL (root)/inbound] sous-dossier, ajoutez simplement [!DNL inbound] pour le chemin d&#39;accès distant, pas [!DNL /inbound].
-      * Si vous envoyez vos fichiers à plusieurs répertoires par le chemin d’accès, entrez des barres obliques entre chaque répertoire. Si l&#39;emplacement de [!DNL /inbound/subdirectory1/subdirectory2]la variable est indiqué, vous devez entrer [!DNL inbound/subdirectory1/subdirectory2] dans ce champ.
+      * Si votre fichier transféré est censé être placé dans le sous-dossier [!DNL (root)/inbound], ajoutez simplement [!DNL inbound] pour le chemin d&#39;accès distant, et non [!DNL /inbound].
+      * Si vous envoyez vos fichiers à plusieurs répertoires par le chemin d’accès, entrez des barres obliques entre chaque répertoire. Si l&#39;emplacement [!DNL /inbound/subdirectory1/subdirectory2] vous est attribué, vous devez entrer [!DNL inbound/subdirectory1/subdirectory2] dans ce champ.
       * Si votre fichier doit être placé dans le répertoire automatiquement acheminé vers le serveur externe, vous pouvez laisser cet espace vide. N’entrez pas de point ( . ), barre oblique ( / ) ou autre chose.
 
 * **[!DNL S3]**
-   * [!DNL S3] est le protocole de transfert préféré (par rapport [!DNL FTP] ou [!DNL HTTP]).
+   * [!DNL S3] est le protocole de transfert préféré (par rapport  [!DNL FTP] ou  [!DNL HTTP]).
       * **[!UICONTROL Bucket]**
-         * Le nom du compartiment doit être répertorié sans barre oblique, préfixe, suffixe, etc. Si l&#39;adresse [!DNL s3://your-bucket] vous est donnée, vous devez simplement ajouter [!DNL your-bucket] à ce champ.
+         * Le nom du compartiment doit être répertorié sans barre oblique, préfixe, suffixe, etc. Si l&#39;adresse [!DNL s3://your-bucket] vous est attribuée, il vous suffit d&#39;ajouter [!DNL your-bucket] à ce champ.
       * **[!UICONTROL Directory]**
-         * Ne renseignez pas ce champ, sauf si un sous-répertoire spécifique vous a été attribué, dans lequel les données doivent être placées. Si l&#39;adresse [!DNL s3://your-bucket/your-subdirectory]vous est attribuée, entrez [!DNL your-bucket] dans le [!UICONTROL Bucket] champ et [!DNL your-subdirectory] ajoutez-le au [!UICONTROL Directory] champ. N’ajoutez pas de barres obliques précédentes.
-         * Si vous devez parcourir plusieurs répertoires par le chemin d’accès, vous devez alors utiliser des barres obliques comme séparateurs. Ainsi, un emplacement de [!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2] aurait [!DNL your-bucket] dans le [!UICONTROL Bucket] champ et [!DNL your-subdirectory1/your-subdirectory2] entré dans le [!UICONTROL Directory] champ.
+         * Ne renseignez pas ce champ, sauf si un sous-répertoire spécifique vous a été attribué, dans lequel les données doivent être placées. Si vous recevez l&#39;adresse [!DNL s3://your-bucket/your-subdirectory], entrez [!DNL your-bucket] dans le champ [!UICONTROL Bucket] et [!DNL your-subdirectory] dans le champ [!UICONTROL Directory]. N’ajoutez pas de barres obliques précédentes.
+         * Si vous devez parcourir plusieurs répertoires par le chemin d’accès, vous devez alors utiliser des barres obliques comme séparateurs. Ainsi, un emplacement de [!DNL s3://your-bucket/your-subdirectory1/your-subdirectory2] aurait [!DNL your-bucket] dans le champ [!UICONTROL Bucket] et [!DNL your-subdirectory1/your-subdirectory2] dans le champ [!UICONTROL Directory].
       * **[!UICONTROL Access / Secret Keys]**
-         * Lorsque [!DNL TechOps] crée un compartiment et fournit des clés d’accès/de secret à un consultant, ces informations d’identification sont généralement `READ-ONLY` destinées à être transmises au client. Ces informations d’identification ne doivent pas être saisies dans les [!UICONTROL Access / Secret Key] champs, car le transfert échouera (car elles sont en lecture seule et ne peuvent pas être écrites). Dans le cas où [!DNL TechOps] crée un compartiment et fournit des informations d’identification, le consultant doit également demander une paire de clés Adobe - À NE PAS DONNER AU CLIENT - qui permettra d’écrire des fichiers dans ce compartiment. Cette clé devrait être ajoutée à ces champs.
+         * Lorsque [!DNL TechOps] crée un compartiment et fournit des clés d&#39;accès/de secret à un consultant, ces informations d&#39;identification sont généralement des `READ-ONLY` informations d&#39;identification destinées à être transmises au client. Ces informations d’identification ne doivent pas être saisies dans les champs [!UICONTROL Access / Secret Key], car le transfert échouera (car ces informations d’identification sont en lecture seule et ne peuvent pas être écrites). Dans le cas où [!DNL TechOps] crée un compartiment et fournit des informations d&#39;identification, le consultant doit également demander une paire de clés d&#39;Adobe - NE PAS ÊTRE DONNÉE AU CLIENT - qui permettra d&#39;écrire des fichiers dans ce compartiment. Cette clé devrait être ajoutée à ces champs.
 
 * **[!DNL HTTP]**
    * **[!UICONTROL Domain]**
-      * Entrez des informations de préfixe pour [!DNL HTTP] les entrées. Si vous avez un compte [!DNL https://superduper.com], entrez [!DNL https://superduper.com] dans ce champ.
+      * Entrez des informations de préfixe pour les entrées [!DNL HTTP]. Si vous recevez un compte [!DNL https://superduper.com], entrez [!DNL https://superduper.com] dans ce champ.
       * **[!UICONTROL URL Prefix]**
-         * Lorsque vous ajoutez un [!DNL URL] préfixe, laissez la barre oblique précédente désactivée. Une adresse de [!DNL https://hello.com/r/x/y/z] doit être [!DNL https://hello.com] saisie dans le [!UICONTROL Domain] champ et [!DNL r/x/y/z] saisie ici dans le [!UICONTROL URL Prefix] champ.
-         * Si aucune valeur n’ [!UICONTROL URL Prefix] est nécessaire, laissez cette valeur vide.
+         * Lorsque vous ajoutez un préfixe [!DNL URL], laissez la barre oblique précédente désactivée. [!DNL https://hello.com/r/x/y/z] doit avoir [!DNL https://hello.com] dans le champ &lt;a2/> et [!UICONTROL Domain] dans le champ [!DNL r/x/y/z].[!UICONTROL URL Prefix]
+         * Si un [!UICONTROL URL Prefix] n&#39;est pas nécessaire, laissez cette valeur vide.
       * **[!UICONTROL Authentication - SSH Key]**
-         * Saisissez la valeur de `SSH PRIVATE` clé complète dans cette zone, y compris les en-têtes, les pieds de page et les sauts de ligne, afin de garantir un chiffrement/un enregistrement de clé précis.
+         * Saisissez la valeur de clé `SSH PRIVATE` complète dans cette zone, y compris les en-têtes, les pieds de page et les sauts de ligne, afin de garantir un chiffrement/un enregistrement de clé précis.
 
 ### Pas assez de temps pour la génération sortante
 
@@ -75,24 +75,24 @@ Le processus de décodage s’exécute deux fois par jour et plusieurs processus
 
 ### Taille de fractionnement de fichier trop grande
 
-Lorsque vous délimitez des fichiers vers des destinations, vous pouvez scinder des fichiers sortants plus volumineux en blocs de fichiers. Assurez-vous que les blocs de fichiers individuels ne dépassent pas 10 Go. See also, [Outbound Data File Name: Syntax and Examples](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html).
+Lorsque vous délimitez des fichiers vers des destinations, vous pouvez scinder des fichiers sortants plus volumineux en blocs de fichiers. Assurez-vous que les blocs de fichiers individuels ne dépassent pas 10 Go. Voir aussi [Nom du fichier de données sortantes : Syntaxe et Exemples](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html).
 
 
 ## Comment configurer vos destinations pour exporter des ID d&#39;Experience Cloud, d&#39;ID de client ou d&#39;ID d&#39;Audience Manager dans des fichiers de données sortants {#set-up-destinations-export}
 
-This page shows you how to set up destinations to export data keyed off the ID type you want in [!UICONTROL Outbound Data Files].
+Cette page vous explique comment configurer des destinations pour exporter des données en dehors du type d&#39;ID souhaité dans [!UICONTROL Outbound Data Files].
 
 <!-- set-up-destinations-mcid-aamid.xml -->
 
-Les destinations permettent à nos clients d&#39;activer leurs données sur n&#39;importe quel nombre de canaux numériques. Par exemple, ils peuvent exporter des données d’audience vers d’autres [!DNL Adobe Experience Cloud] solutions ([!DNL Target], [!DNL Campaign], etc.). Ou bien, ils peuvent envoyer des données à [!UICONTROL DSP]s, [!UICONTROL SSP]s, ou à toute plate-forme intégrée à l&#39;Audience Manager. Nous conservons une liste de partenaires avec lesquels nous travaillons sur notre page [Wiki](https://wiki.corp.adobe.com/display/MCPI)Intégrations.
+Les destinations permettent à nos clients d&#39;activer leurs données sur n&#39;importe quel nombre de canaux numériques. Par exemple, ils peuvent exporter des données d&#39;audience vers d&#39;autres solutions [!DNL Adobe Experience Cloud] ([!DNL Target], [!DNL Campaign], etc.). Ils peuvent également envoyer des données à [!UICONTROL DSP]s, [!UICONTROL SSP]s ou à toute plate-forme intégrée à l&#39;Audience Manager. Nous conservons une liste de partenaires avec lesquels nous travaillons sur notre [page Wiki Intégrations](https://wiki.corp.adobe.com/display/MCPI).
 
 >[!NOTE]
 >
->Pour obtenir une présentation détaillée sur la création de destinations dans l’interface utilisateur d’administration, consultez l’article [Créer ou modifier des destinations](companies/admin-manage-company-destinations.md#create-edit-company-destinations) de Société.
+>Pour obtenir une présentation détaillée sur la création de destinations dans l’interface utilisateur d’administration, consultez l’article [Créer ou modifier des destinations de Société](companies/admin-manage-company-destinations.md#create-edit-company-destinations).
 
-Vos clients souhaitent exporter différents types d’ID en fonction de la destination. Le graphique de configuration ci-dessous présente les options que vous devez sélectionner pour exporter les informations de profil liées à différents types d’ID. Nous vous recommandons également de consulter l’ [index des identifiants en Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html). Il y a trois paramètres importants à prendre en compte : le [!UICONTROL User ID Key], le [!UICONTROL Data Source Type] et le [!UICONTROL Format]. Nous les détaillons tous ci-dessous.
+Vos clients souhaitent exporter différents types d’ID en fonction de la destination. Le graphique de configuration ci-dessous présente les options que vous devez sélectionner pour exporter les informations de profil liées à différents types d’ID. Nous vous recommandons également de consulter l&#39;[index des identifiants dans Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html). Il y a trois paramètres importants à prendre en compte : [!UICONTROL User ID Key], [!UICONTROL Data Source Type] et [!UICONTROL Format]. Nous les détaillons tous ci-dessous.
 
-* [!UICONTROL User ID Key]. Dans la [!UICONTROL Admin UI], allez à **[!UICONTROL Companies]**. Recherchez la société de votre client et cliquez dessus. Recherchez l&#39; **[!UICONTROL Destinations]** onglet et appuyez sur **[!UICONTROL Add Destination]**. Dans le **[!UICONTROL Add Destination]** processus, sélectionnez le [!UICONTROL User ID Key]. Le [!UICONTROL User ID Key] filtre les identifiants entrants à partir de la source de données de la cible et autorise uniquement la transmission des identifiants.
+* [!UICONTROL User ID Key]. Dans [!UICONTROL Admin UI], accédez à **[!UICONTROL Companies]**. Recherchez la société de votre client et cliquez dessus. Recherchez l&#39;onglet **[!UICONTROL Destinations]** et appuyez sur **[!UICONTROL Add Destination]**. Dans le processus **[!UICONTROL Add Destination]**, sélectionnez [!UICONTROL User ID Key]. [!UICONTROL User ID Key] filtrera les identifiants entrants à partir de la source de données de la cible et n&#39;autorisera la transmission que des identifiants.
 
    ![](assets/user_id_key.PNG)
 
@@ -100,9 +100,9 @@ Vos clients souhaitent exporter différents types d’ID en fonction de la desti
 
    ![](assets/data_source_settings.PNG)
 
-* [!UICONTROL Format]. Cette option détermine le format de fichier que vous allez exporter. Dans le **[!UICONTROL Add Destination]** processus, sous **[!UICONTROL Batch Data]**, sélectionnez le format.
+* [!UICONTROL Format]. Cette option détermine le format de fichier que vous allez exporter. Dans le processus **[!UICONTROL Add Destination]**, sous **[!UICONTROL Batch Data]**, sélectionnez le format.
 
-Pour inspecter un format, accédez à **[!UICONTROL Admin UI > Formats]** et recherchez l’ [!UICONTROL Data Row] élément. Cet élément contient une macro du format de fichier, &lt;MCID>, dans l’exemple ci-dessous.
+Pour examiner un format, accédez à **[!UICONTROL Admin UI > Formats]** et recherchez l&#39;élément [!UICONTROL Data Row]. Cet élément contient une macro du format de fichier, &lt;MCID>, dans l’exemple ci-dessous.
 
 ![](assets/data_row.PNG)
 
@@ -121,28 +121,28 @@ Pour inspecter un format, accédez à **[!UICONTROL Admin UI > Formats]** et rec
    <td colname="col01"> 1 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
    <td colname="col2"> <p>Experience Cloud ID </p> </td> 
-   <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
-   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
+   <td colname="col3"> <p>&lt;dp_uuid&gt; </p> </td> 
+   <td colname="col4"> <p>ID Experience Cloud </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 2 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Experience Cloud ID </p> </td> 
+   <td colname="col2"> <p>ID Experience Cloud </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
    <td colname="col4"> <p>UUID Audience Manager </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 3 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
-   <td colname="col2"> <p>Experience Cloud ID </p> </td> 
+   <td colname="col2"> <p>ID Experience Cloud </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
-   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
+   <td colname="col4"> <p>ID Experience Cloud </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 4 </td> 
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
    <td colname="col2"> <p>ID Audience Manager </p> </td> 
-   <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
+   <td colname="col3"> <p>&lt;dp_uuid&gt; </p> </td> 
    <td colname="col4"> <p>UUID Audience Manager </p> </td> 
   </tr> 
   <tr> 
@@ -150,7 +150,7 @@ Pour inspecter un format, accédez à **[!UICONTROL Admin UI > Formats]** et rec
    <td colname="col1"> <p>Adobe Audience Manager (0) </p> </td> 
    <td colname="col2"> <p>ID Audience Manager </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
-   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
+   <td colname="col4"> <p>ID Experience Cloud </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 6 </td> 
@@ -163,7 +163,7 @@ Pour inspecter un format, accédez à **[!UICONTROL Admin UI > Formats]** et rec
    <td colname="col01"> 7 </td> 
    <td colname="col1"> <p>DPID (toute source de données à laquelle la société a accès) </p> </td> 
    <td colname="col2"> <p>Identifiant client </p> </td> 
-   <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
+   <td colname="col3"> <p>&lt;dp_uuid&gt; </p> </td> 
    <td colname="col4"> <p>ID de client (DPUUID) </p> </td> 
   </tr> 
   <tr> 
@@ -171,7 +171,7 @@ Pour inspecter un format, accédez à **[!UICONTROL Admin UI > Formats]** et rec
    <td colname="col1"> <p>DPID (toute source de données à laquelle la société a accès) </p> </td> 
    <td colname="col2"> <p>Identifiant client </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
-   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
+   <td colname="col4"> <p>ID Experience Cloud </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 9 </td> 
@@ -184,7 +184,7 @@ Pour inspecter un format, accédez à **[!UICONTROL Admin UI > Formats]** et rec
    <td colname="col01"> 10 </td> 
    <td colname="col1"> <p>DPID (toute source de données à laquelle la société a accès) </p> </td> 
    <td colname="col2"> <p>ID Audience Manager </p> </td> 
-   <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
+   <td colname="col3"> <p>&lt;dp_uuid&gt; </p> </td> 
    <td colname="col4"> <p>UUID Audience Manager </p> </td> 
   </tr> 
   <tr> 
@@ -192,7 +192,7 @@ Pour inspecter un format, accédez à **[!UICONTROL Admin UI > Formats]** et rec
    <td colname="col1"> <p>DPID (toute source de données à laquelle la société a accès) </p> </td> 
    <td colname="col2"> <p>ID Audience Manager </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
-   <td colname="col4"> <p>Experience Cloud ID </p> </td> 
+   <td colname="col4"> <p>ID Experience Cloud </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 12 </td> 
@@ -206,4 +206,4 @@ Pour inspecter un format, accédez à **[!UICONTROL Admin UI > Formats]** et rec
 
 ## Cas d’utilisation
 
-Disons que vous utilisez l&#39;Audience Manager et [!DNL Campaign]. Pour rendre les données client exploitables dans [!DNL Campaign], vous souhaitez exporter [!UICONTROL Experience Cloud IDs]. Dans ce cas, vous devez utiliser la configuration numéro 3.
+Supposons que vous utilisiez l&#39;Audience Manager et [!DNL Campaign]. Pour rendre les données client exploitables dans [!DNL Campaign], vous souhaitez exporter [!UICONTROL Experience Cloud IDs]. Dans ce cas, vous devez utiliser la configuration numéro 3.
