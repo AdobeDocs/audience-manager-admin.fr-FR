@@ -24,38 +24,38 @@ L’environnement bêta est destiné à tester les implémentations d’Audience
 
 | Service | URL/nom d’hôte | Étapes à prévoir |
 |--- |--- |--- |
-| S3 |  | Reportez-vous à la page [Fourniture des compartiments](admin-beta-environment.md#provision-s3-buckets)Amazon S3. |
-| DCS | https&amp;amp ; deux-points ; //dcs-beta.demdex.net/... | Aucune mesure supplémentaire n&#39;est nécessaire de notre côté. Reportez-vous à la section [Accès au DCS dans l’Environnement](admin-beta-environment.md#access-dcs-beta-environment)bêta. |
+| S3 |  | Voir [Fourniture des compartiments Amazon S3](admin-beta-environment.md#provision-s3-buckets). |
+| DCS | https&amp;amp ; deux-points ; //dcs-beta.demdex.net/... | Aucune mesure supplémentaire n&#39;est nécessaire de notre côté. Voir [Accès au serveur de collecte de données dans l’Environnement bêta](admin-beta-environment.md#access-dcs-beta-environment). |
 | IU | https&amp;amp ; deux-points ; /bank-beta.demdex.com | Les données sont copiées mensuellement de la production vers l&#39;environnement bêta. Les informations d’identification de production sont valides pour la version bêta. |
 | API | https&amp;amp ; deux-points ; //api-beta.demdex.com/... | Les données sont copiées mensuellement de la production vers l&#39;environnement bêta. Les informations d’identification de production sont valides pour la version bêta. |
 
-## Définition des intervalles Amazon S3 {#provision-s3-buckets}
+## Fournissez des intervalles Amazon S3 {#provision-s3-buckets}
 
 >[!NOTE]
 >
->Nous nous éloignons de l&#39;utilisation [!DNL FTP/SFTP]. En outre, veuillez noter que les transferts de données sortants ne fonctionnent pas pour l’environnement bêta.
+>Nous nous éloignons de l&#39;utilisation de [!DNL FTP/SFTP]. En outre, veuillez noter que les transferts de données sortants ne fonctionnent pas pour l’environnement bêta.
 
-Pour configurer des [!DNL S3] intervalles pour les données entrantes :
+Pour configurer des intervalles [!DNL S3] pour les données entrantes :
 
-1. Utilisez la fonction d’aide [**des opérations techniques de demande **](https://skms.adobe.com/)SKMS.
-1. Accédez à **[!UICONTROL Request TechOps Help]** la barre de navigation de gauche.
-1. Dans **[!UICONTROL Request Search]**, saisissez Audience Manager dans le champ de recherche.
+1. Utilisez la fonction [**Aide des opérations techniques de demande SKMS**](https://skms.adobe.com/).
+1. Accédez à **[!UICONTROL Request TechOps Help]** dans le rail de navigation de gauche.
+1. Dans **[!UICONTROL Request Search]**, entrez Audience Manager dans le champ de recherche.
 1. Faites défiler les résultats de la recherche vers le bas et cliquez sur **Audience Manager - S3 Inbound / Outbound Account Provisioning**.
-1. Renseignez les champs de la fenêtre de mise en service et spécifiez l’environnement **** Sandbox dans le **[!UICONTROL Environment]** champ.
+1. Renseignez les champs de la fenêtre de mise en service et spécifiez **environnement de sandbox** dans le champ **[!UICONTROL Environment]**.
 
 >[!NOTE]
 >
->Nous décourageons l&#39;utilisation de [!DNL FTP/SFTP] et encourageons l&#39;utilisation de [!UICONTROL Amazon S3]. Les raisons pour lesquelles nous encourageons l&#39;utilisation de [!UICONTROL Amazon S3] est répertoriées dans [Amazon S3:About](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html).
+>Nous décourageons l&#39;utilisation de [!DNL FTP/SFTP] et encourageons l&#39;utilisation de [!UICONTROL Amazon S3]. Les raisons pour lesquelles nous encourageons l&#39;utilisation de [!UICONTROL Amazon S3] sont énumérées dans [Amazon S3:About](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html).
 
-## Accès au serveur de collecte de données dans l’Environnement bêta {#access-dcs-beta-environment}
+## Accédez au serveur de collecte de données dans l’Environnement bêta {#access-dcs-beta-environment}
 
-Pour accéder à la [!UICONTROL DCS] version bêta de l’environnement :
+Pour accéder au [!UICONTROL DCS] dans l’environnement bêta :
 
-1. Effectuez un [!UICONTROL DCS] appel à l’aide de la [!DNL curl] commande [](https://curl.haxx.se/docs/manpage.html). [!DNL Curl] est un outil permettant de transférer des données depuis ou vers un serveur, en utilisant l&#39;un des nombreux protocoles pris en charge.
+1. Effectuez un appel [!UICONTROL DCS] en utilisant la commande [!DNL curl] [](https://curl.haxx.se/docs/manpage.html). [!DNL Curl] est un outil permettant de transférer des données depuis ou vers un serveur, en utilisant l&#39;un des nombreux protocoles pris en charge.
 
    Par exemple: `curl -v https://dcs-beta.demdex.net/event`
 
-1. Vérifiez que votre demande a été traitée par la version bêta [!UICONTROL DCS] en recherchant &quot;[!DNL sandbox]&quot; dans l’en-tête de [!UICONTROL DCS] réponse.
+1. Vérifiez que votre requête a été traitée par la version bêta [!UICONTROL DCS] en recherchant &quot;[!DNL sandbox]&quot; dans l&#39;en-tête de réponse [!UICONTROL DCS].
 
    Par exemple :
 
