@@ -15,13 +15,13 @@ ht-degree: 9%
 
 # Journalisation d’audit {#audit-logging}
 
-Utilisez-le [!UICONTROL  Audit Logging] comme premier emplacement lors du débogage des problèmes des clients.
+Utilisez [!UICONTROL  Audit Logging] comme premier emplacement lors du débogage des problèmes des clients.
 
 >[!NOTE]
 >
->La [!UICONTROL Audit Logging] fonctionnalité et la documentation sont actuellement en cours d&#39;élaboration et peuvent faire l&#39;objet de modifications. Veuillez consigner tous les problèmes rencontrés dans [!DNL JIRA] ([!DNL UI] l&#39;équipe).
+>La fonctionnalité et la documentation de [!UICONTROL Audit Logging] sont actuellement en cours d&#39;élaboration et peuvent faire l&#39;objet de modifications. Veuillez consigner tous les problèmes rencontrés dans [!DNL JIRA] ([!DNL UI] équipe).
 
-![vue de journalisation d&#39;audit](assets/audit-logging-img.png)
+![Vue de journalisation d&#39;audit](assets/audit-logging-img.png)
 
 <!-- 
 
