@@ -19,9 +19,9 @@ Vue ou modification de conteneurs et de mappages pour les fournisseurs de donné
 
 <!-- t_first_party_providers.xml -->
 
-1. Cliquez sur **[!UICONTROL Companies]**, puis recherchez et cliquez sur la société souhaitée pour afficher sa [!UICONTROL Profile] page. Utilisez la [!UICONTROL Search] zone ou les commandes de pagination au bas de la liste pour trouver la société souhaitée. Vous pouvez trier chaque colonne par ordre croissant ou décroissant en cliquant sur l’en-tête de la colonne de votre choix.
+1. Cliquez sur **[!UICONTROL Companies]**, puis recherchez et cliquez sur la société souhaitée pour afficher sa page [!UICONTROL Profile]. Utilisez la zone [!UICONTROL Search] ou les commandes de pagination au bas de la liste pour trouver la société souhaitée. Vous pouvez trier chaque colonne par ordre croissant ou décroissant en cliquant sur l’en-tête de la colonne de votre choix.
 
-1. Click the **[!UICONTROL First Party Data Providers]** tab.
+1. Cliquez sur l&#39;onglet **[!UICONTROL First Party Data Providers]**.
 
    ![](assets/first_party_providers.png)
 
