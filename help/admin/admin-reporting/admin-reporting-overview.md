@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Création de rapports {#reporting}
 
-Gérez les rapports d’Audience Manager en créant de nouveaux rapports ou en modifiant ou supprimant des rapports existants. Vous pouvez également affecter un utilisateur du portail en tant qu’ [!DNL Tableau] utilisateur.
+Gérez les rapports d’Audience Manager en créant de nouveaux rapports ou en modifiant ou supprimant des rapports existants. Vous pouvez également affecter un utilisateur de portail en tant qu&#39;utilisateur [!DNL Tableau].
 
 <!-- c_reporting.xml -->
 
@@ -23,4 +23,4 @@ Gérez les rapports d’Audience Manager en créant de nouveaux rapports ou en m
 
 Vous pouvez trier chaque colonne par ordre croissant ou décroissant en cliquant sur l’en-tête de la colonne de votre choix.
 
-Utilisez la [!UICONTROL Search] zone ou les commandes de pagination au bas de la liste pour trouver le rapport de votre choix.
+Utilisez la zone [!UICONTROL Search] ou les commandes de pagination au bas de la liste pour trouver le rapport souhaité.
