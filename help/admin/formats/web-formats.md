@@ -15,9 +15,9 @@ ht-degree: 3%
 
 # Macros au format HTTP {#http-format-macros}
 
-Liste les macros que vous pouvez utiliser pour créer [!DNL HTTP] des fichiers de données. [!DNL HTTP] envoie des données dans un [!DNL JSON] format.
+Liste les macros que vous pouvez utiliser pour créer des fichiers de données [!DNL HTTP]. [!DNL HTTP] envoie des données dans un  [!DNL JSON] format.
 
-Consultez les exemples [de macro au format](../formats/web-format-examples.md) HTTP pour obtenir une liste et des exemples de combinaisons de macro couramment utilisées.
+Pour obtenir une liste et des exemples de combinaisons de macros fréquemment utilisées, reportez-vous aux [Exemples de macros au format HTTP](../formats/web-format-examples.md).
 
 <table id="table_72A72EA63C3643FB84B47A76CD2CC1CA"> 
  <thead> 
@@ -31,12 +31,12 @@ Consultez les exemples [de macro au format](../formats/web-format-examples.md) H
   <tr> 
    <td colname="col1"> <p> <code>AAM_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p> <span class="keyword"> ID </span> d’Audience Manager. </p> </td> 
+   <td colname="col3"> <p> <span class="keyword"> ID  </span> d’Audience Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>ID utilisateur unique du partenaire de données. Cette macro renvoie l’identifiant que vous avez attribué à un utilisateur si son identifiant a déjà été synchronisé avec un ID de <span class="keyword"> périphérique </span> d’Audience Manager. </p> </td> 
+   <td colname="col3"> <p>ID utilisateur unique du partenaire de données. Cette macro renvoie l'ID que vous avez attribué à un utilisateur si son ID a déjà été synchronisé avec un ID de périphérique <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -51,7 +51,7 @@ Consultez les exemples [de macro au format](../formats/web-format-examples.md) H
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Horodatage UTC Unix. Un horodatage interne, représente l'heure à laquelle AAM a été averti de publier la destination <span class="wintitle"> S2S </span> à nos partenaires. </p> </td> 
+   <td colname="col3"> <p>Horodatage UTC Unix. Un horodatage interne représente l'heure à laquelle AAM a été avisé de publier la destination <span class="wintitle"> S2S </span> à nos partenaires. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -91,7 +91,7 @@ Consultez les exemples [de macro au format](../formats/web-format-examples.md) H
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Région DCS <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> d’Audience Manager </a> d’où provient l’activité.</p> </td> 
+   <td colname="col3"> <p>Région <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> Audience Manager DCS </a> d'où provient l'activité.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -101,7 +101,7 @@ Consultez les exemples [de macro au format](../formats/web-format-examples.md) H
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENTS</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>liste de segments pour laquelle un utilisateur n’est plus admissible. Vous pouvez également renvoyer des champs de segment spécifiques qui incluent : </p> <p> 
+   <td colname="col3"> <p>Liste de segments pour laquelle un utilisateur n’est plus admissible. Vous pouvez également renvoyer des champs de segment spécifiques qui incluent : </p> <p> 
      <ul id="ul_29B83093A7624A908F0C06F2A248981A"> 
       <li id="li_57A60A54F5D44E38ACB4E2648095F246"> <code>traitAlias</code> </li> 
       <li id="li_4079F646493F40DBA0CE75D662A69454"> <code>legacySegmentId (formerly segmentId)</code> </li> 
@@ -113,12 +113,12 @@ Consultez les exemples [de macro au format](../formats/web-format-examples.md) H
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_TIME_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> liste des dernières réalisations pour les segments pour lesquels l’utilisateur n’est plus admissible. </td> 
+   <td colname="col3"> Liste des dernières réalisations pour les segments pour lesquels l’utilisateur n’est plus admissible. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_TRAITALIAS_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>liste de noms de segments en alias pour lesquels un utilisateur n’est plus admissible. </p> </td> 
+   <td colname="col3"> <p>Liste de noms de segments en alias pour lesquels un utilisateur n’est plus admissible. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SEGMENT_LIST</code> </p> </td> 
@@ -128,7 +128,7 @@ Consultez les exemples [de macro au format](../formats/web-format-examples.md) H
   <tr> 
    <td colname="col1"> <p> <code>SEGMENTS</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>liste de segments pour lesquels un utilisateur est admissible. Vous pouvez également renvoyer des champs de segment spécifiques qui incluent : </p> <p> 
+   <td colname="col3"> <p>Liste de segments pour lesquels un utilisateur est admissible. Vous pouvez également renvoyer des champs de segment spécifiques qui incluent : </p> <p> 
      <ul id="ul_9209683A8E0A4B8081E5EFA4602F743F"> 
       <li id="li_D796526C1C9E45BEA891D619539888C4"> <code>traitAlias</code> </li> 
       <li id="li_BF12E010E1AD432C84605B9817F209DD"> <code>legacySegmentId (formerly segmentId)</code> </li> 
@@ -140,7 +140,7 @@ Consultez les exemples [de macro au format](../formats/web-format-examples.md) H
   <tr> 
    <td colname="col1"> <p> <code>TIME_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>liste des dernières réalisations. </p> </td> 
+   <td colname="col3"> <p>Liste des dernières réalisations. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TIMESTAMP</code> </p> </td> 
@@ -150,7 +150,7 @@ Consultez les exemples [de macro au format](../formats/web-format-examples.md) H
   <tr> 
    <td colname="col1"> <p> <code>TRAITALIAS_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>liste de noms en alias pour un segment particulier. </p> </td> 
+   <td colname="col3"> <p>Liste de noms en alias pour un segment particulier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>USER_AGENT</code> </p> </td> 
@@ -160,7 +160,7 @@ Consultez les exemples [de macro au format](../formats/web-format-examples.md) H
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p>liste d’ID <span class="keyword"> d’utilisateur d’ </span> Audience Manager. Vous pouvez également renvoyer des champs spécifiques qui incluent les éléments suivants : </p> 
+   <td colname="col3"> <p>Liste <span class="keyword"> d'Audience Manager </span> identifiants utilisateur. Vous pouvez également renvoyer des champs spécifiques qui incluent les éléments suivants : </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 
@@ -174,8 +174,9 @@ Consultez les exemples [de macro au format](../formats/web-format-examples.md) H
      <li><code>user.regionIds</code></li> 
     </ul> <p>Spécifiez les champs suivants comme indiqué dans cet exemple : </p> <p> 
      <codeblock>
-       "AAM_UUID": "&lt;user.aamUuid&gt;" "DataPartner_UUUID": "&lt;user.dpUuid&gt;" 
-     </codeblock> </p> <p>Voir aussi <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Exemples de macros au format HTTP </a> pour un exemple complet. </p> </td> 
+       "AAM_UUID": "&lt;user.aamUuid&gt;" 
+"DataPartner_UUID": "&lt;user.dpUuid&gt;" 
+     </codeblock> </p> <p>Voir aussi <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Exemples de macro au format HTTP </a> pour un exemple complet. </p> </td> 
   </tr>
  </tbody>
 </table>
