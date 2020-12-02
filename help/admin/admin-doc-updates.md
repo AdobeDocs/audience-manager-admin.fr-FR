@@ -5,10 +5,10 @@ seo-title: Mises à jour de la documentation
 title: Mises à jour de la documentation
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 translation-type: tm+mt
-source-git-commit: e60aa0ac341d74454bfe00a4f56add3a9f9e281b
+source-git-commit: 87f89a8a229b221cdab217b8a6b96ccd958078ca
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '632'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Toutes les mises à jour (ajouts, suppressions et corrections) apportées au guide de l’administrateur d’Audience Manager, classées par date.
 
-Pour plus d’informations sur les sorties, les améliorations et les corrections de bogues de fonctionnalités, consultez les [notes de mise à jour d’Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/whatsnew/). Pour lire les anciennes annonces Experience Cloud, voir les [notes de mise à jour précédentes](https://marketing.adobe.com/resources/help/fr_FR/whatsnew/c_legacy_releases.html). Pour [!DNL Audience Manager documentation changes, see] les [mises à jour de la documentation](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/documentation-updates/docs-2019.html).
+Pour plus d’informations sur les sorties, les améliorations et les corrections de bogues de fonctionnalités, consultez les [notes de mise à jour d’Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/whatsnew/). Pour lire les anciennes annonces Experience Cloud, voir les [notes de mise à jour précédentes](https://marketing.adobe.com/resources/help/fr_FR/whatsnew/c_legacy_releases.html). Pour [!DNL Audience Manager] modifications de la documentation, voir [Mises à jour de la documentation](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/documentation-updates/docs-2019.html).
 
 ## Mises à jour de la documentation AAM 2019 {#aam-2019-docs-updates}
 
