@@ -64,10 +64,10 @@ Pour plus d’informations sur la configuration des formats et l’utilisation d
    * **[!UICONTROL Domain]**
       * Entrez des informations de préfixe pour les entrées [!DNL HTTP]. Si vous recevez un compte [!DNL https://superduper.com], entrez [!DNL https://superduper.com] dans ce champ.
       * **[!UICONTROL URL Prefix]**
-         * Lorsque vous ajoutez un préfixe [!DNL URL], laissez la barre oblique précédente désactivée. [!DNL https://hello.com/r/x/y/z] doit avoir [!DNL https://hello.com] dans le champ &lt;a2/> et [!UICONTROL Domain] dans le champ [!DNL r/x/y/z].[!UICONTROL URL Prefix]
+         * Lorsque vous ajoutez un préfixe [!DNL URL], laissez la barre oblique précédente désactivée. [!DNL https://hello.com] doit avoir [!UICONTROL Domain] dans le champ [!DNL https://hello.com/r/x/y/z] et [!DNL r/x/y/z] dans le champ [!UICONTROL URL Prefix].
          * Si un [!UICONTROL URL Prefix] n&#39;est pas nécessaire, laissez cette valeur vide.
       * **[!UICONTROL Authentication - SSH Key]**
-         * Saisissez la valeur de clé `SSH PRIVATE` complète dans cette zone, y compris les en-têtes, les pieds de page et les sauts de ligne, afin de garantir un chiffrement/un enregistrement de clé précis.
+         * Saisissez la valeur de clé complète `SSH PRIVATE` dans cette zone, y compris les en-têtes, les pieds de page et les sauts de ligne, afin de garantir un chiffrement/un enregistrement de clé précis.
 
 ### Pas assez de temps pour la génération sortante
 
