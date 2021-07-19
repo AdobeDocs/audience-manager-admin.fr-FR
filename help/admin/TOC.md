@@ -5,7 +5,6 @@ user-guide-title: Guide de l’administrateur d’Audience Manager
 breadcrumb-title: Guide de l’administrateur
 breadcrumb-url: /docs/audience-manager-admin/admin-guide/admin-home.html
 user-guide-description: L’outil d’administration d’Audience Manager vous permet d’ajouter et de configurer des entreprises, des serveurs, des rapports, des formats et des utilisateurs. Vous pouvez également afficher ou modifier votre profil personnel.
-translation-type: tm+mt
 source-git-commit: fb3eb6ee29332a84f2f389d4c6a2b6e2b7d0fced
 workflow-type: tm+mt
 source-wordcount: '181'
