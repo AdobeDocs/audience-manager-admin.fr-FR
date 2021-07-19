@@ -1,23 +1,22 @@
 ---
-description: Exemples de combinaisons de macros HTTP couramment utilisées.
-seo-description: Exemples de combinaisons de macros HTTP couramment utilisées.
+description: Exemples de combinaisons de macro HTTP couramment utilisées.
+seo-description: Exemples de combinaisons de macro HTTP couramment utilisées.
 seo-title: Exemples de macros au format HTTP
 title: Exemples de macros au format HTTP
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
-translation-type: tm+mt
-source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+exl-id: 1f8ccbf3-241d-4bd9-8c35-cf68b12d2713
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 15%
 
 ---
 
-
 # Exemples de macros au format HTTP {#http-format-macro-examples}
 
-Exemples de combinaisons de macros [!DNL HTTP] couramment utilisées.
+Exemples de combinaisons de macro [!DNL HTTP] couramment utilisées.
 
-Pour obtenir la liste des macros et de leurs définitions, voir [Macros au format HTTP](../formats/web-formats.md).
+Voir [Macros au format HTTP](../formats/web-formats.md) pour obtenir la liste des macros et leurs définitions.
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
