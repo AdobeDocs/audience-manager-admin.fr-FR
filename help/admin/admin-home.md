@@ -4,14 +4,13 @@ seo-description: L’outil d’administration d’Audience Manager vous permet d
 seo-title: Accueil de l’administrateur d’Audience Manager
 title: Accueil de l’administrateur d’Audience Manager
 uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
-translation-type: tm+mt
-source-git-commit: 04497025c7712f486737034550f64939541d3218
+exl-id: 27316802-9c98-41f5-af3e-edc11e572e29
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
 ---
-
 
 # Accueil de l’administrateur d’Audience Manager {#audience-manager-admin-home}
 
