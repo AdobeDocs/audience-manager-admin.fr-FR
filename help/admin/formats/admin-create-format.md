@@ -1,14 +1,14 @@
 ---
 description: Utilisez la page Formats de l’outil d’administration des Audiences Manager pour créer un nouveau format ou modifier un format existant.
-seo-description: Utilisez la page Formats de l’outil d’administration des Audiences Manager pour créer un nouveau format ou modifier un format existant.
-seo-title: Création ou modification d’un format
+seo-description: Use the Formats page in the Audience Manager Admin tool to create a new format or to edit an existing format.
+seo-title: Create or Edit a Format
 title: Création ou modification d’un format
 uuid: ca1b1feb-bcd3-4a41-b1e8-80565f6c23ae
 exl-id: 3c97d1e9-8093-4181-a1fd-fb1816cdaa3d
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 5%
+source-wordcount: '420'
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ Utilisez la page [!UICONTROL Formats] de l’outil d’administration des Audien
    * **[!UICONTROL Data Row]:** spécifiez le texte qui apparaît dans chaque ligne délimitée du fichier.
    * **[!UICONTROL Maximum File Size (In MB)]:** spécifiez la taille maximale des fichiers de transfert de données. Les fichiers compressés doivent être inférieurs à 100 Mo. La taille de fichier non compressé n’est pas limitée.
    * **[!UICONTROL Compression]:**  sélectionnez le type de compression souhaité : gz ou zip pour vos fichiers de données. Pour une diffusion vers [!UICONTROL AWS S3], vous devez utiliser des fichiers .gz ou non compressés.
-   * **[!UICONTROL .info Receipt]:** indique qu’un fichier de contrôle de transfert ([!DNL .info]) est généré. Le fichier [!DNL .info] fournit des informations de métadonnées sur les transferts de fichiers afin que les partenaires puissent vérifier que l’Audience Manager a géré correctement les transferts de fichiers. Pour plus d’informations, voir [Fichiers de contrôle de transfert pour les transferts de fichiers journaux](https://marketing.adobe.com/resources/help/en_US/aam/c_s2s_add_transfer_control_files.html).
+   * **[!UICONTROL .info Receipt]:** indique qu’un fichier de contrôle de transfert ([!DNL .info]) est généré. Le fichier [!DNL .info] fournit des informations de métadonnées sur les transferts de fichiers afin que les partenaires puissent vérifier que l’Audience Manager a géré correctement les transferts de fichiers. Pour plus d’informations, voir [Fichiers de contrôle de transfert pour les transferts de fichiers journaux](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=en).
    * **[!UICONTROL MD5 Checksum Receipt]:** indique qu’un reçu de  [!DNL MD5] somme de contrôle est généré. Le ticket de caisse [!DNL MD5] afin que les partenaires puissent vérifier que l’Audience Manager a géré correctement le transfert complet.
 
 1. (Conditionnel) Si vous choisissez **[!UICONTROL HTTP]**, renseignez les champs suivants :

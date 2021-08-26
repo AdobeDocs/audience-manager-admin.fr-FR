@@ -1,13 +1,13 @@
 ---
 description: Ces informations vous aident à configurer des destinations en Audience Manager et à éviter les problèmes courants.
-seo-description: Ces informations vous aident à configurer des destinations en Audience Manager et à éviter les problèmes courants.
-seo-title: Dépannage des configurations de destination
+seo-description: Information to help you set up destinations in Audience Manager and avoid common problems.
+seo-title: Destination Setup Troubleshooting
 title: Dépannage des configurations de destination
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1316'
 ht-degree: 4%
 
 ---
@@ -74,7 +74,7 @@ Le processus de décodage s’exécute deux fois par jour et plusieurs processus
 
 ### Taille trop importante de la division de fichiers
 
-Lors de l’exploration de fichiers vers des destinations, vous pouvez fractionner des fichiers sortants plus volumineux en blocs de fichiers. Assurez-vous que les blocs de fichiers individuels ne dépassent pas 10 Go. Voir aussi [Nom du fichier de données sortantes : Syntaxe et exemples](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html).
+Lors de l’exploration de fichiers vers des destinations, vous pouvez fractionner des fichiers sortants plus volumineux en blocs de fichiers. Assurez-vous que les blocs de fichiers individuels ne dépassent pas 10 Go. Voir aussi [Nom du fichier de données sortantes : Syntaxe et exemples](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
 
 
 ## Comment configurer vos destinations pour exporter des ID Experience Cloud, des ID de client ou des ID d’Audience Manager dans des fichiers de données sortants {#set-up-destinations-export}
@@ -89,7 +89,7 @@ Les destinations permettent à nos clients d’activer leurs données sur n’im
 >
 >Pour une présentation détaillée sur la création de destinations dans l’interface utilisateur d’administration, consultez l’article [Créer ou modifier des destinations d’entreprise](companies/admin-manage-company-destinations.md#create-edit-company-destinations) .
 
-Vos clients souhaitent exporter différents types d’ID en fonction de la destination. Le graphique de configuration ci-dessous montre les options que vous devez sélectionner pour exporter les informations de profil liées à différents types d’ID. Nous vous recommandons également de consulter l’[index des ID en Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html). Il y a trois paramètres importants à prendre en compte : [!UICONTROL User ID Key], [!UICONTROL Data Source Type] et [!UICONTROL Format]. Nous les détaillons tous ci-dessous.
+Vos clients souhaitent exporter différents types d’ID en fonction de la destination. Le graphique de configuration ci-dessous montre les options que vous devez sélectionner pour exporter les informations de profil liées à différents types d’ID. Nous vous recommandons également de consulter l’[index des ID en Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en). Il y a trois paramètres importants à prendre en compte : [!UICONTROL User ID Key], [!UICONTROL Data Source Type] et [!UICONTROL Format]. Nous les détaillons tous ci-dessous.
 
 * [!UICONTROL User ID Key]. Dans [!UICONTROL Admin UI], accédez à **[!UICONTROL Companies]**. Recherchez la société de votre client et cliquez dessus. Recherchez l’onglet **[!UICONTROL Destinations]** et appuyez sur **[!UICONTROL Add Destination]**. Dans le workflow **[!UICONTROL Add Destination]**, sélectionnez [!UICONTROL User ID Key]. [!UICONTROL User ID Key] filtre les identifiants entrants de la source de données cible et ne permet de transmettre que les identifiants.
 
