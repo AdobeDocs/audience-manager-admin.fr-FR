@@ -1,13 +1,13 @@
 ---
 description: Créez, modifiez et supprimez des destinations d’Audience Manager.
-seo-description: Créez, modifiez et supprimez des destinations d’Audience Manager.
-seo-title: Gestion des destinations d’entreprise
+seo-description: Create, edit, and delete Audience Manager destinations.
+seo-title: Manage Company Destinations
 title: Gestion des destinations d’entreprise
 uuid: d9a6bfb1-7629-44e0-b7d7-ece44f65ea2b
 exl-id: a2e73613-07cd-4ab8-8c6e-be451ed50bfc
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1068'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Créez, modifiez et supprimez des destinations d’Audience Manager.
 
 <!-- t_company_destinations.xml -->
 
-Pour plus d’informations, voir [Destinations](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/destinations.html) dans le *Guide de l’utilisateur de l’Audience Manager*.
+Pour plus d’informations, voir [Destinations](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html) dans le *Guide de l’utilisateur de l’Audience Manager*.
 
 ## Création ou modification des destinations d’entreprise {#create-edit-company-destinations}
 
@@ -58,7 +58,7 @@ Cet identifiant est utilisé comme identifiant de source de données principal. 
 >
 >Pour le type de destination [!UICONTROL Bulk ID] , vous ne pouvez pas utiliser l’ID [!DNL Audience Manager] [!UICONTROL User ID] ou l’ID [!DNL Adobe Experience Cloud].
 
-Si votre ID de source de données ( [!UICONTROL DPID]) ne s’affiche pas dans la liste déroulante, vous devez cocher la case **[!UICONTROL Outbound]** au niveau de la source de données sur la [page Paramètres de source de données](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html).
+Si votre ID de source de données ( [!UICONTROL DPID]) ne s’affiche pas dans la liste déroulante, vous devez cocher la case **[!UICONTROL Outbound]** au niveau de la source de données sur la [page Paramètres de source de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html).
 
 * **[!UICONTROL Target Data Source]:**  (Obligatoire) Sélectionnez la source de données de votre choix pour cette destination dans la liste déroulante. Ce paramètre permet l’étiquetage des données délimitées, ce qui permet l’ingestion dans des systèmes distincts du côté des clients.
 * **[!UICONTROL Foreign Account ID]:** indiquez l’identifiant de compte étranger pour cette destination. Il s’agit de la valeur d’identification dans le système du destinataire pour ces données délimitées.

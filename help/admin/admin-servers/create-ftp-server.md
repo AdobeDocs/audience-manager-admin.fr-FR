@@ -1,14 +1,14 @@
 ---
 description: Utilisez la page Serveurs de l’outil d’administration des Audiences Manager pour créer un serveur FTP ou modifier un serveur existant.
-seo-description: Utilisez la page Serveurs de l’outil d’administration des Audiences Manager pour créer un serveur FTP ou modifier un serveur existant.
-seo-title: Création ou modification d’un serveur FTP
+seo-description: Use the Servers page in the Audience Manager Admin tool to create a new FTP server or to edit an existing server.
+seo-title: Create or Edit an FTP Server
 title: Création ou modification d’un serveur FTP
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 5%
+source-wordcount: '393'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Utilisez la page [!UICONTROL Servers] de l’outil d’administration des Audien
 
    >[!NOTE]
    >
-   >Il est recommandé d’utiliser [!DNL Amazon S3] comme méthode pour obtenir des fichiers à partir de et envoyer des fichiers aux partenaires. [!DNL Amazon S3] fournit une interface de services web simple qui peut être utilisée pour stocker et récupérer n’importe quelle quantité de données, à tout moment, de n’importe où sur le web. Pour plus d’informations, voir [À propos d’Amazon S3](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) dans le *Guide de l’utilisateur de l’Audience Manager*.
+   >Il est recommandé d’utiliser [!DNL Amazon S3] comme méthode pour obtenir des fichiers à partir de et envoyer des fichiers aux partenaires. [!DNL Amazon S3] fournit une interface de services web simple qui peut être utilisée pour stocker et récupérer n’importe quelle quantité de données, à tout moment, de n’importe où sur le web. Pour plus d’informations, voir [À propos d’Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) dans le *Guide de l’utilisateur de l’Audience Manager*.
 
 1. Renseignez les champs suivants :
 

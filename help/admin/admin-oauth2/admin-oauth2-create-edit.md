@@ -1,14 +1,14 @@
 ---
 description: Utilisez la page Clients OAuth2 pour afficher la liste des clients OAuth2 dans votre configuration d’Audience Manager. Vous pouvez modifier ou supprimer des clients existants ou créer de nouveaux clients, à condition que les rôles utilisateur appropriés soient attribués à vous.
-seo-description: Utilisez la page Clients OAuth2 pour afficher la liste des clients OAuth2 dans votre configuration d’Audience Manager. Vous pouvez modifier ou supprimer des clients existants ou créer de nouveaux clients, à condition que les rôles utilisateur appropriés soient attribués à vous.
-seo-title: Clients OAuth2
+seo-description: Use the OAuth2 Clients page to view a list of OAuth2 clients in your Audience Manager configuration. You can edit or delete existing clients or create new clients, providing that you have the appropriate user roles assigned.
+seo-title: OAuth2 Clients
 title: Clients OAuth2
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaaa
 exl-id: 993eae04-02e8-4554-a6fe-cf599053bfc9
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 2%
+source-wordcount: '555'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ Utilisez la page [!UICONTROL OAuth2 Clients] pour afficher la liste des clients 
 
 >[!NOTE]
 >
->Assurez-vous que votre client lit la documentation [OAuth2](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) dans le Guide de l’utilisateur d’Audience Manager.
+>Assurez-vous que votre client lit la documentation [OAuth2](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html#oauth) dans le Guide de l’utilisateur d’Audience Manager.
 
 [!DNL OAuth2] est une norme ouverte d’autorisation de fournir un accès délégué sécurisé aux  [!DNL Audience Manager] ressources pour le compte d’un propriétaire de ressource.
 

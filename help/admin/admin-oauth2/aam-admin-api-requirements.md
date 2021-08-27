@@ -1,14 +1,14 @@
 ---
 description: Informations que vous devriez encourager vos clients à connaître lorsqu’ils utilisent les API d’Audience Manager.
-seo-description: Informations que vous devriez encourager vos clients à connaître lorsqu’ils utilisent les API d’Audience Manager.
-seo-title: Configuration requise et recommandations pour l’API
+seo-description: Things you should encourage your clients to be aware of when they're working with the Audience Manager APIs.
+seo-title: API Requirements and Recommendations
 title: Configuration requise et recommandations pour l’API
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
 exl-id: 24f90732-31a6-436d-862b-e6871d279c7a
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 3%
+source-wordcount: '340'
+ht-degree: 2%
 
 ---
 
@@ -36,4 +36,4 @@ Nous vous recommandons de créer un compte utilisateur technique distinct pour t
 * Identifiez le service qui appelle [!DNL API] (par exemple, les appels d’une application cliente qui utilisent nos [!DNL API]s ou qui effectuent des modifications en masse).
 * Accordez un accès ininterrompu aux [!DNL API]s. Un compte lié à un employé spécifique peut être supprimé lorsqu’il quitte la société. Cela empêchera vos clients de travailler avec le code [!DNL API] disponible. Un compte générique qui n’est pas lié à un employé particulier permet d’éviter ce problème.
 
-À titre d’exemple ou de cas d’utilisation pour ce type de compte, supposons que vos clients souhaitent modifier de nombreux segments à la fois avec les [outils de gestion en bloc](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/bult-management-tools/bulk-management-intro.html). Pour cela, ils ont besoin d’un accès [!DNL API]. Au lieu d’ajouter des autorisations à un utilisateur spécifique, créez un compte utilisateur [!DNL API] non spécifique qui dispose des informations d’identification, de la clé et du secret appropriés pour effectuer des appels [!DNL API]. Cela s’avère également utile si les clients développent leurs propres applications qui utilisent les [!DNL Audience Manager] [!DNL API]s.
+À titre d’exemple ou de cas d’utilisation pour ce type de compte, supposons que vos clients souhaitent modifier de nombreux segments à la fois avec les [outils de gestion en bloc](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bult-management-tools/bulk-management-intro.html). Pour cela, ils ont besoin d’un accès [!DNL API]. Au lieu d’ajouter des autorisations à un utilisateur spécifique, créez un compte utilisateur [!DNL API] non spécifique qui dispose des informations d’identification, de la clé et du secret appropriés pour effectuer des appels [!DNL API]. Cela s’avère également utile si les clients développent leurs propres applications qui utilisent les [!DNL Audience Manager] [!DNL API]s.

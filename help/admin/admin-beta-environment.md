@@ -1,14 +1,14 @@
 ---
 description: L’environnement bêta est destiné au test des mises en oeuvre d’Audience Manager. Les modifications effectuées en version bêta n’affectent pas les données de production. L’environnement bêta d’Audience Manager est une version autonome à plus petite échelle de l’environnement de production. Toutes les données que vous souhaitez tester doivent être entrées et collectées dans cet environnement.
-seo-description: L’environnement bêta est destiné au test des mises en oeuvre d’Audience Manager. Les modifications effectuées en version bêta n’affectent pas les données de production. L’environnement bêta d’Audience Manager est une version autonome à plus petite échelle de l’environnement de production. Toutes les données que vous souhaitez tester doivent être entrées et collectées dans cet environnement.
-seo-title: Environnement bêta
+seo-description: The beta environment is for testing Audience Manager implementations. Changes made in beta do not affect production data. The Audience Manager beta environment is a smaller-scale, standalone version of the production environment. All the data that you want to test must be entered and collected in this environment.
+seo-title: Beta Environment
 solution: Audience Manager
 title: Environnement bêta
 uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 exl-id: 78d5a1ff-c016-4366-ba34-9814a0d92067
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '362'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ Pour configurer des compartiments [!DNL S3] pour les données entrantes :
 
 >[!NOTE]
 >
->Nous décourageons l&#39;utilisation de [!DNL FTP/SFTP] et encourageons l&#39;utilisation de [!UICONTROL Amazon S3]. Les raisons pour lesquelles nous encourageons l’utilisation de [!UICONTROL Amazon S3] sont répertoriées dans [Amazon S3:About](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html).
+>Nous décourageons l&#39;utilisation de [!DNL FTP/SFTP] et encourageons l&#39;utilisation de [!UICONTROL Amazon S3]. Les raisons pour lesquelles nous encourageons l’utilisation de [!UICONTROL Amazon S3] sont répertoriées dans [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html).
 
 ## Accès au DCS dans l’environnement bêta {#access-dcs-beta-environment}
 
