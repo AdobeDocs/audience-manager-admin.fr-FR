@@ -5,7 +5,7 @@ seo-title: Destination Setup Troubleshooting
 title: Dépannage des configurations de destination
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 4%
@@ -74,7 +74,7 @@ Le processus de décodage s’exécute deux fois par jour et plusieurs processus
 
 ### Taille trop importante de la division de fichiers
 
-Lors de l’exploration de fichiers vers des destinations, vous pouvez fractionner des fichiers sortants plus volumineux en blocs de fichiers. Assurez-vous que les blocs de fichiers individuels ne dépassent pas 10 Go. Voir aussi [Nom du fichier de données sortantes : Syntaxe et exemples](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
+Lors de l’exploration de fichiers vers des destinations, vous pouvez fractionner des fichiers sortants plus volumineux en blocs de fichiers. Assurez-vous que les blocs de fichiers individuels ne dépassent pas 10 Go. Voir aussi [Nom du fichier de données sortantes : Syntaxe et exemples](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
 
 
 ## Comment configurer vos destinations pour exporter des ID Experience Cloud, des ID de client ou des ID d’Audience Manager dans des fichiers de données sortants {#set-up-destinations-export}
