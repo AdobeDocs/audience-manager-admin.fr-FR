@@ -1,14 +1,14 @@
 ---
 description: Répertorie les macros que vous pouvez utiliser pour créer des fichiers de données HTTP. HTTP envoie des données au format JSON.
-seo-description: Répertorie les macros que vous pouvez utiliser pour créer des fichiers de données HTTP. HTTP envoie des données au format JSON.
-seo-title: Macros au format HTTP
+seo-description: Lists the macros you can use to create HTTP data files. HTTP sends data in a JSON format.
+seo-title: HTTP Format Macros
 title: Macros au format HTTP
 uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
 exl-id: 80ed24ac-1b84-4c1b-966f-039b587ea899
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: cfc3396843592d80b017471a0e88cf335a5f81e0
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 3%
+source-wordcount: '389'
+ht-degree: 2%
 
 ---
 
@@ -90,7 +90,7 @@ Voir [Exemples de macro au format HTTP](../formats/web-format-examples.md) pour 
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>La <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> région du serveur de collecte de données de l’Audience Manager </a> d’où provient l’activité.</p> </td> 
+   <td colname="col3"> <p>La <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> région du serveur de collecte de données de l’Audience Manager </a> d’où provient l’activité.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
