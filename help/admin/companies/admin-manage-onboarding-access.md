@@ -1,14 +1,20 @@
 ---
 description: Afin d’empêcher l’intégration accidentelle de fichiers et de données dans des sources de données cibles détenues par d’autres partenaires ou clients, Audience Manager a ajouté une exigence de mappage entre l’ID de partenaire (PID) et les sources de données détenues par d’autres partenaires.
 title: Gestion de l’accès à l’intégration pour les données de deuxième niveau
-source-git-commit: 6c88979f876909bc32b5238605cb4a352e327a00
+exl-id: 03bec978-dd31-41cc-a3aa-d67fbb98963c
+source-git-commit: cc04863272005964cfbf1bb2319cc0dd86863680
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
 # Gestion de l’accès à l’intégration pour les données de deuxième niveau {#manage-onboarding-access-for-second-party-data}
+
+>[!IMPORTANT]
+>
+> Le public de cette page est les employés internes à l’Adobe. Si vous êtes un client d’Audience Manager qui demande un mappage de source de données tierce comme décrit sur cette page, contactez l’assistance clientèle ou votre gestionnaire de compte technique.
+> Notez qu’il n’est pas nécessaire de demander un mappage pour les relations de partage de données existantes. Le mappage n’est pas non plus requis lors de l’intégration de données dans des sources de données cibles appartenant à votre PID.
 
 Afin d’empêcher l’intégration accidentelle de fichiers et de données dans des sources de données cibles détenues par d’autres partenaires, Audience Manager a ajouté une exigence de mappage entre l’ID de partenaire (PID) et les sources de données (DPID) détenues par d’autres partenaires. En savoir plus sur PID et DPID dans la section [index des ID d’Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html).
 
