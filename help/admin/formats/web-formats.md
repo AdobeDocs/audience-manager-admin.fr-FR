@@ -1,5 +1,5 @@
 ---
-description: Répertorie les macros que vous pouvez utiliser pour créer des fichiers de données HTTP. HTTP envoie des données au format JSON.
+description: Liste les macros que vous pouvez utiliser pour créer des fichiers de données HTTP. HTTP envoie des données au format JSON.
 seo-description: Lists the macros you can use to create HTTP data files. HTTP sends data in a JSON format.
 seo-title: HTTP Format Macros
 title: Macros au format HTTP
@@ -7,16 +7,16 @@ uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
 exl-id: 80ed24ac-1b84-4c1b-966f-039b587ea899
 source-git-commit: cfc3396843592d80b017471a0e88cf335a5f81e0
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '376'
 ht-degree: 2%
 
 ---
 
 # Macros au format HTTP {#http-format-macros}
 
-Répertorie les macros que vous pouvez utiliser pour créer des fichiers de données [!DNL HTTP]. [!DNL HTTP] envoie des données dans un  [!DNL JSON] format.
+Répertorie les macros que vous pouvez utiliser pour créer des fichiers de données [!DNL HTTP]. [!DNL HTTP] envoie des données au format [!DNL JSON].
 
-Voir [Exemples de macro au format HTTP](../formats/web-format-examples.md) pour obtenir une liste et des exemples de combinaisons de macro couramment utilisées.
+Consultez les [exemples de macro au format HTTP](../formats/web-format-examples.md) pour obtenir une liste et des exemples de combinaisons de macro couramment utilisées.
 
 <table id="table_72A72EA63C3643FB84B47A76CD2CC1CA"> 
  <thead> 
@@ -30,12 +30,12 @@ Voir [Exemples de macro au format HTTP](../formats/web-format-examples.md) pour 
   <tr> 
    <td colname="col1"> <p> <code>AAM_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p> <span class="keyword"> ID  </span> d’Audience Manager. </p> </td> 
+   <td colname="col3"> <p> <span class="keyword"> Audience Manager </span> ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Identifiant utilisateur unique du partenaire de données. Cette macro renvoie l’identifiant que vous avez attribué à un utilisateur si son identifiant a déjà été synchronisé avec un identifiant d’Audience Manager <span class="keyword"> </span>. </p> </td> 
+   <td colname="col3"> <p>Identifiant utilisateur unique du partenaire de données. Cette macro renvoie l’identifiant que vous avez attribué à un utilisateur si son identifiant a déjà été synchronisé avec un identifiant d’appareil <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -90,7 +90,7 @@ Voir [Exemples de macro au format HTTP](../formats/web-format-examples.md) pour 
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>La <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> région du serveur de collecte de données de l’Audience Manager </a> d’où provient l’activité.</p> </td> 
+   <td colname="col3"> <p>La <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html?lang=en"> région DCS d’Audience Manager </a> d’où provient l’activité.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -159,7 +159,7 @@ Voir [Exemples de macro au format HTTP](../formats/web-format-examples.md) pour 
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p>Liste des <span class="keyword"> identifiants d’Audience Manager </span>. Vous pouvez également renvoyer des champs spécifiques qui comprennent les éléments suivants : </p> 
+   <td colname="col3"> <p>Liste des identifiants utilisateur <span class="keyword"> d’Audience Manager </span>. Vous pouvez également renvoyer des champs spécifiques qui comprennent les éléments suivants : </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 
@@ -175,7 +175,7 @@ Voir [Exemples de macro au format HTTP](../formats/web-format-examples.md) pour 
      <codeblock>
        "AAM_UUID": "&lt;user.aamUuid&gt;" 
 "DataPartner_UUID": "&lt;user.dpUuid&gt;" 
-     </codeblock> </p> <p>Voir aussi <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Exemples de macro au format HTTP </a> pour un exemple complet. </p> </td> 
+     </codeblock> </p> <p>Voir aussi <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Exemples de macro au format HTTP </a> pour obtenir un exemple complet. </p> </td> 
   </tr>
  </tbody>
 </table>

@@ -7,8 +7,8 @@ uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 exl-id: 27316802-9c98-41f5-af3e-edc11e572e29
 source-git-commit: e12731066834df18b44e6737fe8c1264d316f7fd
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 75%
+source-wordcount: '182'
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ L’outil d’administration d’Audience Manager vous permet d’ajouter et de 
 
 >[!IMPORTANT]
 >
-> L’audience de ce référentiel de documentation est les employés internes à l’Adobe. Si vous êtes client d’Audience Manager, accédez à la variable [Présentation du guide d’Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
+> L’audience de ce référentiel de documentation est les employés internes à l’Adobe. Si vous êtes client d’Audience Manager, accédez à la [présentation du guide d’Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
@@ -42,7 +42,7 @@ L’outil d’administration d’Audience Manager vous permet d’ajouter et de 
      <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/support/social.html" format="http" scope="external"> Communauté Adobe Social</a> </li> 
      <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" format="https" scope="external"> Formations et didacticiels Adobe</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://www.adobe.io" format="https" scope="external"> Developer Connection</a> </li> 
-     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/support/experience-cloud.html" format="https" scope="external"> Page d’accueil de la documentation du produit</a> </li> 
+     <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/fr/support/experience-cloud.html" format="https" scope="external"> Page d’accueil de la documentation du produit</a> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

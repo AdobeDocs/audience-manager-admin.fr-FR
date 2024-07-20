@@ -1,14 +1,14 @@
 ---
-description: Utilisez la page Rapports pour faire d’un utilisateur du portail un utilisateur Tableau. Cela permet aux utilisateurs d’afficher les rapports Tableau dans l’Audience Manager.
-seo-description: Utilisez la page Rapports pour faire d’un utilisateur du portail un utilisateur Tableau. Cela permet aux utilisateurs d’afficher les rapports Tableau dans l’Audience Manager.
-seo-title: Attribuer un utilisateur du portail à un utilisateur Tableau
-title: Attribuer un utilisateur du portail à un utilisateur Tableau
+description: Utilisez la page Création de rapports pour faire d’un utilisateur du portail un utilisateur Tableau. Cela permet aux utilisateurs d’afficher les rapports Tableau dans l’Audience Manager.
+seo-description: Use the Reporting page to make a portal user a Tableau user. This lets users view Tableau reports in Audience Manager.
+seo-title: Assign a Portal User to Tableau User
+title: Affectation d’un utilisateur du portail à un utilisateur Tableau
 uuid: aa2cc6b5-6467-48ba-9367-0be6fde6a883
 exl-id: c384dfc7-3441-4e79-8757-4e6c8216d316
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 11%
+source-wordcount: '100'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 <!-- t_tabeau.xml -->
 
-Utilisez la page [!UICONTROL Reporting] pour faire d’un utilisateur du portail un utilisateur [!DNL Tableau]. Cela permet aux utilisateurs d’afficher les rapports [!DNL Tableau] en Audience Manager.
+Utilisez la page [!UICONTROL Reporting] pour faire d’un utilisateur de portail un utilisateur [!DNL Tableau]. Cela permet aux utilisateurs d’afficher [!DNL Tableau] rapports en Audience Manager.
 
 1. Cliquez sur **[!UICONTROL Reporting]** > **[!UICONTROL Assign Portal User to Tableau User]**.
 

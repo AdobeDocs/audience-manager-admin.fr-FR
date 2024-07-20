@@ -1,14 +1,14 @@
 ---
 description: Exemples d’utilisation des macros pour créer des modèles de fichiers FTP sortants.
-seo-description: Exemples d’utilisation des macros pour créer des modèles de fichiers FTP sortants.
-seo-title: Exemples de macro Format du fichier
+seo-description: Examples of how macros are used to create outbound, FTP file templates.
+seo-title: File Format Macro Examples
 title: Exemples de macro Format du fichier
 uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
 exl-id: 132a8e40-8001-4a49-9304-82e852ee28fd
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 13%
+source-wordcount: '199'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Exemples d’utilisation des macros pour créer des modèles de fichiers [!DNL F
 
 ## Macros courantes {#common-macros}
 
-Ces macros peuvent être utilisées dans n’importe quel champ de format. Pour obtenir une liste et des définitions complètes, voir [Macros Format de fichier](../formats/file-formats.md) .
+Ces macros peuvent être utilisées dans n’importe quel champ de format. Pour obtenir une liste complète et des définitions, reportez-vous à la section [Macros au format de fichier](../formats/file-formats.md) .
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -34,7 +34,7 @@ Ces macros peuvent être utilisées dans n’importe quel champ de format. Pour 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>DPID </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_ &lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Sortie : <code>ftp_215_ 888_iter_1449756724.sync </code> </p> </td> 
+   <td colname="col2"> <p>Format : <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_ &lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Sortie : <code>ftp_215_ 888_iter_1449756724.sync </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>MASTER_DPID </code> </p> </td> 
@@ -48,7 +48,7 @@ Ces macros peuvent être utilisées dans n’importe quel champ de format. Pour 
    <td colname="col1"> <p> <code>SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>Format : <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Sortie : 
      <ul id="ul_F63D7B78AF1246639D6ED85C1621B17C"> 
-      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Complet: <code>ftp_215_888_ full_1449756724.sync </code> </li> 
+      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Complet : <code>ftp_215_888_ full_1449756724.sync </code> </li> 
       <li id="li_23F4D1F6B2784E599EDA29AA457327E6">Incrémentiel : <code>ftp_215_888_ iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -56,9 +56,9 @@ Ces macros peuvent être utilisées dans n’importe quel champ de format. Pour 
    <td colname="col1"> <p> <code>SYNC_TYPE </code> </p> </td> 
    <td colname="col2"> <p>Format : <code>&lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Sortie : 
      <ul id="ul_11B14E740E40474F8302BDB809C428FE"> 
-      <li id="li_54A3EAA468B44AC8B2528F855E03D04B">FTP: <code>ftp_215_888_iter_1449756724.sync </code> </li> 
+      <li id="li_54A3EAA468B44AC8B2528F855E03D04B">FTP : <code>ftp_215_888_iter_1449756724.sync </code> </li> 
       <li id="li_93468C56B661463CA7F62B1F5D3A53FF">https: <code>http_215_888_iter_1449756724.sync </code> </li> 
-      <li id="li_8A204C7BEDBC41C096FE953B5F827DEC">S3: <code>s3_215_888_iter_1449756724.sync </code> </li> 
+      <li id="li_8A204C7BEDBC41C096FE953B5F827DEC">S3 : <code>s3_215_888_iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -70,7 +70,7 @@ Ces macros peuvent être utilisées dans n’importe quel champ de format. Pour 
 
 ## Macros Champ d’en-tête {#header-field-macros}
 
-Macros utilisées uniquement dans les champs d’en-tête. Pour obtenir une liste et des définitions complètes, voir [Macros Format de fichier](../formats/file-formats.md) .
+Macros utilisées uniquement dans les champs d’en-tête. Pour obtenir une liste complète et des définitions, reportez-vous à la section [Macros au format de fichier](../formats/file-formats.md) .
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -89,7 +89,7 @@ Macros utilisées uniquement dans les champs d’en-tête. Pour obtenir une list
 
 ## Macros de lignes de données {#data-row-macros}
 
-Macros utilisées uniquement dans les champs d’en-tête. Pour obtenir une liste et des définitions complètes, voir [Macros Format de fichier](../formats/file-formats.md) .
+Macros utilisées uniquement dans les champs d’en-tête. Pour obtenir une liste complète et des définitions, reportez-vous à la section [Macros au format de fichier](../formats/file-formats.md) .
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 

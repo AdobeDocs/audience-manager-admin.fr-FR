@@ -1,14 +1,14 @@
 ---
 description: Affichez ou modifiez des conteneurs et des mappages pour les fournisseurs de données tiers. Vous pouvez également activer le partage avec différents fournisseurs de données.
-seo-description: Affichez ou modifiez des conteneurs et des mappages pour les fournisseurs de données tiers. Vous pouvez également activer le partage avec différents fournisseurs de données.
-seo-title: Gestion des fournisseurs de données tiers
+seo-description: View or edit containers and mappings for third-party data providers. You can also enable sharing with different data providers.
+seo-title: Manage Third-Party Data Providers
 title: Gestion des fournisseurs de données tiers
 uuid: e41dc7b2-8b06-4e81-9b3b-0f70e2fd3275
 exl-id: b4bcf543-3769-4cb5-af96-7d60055376b8
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 5%
+source-wordcount: '195'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 5%
 
 Affichez ou modifiez des conteneurs et des mappages pour les fournisseurs de données tiers. Vous pouvez également activer le partage avec différents fournisseurs de données.
 
-1. Cliquez sur **[!UICONTROL Companies]**, puis localisez et cliquez sur la société de votre choix pour afficher sa page [!UICONTROL Profile].
+1. Cliquez sur **[!UICONTROL Companies]**, puis localisez et cliquez sur la société souhaitée pour afficher sa page [!UICONTROL Profile].
 
-   Utilisez la zone [!UICONTROL Search] ou les commandes de pagination en bas de la liste pour trouver la société souhaitée. Vous pouvez trier chaque colonne par ordre croissant ou décroissant en cliquant sur l’en-tête de la colonne de votre choix.
+   Utilisez la zone [!UICONTROL Search] ou les commandes de pagination au bas de la liste pour trouver la société souhaitée. Vous pouvez trier chaque colonne par ordre croissant ou décroissant en cliquant sur l’en-tête de la colonne de votre choix.
 1. Cliquez sur l’onglet **[!UICONTROL Third Party Data Providers]** .
 
    ![](assets/third_party_providers.png)
@@ -36,5 +36,5 @@ Affichez ou modifiez des conteneurs et des mappages pour les fournisseurs de don
 
 1. (Conditionnel) Si le conteneur est activé pour ce fournisseur, vous pouvez sélectionner des conteneurs pour ce fournisseur de données en déplaçant les conteneurs de votre choix de la liste disponible vers la liste sélectionnée.
 
-   Vous pouvez également effectuer cette tâche à partir de la page [Conteneurs](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967) .
+   Vous pouvez également effectuer cette tâche à partir de la page [Conteneurs](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967).
 1. Cliquez sur **[!UICONTROL Save]** si vous avez apporté des modifications.

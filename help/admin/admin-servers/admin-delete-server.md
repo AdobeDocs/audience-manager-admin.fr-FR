@@ -1,14 +1,14 @@
 ---
 description: Utilisez la page Serveurs de l’outil d’administration des Audiences Manager pour supprimer un serveur existant.
-seo-description: Utilisez la page Serveurs de l’outil d’administration des Audiences Manager pour supprimer un serveur existant.
-seo-title: Suppression d’un serveur
+seo-description: Use the Servers page in the Audience Manager Admin tool to delete an existing server.
+seo-title: Delete a Server
 title: Suppression d’un serveur
 uuid: 21d8feeb-a205-43bb-9bc1-9048c918a80a
 exl-id: 1df9dc2e-b75d-4ee1-9ec6-9abbdad41f0c
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 16%
+source-wordcount: '67'
+ht-degree: 0%
 
 ---
 
@@ -26,5 +26,5 @@ Utilisez la page [!UICONTROL Servers] de l’outil d’administration des Audien
 
    ![Résultat de l’étape](assets/servers.png)
 
-1. Cliquez sur ![](assets/icon_delete.png) dans la colonne **[!UICONTROL Actions]** du serveur de votre choix.
+1. Cliquez sur ![](assets/icon_delete.png) dans la colonne **[!UICONTROL Actions]** du serveur souhaité.
 1. Cliquez sur **[!UICONTROL OK]** pour confirmer la suppression.

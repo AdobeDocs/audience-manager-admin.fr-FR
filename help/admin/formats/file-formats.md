@@ -1,20 +1,20 @@
 ---
 description: Répertorie les macros que vous pouvez utiliser pour créer des fichiers de données FTP. Certaines macros peuvent être utilisées pour tous les champs et lignes du fichier de données. Les autres macros sont spécifiques aux lignes d’en-tête et de données uniquement.
-seo-description: Répertorie les macros que vous pouvez utiliser pour créer des fichiers de données FTP. Certaines macros peuvent être utilisées pour tous les champs et lignes du fichier de données. Les autres macros sont spécifiques aux lignes d’en-tête et de données uniquement.
-seo-title: Macros Format du fichier
+seo-description: Lists the macros you can use to create FTP-based data files. Some macros can be used for all data file fields and rows. Other macros are specific to header and data rows only.
+seo-title: File Format Macros
 title: Macros Format du fichier
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 exl-id: e686bc33-da3e-49a9-8c71-2bc6ca399bfb
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 2%
+source-wordcount: '682'
+ht-degree: 1%
 
 ---
 
 # Macros Format du fichier {#file-format-macros}
 
-Répertorie les macros que vous pouvez utiliser pour créer des fichiers de données [!DNL FTP]. Certaines macros peuvent être utilisées pour tous les champs et lignes du fichier de données. Les autres macros sont spécifiques aux lignes d’en-tête et de données uniquement.
+Répertorie les macros que vous pouvez utiliser pour créer des fichiers de données basés sur [!DNL FTP]. Certaines macros peuvent être utilisées pour tous les champs et lignes du fichier de données. Les autres macros sont spécifiques aux lignes d’en-tête et de données uniquement.
 
 ## Macros courantes {#common-macros}
 
@@ -52,8 +52,8 @@ Ces macros peuvent être utilisées dans n’importe quel champ de format. Pour 
    <td colname="col1"> <p> <code>SYNC_MODE</code> </p> </td> 
    <td colname="col2"> <p>Indique le type de synchronisation. Accepte les variables facultatives suivantes : </p> 
     <ul id="ul_87E8E3CE6565447A9810B5119298CC7B"> 
-     <li id="li_66F4889FB84E40AC92F69F3FF6B0042C"> <code>full</code>: Synchronisation complète. </li> 
-     <li id="li_BFE2C2D9A33A44FB9A840A7232ECCFFF"> <code>iter</code>: Synchronisation incrémentielle. </li> 
+     <li id="li_66F4889FB84E40AC92F69F3FF6B0042C"> <code>full</code> : synchronisation complète. </li> 
+     <li id="li_BFE2C2D9A33A44FB9A840A7232ECCFFF"> <code>iter</code> : synchronisation incrémentielle. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -113,11 +113,11 @@ Macros utilisées dans les lignes de données uniquement. Pour obtenir des exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> Identifiant utilisateur unique du partenaire de données  </span>. Renvoie l’identifiant que vous avez attribué à un utilisateur/visiteur de site si cet identifiant a déjà été synchronisé avec un identifiant d’Audience Manager <span class="keyword"> </span>. </p> <p>Si le DPID est égal à 0, cette macro renvoie l’identifiant <span class="keyword"> Audience Manager </span> au lieu de votre identifiant pour l’utilisateur. </p> </td> 
+   <td colname="col2"> <p> <span class="term"> Identifiant utilisateur unique du partenaire de données </span>. Renvoie l’identifiant que vous avez attribué à un utilisateur/visiteur de site si cet identifiant a déjà été synchronisé avec un identifiant d’appareil <span class="keyword"> Audience Manager </span>. </p> <p>Si le DPID est égal à 0, cette macro renvoie l’identifiant <span class="keyword"> Audience Manager </span> au lieu de votre identifiant pour l’utilisateur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
-   <td colname="col2"> <p>Renvoie une liste contenant plusieurs identifiants pour un partenaire de données. Cela s’avère utile si vous disposez d’une grande organisation avec plusieurs sous-divisions ou d’autres groupes organisationnels avec lesquels vous êtes autorisé à partager des données. Cette macro renvoie une liste des identifiants pour ces groupes Secondaires. </p> </td> 
+   <td colname="col2"> <p>Renvoie une liste contenant plusieurs identifiants pour un partenaire de données. Cela s’avère utile si vous disposez d’une grande organisation avec plusieurs sous-divisions ou d’autres groupes organisationnels avec lesquels vous êtes autorisé à partager des données. Cette macro renvoie une liste des identifiants pour ces groupes subordonnés. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPUUIDS</code> </p> </td> 
@@ -129,15 +129,15 @@ Macros utilisées dans les lignes de données uniquement. Pour obtenir des exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif</code> </p> </td> 
-   <td colname="col2"> <p>Cette combinaison de macros crée une instruction conditionnelle qui répertorie les segments dont les utilisateurs appartiennent à <i>et </i> qui ont été supprimés. Elle renvoie une chaîne vide si les deux conditions ne sont pas remplies ou s’il n’y a aucune donnée. </p> </td> 
+   <td colname="col2"> <p>Cette combinaison de macros crée une instruction conditionnelle qui répertorie les segments dont les utilisateurs font partie <i> et dont </i> ont été supprimés. Elle renvoie une chaîne vide si les deux conditions ne sont pas remplies ou s’il n’y a aucune donnée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Identifiant Adobe Experience Cloud.</span> </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud </span> ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Insère une accolade ouverte <code>{</code> . </p> </td> 
+   <td colname="col2"> <p>Insère un caractère d’accolade ouvert <code>{</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
@@ -153,7 +153,7 @@ Macros utilisées dans les lignes de données uniquement. Pour obtenir des exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>PID</code> </p> </td> 
-   <td colname="col2"> <p>Identifiant de partenaire (PID). Le PID apparaît sous l’onglet <span class="wintitle"> Profil </span> dans l’interface utilisateur d’administration. </p> </td> 
+   <td colname="col2"> <p>Identifiant de partenaire (PID). Le PID apparaît sous l’onglet <span class="wintitle"> Profile </span> dans l’interface utilisateur d’administration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -163,12 +163,12 @@ Macros utilisées dans les lignes de données uniquement. Pour obtenir des exemp
    <td colname="col1"> <p> <code>SEGMENT_LIST</code> </p> </td> 
    <td colname="col2"> <p>Renvoie une liste de segments dans une liste. Accepte les variables facultatives suivantes : </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code>: Identifiant hérité. Obsolète. Utilisez <code>sid</code> (en minuscules uniquement). </li> 
-     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code>: Identifiant hérité. Obsolète. Utilisez <code>sid</code> (en minuscules uniquement). </li> 
-     <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code>sid</code>: Identifiant du segment. </li> 
-     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code>: Renvoie  <code>5</code>, une valeur statique codée en dur qui identifie les données en tant que données de segment. </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code>: Mappage du segment. Obsolète. Utilisez <code>sid</code> (en minuscules uniquement). </li> 
-     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code>lastUpdateTime</code>: Horodatage Unix indiquant la dernière fois où un segment a été réalisé. </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code>segmentId</code> : ID hérité. Obsolète. Utilisez <code>sid</code> (en minuscules uniquement). </li> 
+     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code>csegid</code> : ID hérité. Obsolète. Utilisez <code>sid</code> (en minuscules uniquement). </li> 
+     <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code>sid</code> : identifiant du segment. </li> 
+     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code>type</code> : renvoie <code>5</code>, une valeur statique codée en dur qui identifie les données comme des données de segment. </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code>alias</code> : mappage du segment. Obsolète. Utilisez <code>sid</code> (en minuscules uniquement). </li> 
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code>lastUpdateTime</code> : horodatage Unix indiquant la dernière fois qu’un segment a été réalisé. </li> 
     </ul> <p>Placez ces variables entre accolades après la macro. Par exemple, ce code sépare les résultats par une barre verticale "|" : <code>&lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator="|"&gt;</code> </p> </td> 
   </tr> 
   <tr> 
@@ -183,18 +183,18 @@ Macros utilisées dans les lignes de données uniquement. Pour obtenir des exemp
    <td colname="col1"> <p> <code>TRAIT_LIST</code> </p> </td> 
    <td colname="col2"> <p>Renvoie une liste de caractéristiques. Accepte les arguments facultatifs suivants : </p> 
     <ul id="ul_757DEB56E4F849768468F3C166B0D171"> 
-     <li id="li_859E1F4F21D645519F150DC512B3EB1A"> <code>type</code>: Types de caractéristiques identifiés par un identifiant numérique. Cette variable renvoie : 
+     <li id="li_859E1F4F21D645519F150DC512B3EB1A"> <code>type</code> : types de caractéristiques identifiés par un identifiant numérique. Cette variable renvoie : 
       <ul id="ul_C9839266783D42CCADAAC3FEA33BE4D7"> 
        <li id="li_6996A218E3F04EC3BC70032559DD87FC"> <code>10</code> qui identifie une caractéristique DPM (hors ligne, intégrée par une tâche entrante). </li> 
-       <li id="li_831FF929BF50434C8804C13E5786DF79"> <code>3</code> qui identifie une caractéristique basée sur des règles (en temps réel, intégré via le  <span class="wintitle"> serveur de collecte de données  </span>). </li> 
+       <li id="li_831FF929BF50434C8804C13E5786DF79"> <code>3</code> qui identifie une caractéristique basée sur des règles (temps réel, intégré via le <span class="wintitle"> DCS </span>). </li> 
       </ul> </li> 
-     <li id="li_E84D6BC80AEE4F10963C9882C4151ED4"> <code>traitId</code>: ID de caractéristique. </li> 
-     <li id="li_D30A849BA35248E6B9110FA3ADEFC332"> <code>lastRealized</code>: La dernière fois que la caractéristique a été réalisée. Horodatage Unix. </li> 
+     <li id="li_E84D6BC80AEE4F10963C9882C4151ED4"> <code>traitId</code> : ID de caractéristique. </li> 
+     <li id="li_D30A849BA35248E6B9110FA3ADEFC332"> <code>lastRealized</code> : dernière fois que la caractéristique a été réalisée. Horodatage Unix. </li> 
     </ul> <p>Placez ces variables entre accolades après la macro. Par exemple, ce code sépare les résultats par une barre verticale "|" : <code>TRAIT_LIST{type|traitId};separator="|"</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> ID  </span> utilisateur de l’Audience Manager. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> ID utilisateur de l’Audience Manager </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,7 +7,7 @@ user-guide-description: L’outil d’administration d’Audience Manager vous p
 source-git-commit: 25a00b3e877eab3136e70e924d87d011f44ba52c
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 96%
+ht-degree: 28%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 # Guide de l’administrateur d’Audience Manager {#admin-guide}
 
 + [Accueil de l’administrateur d’Audience Manager](admin-home.md)
-+ [Connexion à l’administrateur d’Audience Manager](admin-login.md)
++ [Connexion à l’administrateur Audience Manager](admin-login.md)
 + [Comment demander un accès d’administrateur fonctionnel](admin-access.md)
 + Entreprises {#companies}
    + [Entreprises](companies/admin-companies-overview.md)
@@ -34,25 +34,25 @@ ht-degree: 96%
    + [Présentation des serveurs](admin-servers/admin-servers.md)
    + [Création ou modification d’un serveur FTP](admin-servers/create-ftp-server.md)
    + [Création ou modification d’un serveur HTTP](admin-servers/create-http-server.md)
-   + [Création ou modification d’un serveur S3](admin-servers/create-s3-server.md)
-   + [Autoriser le partage des accès entre comptes dans les compartiments Amazon S3](admin-servers/admin-authorize-s3-cross-bucket.md)
+   + [Création ou modification d’un serveur S3](admin-servers/create-s3-server.md)
+   + [Autoriser l’accès aux compartiments Amazon S3 entre comptes](admin-servers/admin-authorize-s3-cross-bucket.md)
    + [Suppression d’un serveur](admin-servers/admin-delete-server.md)
 + Création de rapports {#reporting}
-   + [Création de rapports](admin-reporting/admin-reporting-overview.md)
-   + [Attribuer un utilisateur du portail à un utilisateur Tableau](admin-reporting/admin-assign-tableau-user.md)
+   + [Création de rapports  ](admin-reporting/admin-reporting-overview.md)
+   + [Affectation d’un utilisateur du portail à un utilisateur Tableau](admin-reporting/admin-assign-tableau-user.md)
 + Formats {#formats}
    + [Présentation des formats](formats/formats.md)
-   + [Activer les transferts de fichiers de séquences Hadoop pour les fichiers sortants](formats/enable-outbound-seq.md)
+   + [Activer les transferts de fichiers de séquences d’Hadoop pour les fichiers sortants](formats/enable-outbound-seq.md)
    + [Macros Format du fichier](formats/file-formats.md)
    + [Exemples de macro Format du fichier](formats/file-format-examples.md)
    + [Macros au format HTTP](formats/web-formats.md)
-   + [Exemples de macros au format HTTP](formats/web-format-examples.md)
+   + [Exemples de macro au format HTTP](formats/web-format-examples.md)
    + [Création ou modification d’un format](formats/admin-create-format.md)
 + Clients OAuth2 {#oath2-clients}
-   + [Clients OAuth2](admin-oauth2/admin-oauth2-create-edit.md)
-   + [Configuration requise et recommandations pour l’API](admin-oauth2/aam-admin-api-requirements.md)
+   + [Clients OAuth2](admin-oauth2/admin-oauth2-create-edit.md)
+   + [Configuration requise pour l’API et Recommendations](admin-oauth2/aam-admin-api-requirements.md)
 + [Journalisation d’audit](admin-audit-logging.md)
 + [Mon profil](admin-my-profile.md)
-+ [Dépannage des configurations de destination](admin-destination-troubleshooting.md)
-+ [Environnement bêta](admin-beta-environment.md)
++ [Dépannage de la configuration de la destination](admin-destination-troubleshooting.md)
++ [Environnement Beta](admin-beta-environment.md)
 + [Mises à jour de la documentation](admin-doc-updates.md)
