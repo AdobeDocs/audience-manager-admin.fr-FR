@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Journalisation d’audit {#audit-logging}
 
-Utilisez [!UICONTROL  Audit Logging] comme premier emplacement pour déboguer les problèmes des clients.
+Utilisez [!UICONTROL &#x200B; Audit Logging] comme premier emplacement pour déboguer les problèmes des clients.
 
 >[!NOTE]
 >

@@ -15,7 +15,7 @@ This project adheres to the Adobe [code of conduct](https://git.corp.adobe.com/O
 
 ## Contrat de licence du contributeur
 
-Toutes les contributions tierces à ce projet doivent être accompagnées d’une licence de contributeur signée. Cela donne à Adobe l’autorisation de redistribuer vos contributions dans le cadre du projet. Signez notre contrat de licence de contributeur à l’adresse [LIEN](aucun lien pour l’instant). Vous n’avez à envoyer le contrat de licence de contributeur Adobe qu’une seule fois. Par conséquent, si vous en avez déjà envoyé un, tout est déjà probablement en ordre.
+Toutes les contributions tierces à ce projet doivent être accompagnées d’une licence de contributeur signée. Cela donne à Adobe l’autorisation de redistribuer vos contributions dans le cadre du projet. Signez notre contrat de licence de contributeur à l’adresse [LIEN] (aucun lien pour l’instant). Vous n’avez à envoyer le contrat de licence de contributeur Adobe qu’une seule fois. Par conséquent, si vous en avez déjà envoyé un, tout est déjà probablement en ordre.
 
 ## Révision du code
 

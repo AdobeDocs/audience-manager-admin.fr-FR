@@ -47,7 +47,7 @@ Utilisez la page [!UICONTROL Servers] de l’outil d’administration des Audien
    >[!NOTE]
    >
    >Lors de la configuration de l&#39;authentification par clé SSH, veillez à toujours générer les clés publique et privée au format OpenSSH uniquement.
-   1. Générez la paire de clés publique/privée à partir de n&#39;importe quel ordinateur [!DNL Linux] ou [!DNL Mac].
-   1. Donnez la **clé publique** au client pour effectuer la mise à jour sur son serveur [!DNL SFTP]. Ils doivent inclure tout le texte de la clé publique sur leur serveur, y compris `-----BEGIN RSA PRIVATE KEY-----` et `-----END RSA PRIVATE KEY-----` . Dans exchange, il doit indiquer le nom d’utilisateur sous lequel il installe la clé.
-   1. Mettez à jour le champ username avec celui fourni par le client et le champ key avec la **clé privée**.
+   >1. Générez la paire de clés publique/privée à partir de n&#39;importe quel ordinateur [!DNL Linux] ou [!DNL Mac].
+   >1. Donnez la **clé publique** au client pour effectuer la mise à jour sur son serveur [!DNL SFTP]. Ils doivent inclure tout le texte de la clé publique sur leur serveur, y compris `-----BEGIN RSA PRIVATE KEY-----` et `-----END RSA PRIVATE KEY-----` . Dans exchange, il doit indiquer le nom d’utilisateur sous lequel il installe la clé.
+   >1. Mettez à jour le champ username avec celui fourni par le client et le champ key avec la **clé privée**.
 1. Cliquez sur **[!UICONTROL Create]** si vous créez un nouveau serveur ou sur **[!UICONTROL Update]** si vous modifiez un serveur existant.
