@@ -18,7 +18,7 @@ Créez, modifiez et supprimez des destinations d’Audience Manager.
 
 <!-- t_company_destinations.xml -->
 
-Pour plus d’informations, voir [Destinations](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html) dans le *Guide de l’utilisateur d’Audience Manager*.
+Pour plus d’informations, voir [Destinations](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=fr) dans le *Guide de l’utilisateur d’Audience Manager*.
 
 ## Création ou modification des destinations d’entreprise {#create-edit-company-destinations}
 
@@ -58,7 +58,7 @@ Cet identifiant est utilisé comme identifiant de source de données principal. 
 >
 >Pour le type de destination [!UICONTROL Bulk ID], vous ne pouvez pas utiliser l&#39;ID [!DNL Audience Manager] [!UICONTROL User ID] ou l&#39;ID [!DNL Adobe Experience Cloud].
 
-Si votre ID de source de données ( [!UICONTROL DPID]) ne s’affiche pas dans la liste déroulante, vous devez cocher la case **[!UICONTROL Outbound]** au niveau de la source de données sur la [ page Paramètres de Source de données ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html).
+Si votre ID de source de données ( [!UICONTROL DPID]) ne s’affiche pas dans la liste déroulante, vous devez cocher la case **[!UICONTROL Outbound]** au niveau de la source de données sur la [ page Paramètres de Source de données ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=fr).
 
 * **[!UICONTROL Target Data Source]:** (obligatoire) sélectionnez la source de données souhaitée pour cette destination dans la liste déroulante. Ce paramètre permet l’étiquetage des données délimitées, ce qui permet l’ingestion dans des systèmes distincts du côté des clients.
 * **[!UICONTROL Foreign Account ID]:** Spécifiez l’identifiant de compte étranger pour cette destination. Il s’agit de la valeur d’identification dans le système du destinataire pour ces données délimitées.

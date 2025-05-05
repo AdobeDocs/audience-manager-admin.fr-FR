@@ -74,7 +74,7 @@ Le processus de décodage s’exécute deux fois par jour et plusieurs processus
 
 ### Taille trop importante de la division de fichiers
 
-Lors de l’exploration de fichiers vers des destinations, vous pouvez fractionner des fichiers sortants plus volumineux en blocs de fichiers. Assurez-vous que les blocs de fichiers individuels ne dépassent pas 10 Go. Voir aussi [Nom de fichier de données sortantes : syntaxe et exemples](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
+Lors de l’exploration de fichiers vers des destinations, vous pouvez fractionner des fichiers sortants plus volumineux en blocs de fichiers. Assurez-vous que les blocs de fichiers individuels ne dépassent pas 10 Go. Voir aussi [Nom de fichier de données sortantes : syntaxe et exemples](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=fr).
 
 
 ## Comment configurer vos destinations pour exporter des ID Experience Cloud, des ID de client ou des ID d’Audience Manager dans des fichiers de données sortants {#set-up-destinations-export}
@@ -89,7 +89,7 @@ Les destinations permettent à nos clients d’activer leurs données sur n’im
 >
 >Pour une présentation détaillée sur la création de destinations dans l’interface utilisateur d’administration, consultez l’article [Créer ou modifier des destinations d’entreprise](companies/admin-manage-company-destinations.md#create-edit-company-destinations) .
 
-Vos clients souhaitent exporter différents types d’ID en fonction de la destination. Le graphique de configuration ci-dessous montre les options que vous devez sélectionner pour exporter les informations de profil liées à différents types d’ID. Nous vous recommandons également de vous référer à l&#39;[Index des identifiants en Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en). Il y a trois paramètres importants à prendre en compte : [!UICONTROL User ID Key], [!UICONTROL Data Source Type] et [!UICONTROL Format]. Nous les détaillons tous ci-dessous.
+Vos clients souhaitent exporter différents types d’ID en fonction de la destination. Le graphique de configuration ci-dessous montre les options que vous devez sélectionner pour exporter les informations de profil liées à différents types d’ID. Nous vous recommandons également de vous référer à l&#39;[Index des identifiants en Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=fr). Il y a trois paramètres importants à prendre en compte : [!UICONTROL User ID Key], [!UICONTROL Data Source Type] et [!UICONTROL Format]. Nous les détaillons tous ci-dessous.
 
 * [!UICONTROL User ID Key]. Dans le [!UICONTROL Admin UI], accédez à **[!UICONTROL Companies]**. Recherchez la société de votre client et cliquez dessus. Recherchez l’onglet **[!UICONTROL Destinations]** et appuyez sur **[!UICONTROL Add Destination]**. Dans le workflow **[!UICONTROL Add Destination]**, sélectionnez le [!UICONTROL User ID Key]. [!UICONTROL User ID Key] filtrera les identifiants entrants de la source de données cible et ne permettra de transmettre que les identifiants.
 

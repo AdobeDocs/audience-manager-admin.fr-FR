@@ -44,7 +44,7 @@ Pour configurer des compartiments [!DNL S3] pour les données entrantes :
 
 >[!NOTE]
 >
->Nous décourageons l&#39;utilisation de [!DNL FTP/SFTP] et encourageons l&#39;utilisation de [!UICONTROL Amazon S3]. Les raisons pour lesquelles nous encourageons l’utilisation de [!UICONTROL Amazon S3] sont répertoriées dans [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html).
+>Nous décourageons l&#39;utilisation de [!DNL FTP/SFTP] et encourageons l&#39;utilisation de [!UICONTROL Amazon S3]. Les raisons pour lesquelles nous encourageons l’utilisation de [!UICONTROL Amazon S3] sont répertoriées dans [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=fr).
 
 ## Accès au serveur de collecte de données dans l’environnement Beta {#access-dcs-beta-environment}
 

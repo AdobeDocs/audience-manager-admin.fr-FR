@@ -16,7 +16,7 @@ ht-degree: 94%
 
 Toutes les mises à jour (ajouts, suppressions et corrections) apportées au guide de l’administrateur d’Audience Manager, classées par date.
 
-Pour plus d’informations sur les sorties, les améliorations et les corrections de bogues de fonctionnalités, consultez les [notes de mise à jour d’Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). Pour [!DNL Audience Manager] modifications de la documentation, voir [Mises à jour de la documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
+Pour plus d’informations sur les sorties, les améliorations et les corrections de bogues de fonctionnalités, consultez les [notes de mise à jour d’Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr). Pour [!DNL Audience Manager] modifications de la documentation, voir [Mises à jour de la documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=fr).
 
 ## Mises à jour de la documentation AAM 2019 {#aam-2019-docs-updates}
 
@@ -100,7 +100,7 @@ Pour plus d’informations sur les sorties, les améliorations et les correction
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> Configuration requise et recommandations pour l’API</a> </p> </td> 
-   <td colname="col2"> <p>Nouvelle documentation qui décrit certaines configurations requises et recommandations à connaître et à transmettre aux clients. Celles-ci sont reproduites dans la documentation publique portant le même titre, malgré certaines modifications apportées en vue d’être lues par une audience différente. Reportez-vous à la section <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=en#api-requirements-recommendations" format="https" scope="external"> Configuration requise et recommandations pour l’API</a> de la documentation publique. </p> </td> 
+   <td colname="col2"> <p>Nouvelle documentation qui décrit certaines configurations requises et recommandations à connaître et à transmettre aux clients. Celles-ci sont reproduites dans la documentation publique portant le même titre, malgré certaines modifications apportées en vue d’être lues par une audience différente. Reportez-vous à la section <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=fr#api-requirements-recommendations" format="https" scope="external"> Configuration requise et recommandations pour l’API</a> de la documentation publique. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -18,7 +18,7 @@ Connectez-vous à l’outil d’administration Adobe Audience Manager à l’aid
 
 >[!IMPORTANT]
 >
-> L’audience de ce référentiel de documentation est les employés internes à l’Adobe. Si vous êtes client d’Audience Manager, accédez à la [présentation du guide d’Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html)
+> L’audience de ce référentiel de documentation est les employés internes à l’Adobe. Si vous êtes client d’Audience Manager, accédez à la [présentation du guide d’Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=fr)
 
 <!-- t_login.xml -->
 
