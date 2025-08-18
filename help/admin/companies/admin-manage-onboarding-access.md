@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 > L’audience de cette page est constituée des employés internes à Adobe. Si vous êtes un client d’Audience Manager et que vous demandez un mappage de source de données tierce comme décrit sur cette page, contactez l’assistance clientèle ou votre gestionnaire de compte technique.
-> > Notez qu’il n’est pas nécessaire de demander un mappage pour les relations de partage de données existantes. Le mappage n’est pas non plus requis lors de l’intégration de données dans des sources de données cibles qui appartiennent à votre PID.
+> &#x200B;> Notez qu’il n’est pas nécessaire de demander un mappage pour les relations de partage de données existantes. Le mappage n’est pas non plus requis lors de l’intégration de données dans des sources de données cibles qui appartiennent à votre PID.
 
 Afin d’éviter l’intégration accidentelle de fichiers et de données dans des sources de données cibles détenues par d’autres partenaires, Audience Manager a ajouté une exigence de mappage entre l’ID de partenaire (PID) et les sources de données (DPID) détenues par d’autres partenaires. Pour en savoir plus sur les PID et DPID, consultez l’[index des Audience Manager IDs](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html).
 

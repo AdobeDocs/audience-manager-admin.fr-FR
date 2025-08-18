@@ -105,7 +105,7 @@ Macros utilisées uniquement dans les lignes de données. Pour obtenir des exemp
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Insère un crochet fermé <code>}</code> caractère. </p> </td> 
+   <td colname="col2"> <p>Insère un crochet fermé <code>&rbrace;</code> caractère. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -137,7 +137,7 @@ Macros utilisées uniquement dans les lignes de données. Pour obtenir des exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Insère un crochet ouvert <code>{</code> caractère. </p> </td> 
+   <td colname="col2"> <p>Insère un crochet ouvert <code>&lbrace;</code> caractère. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 

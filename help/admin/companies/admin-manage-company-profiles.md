@@ -49,7 +49,7 @@ Utilisez la page [!UICONTROL Companies] de l’outil d’administration Audience
    * **[!UICONTROL Targeting Partner]** : indiquez que la société agit comme une plateforme de ciblage pour les clients Audience Manager.
    * **[!UICONTROL Visitor ID Service]** : indiquez que la société a été autorisée à utiliser le [!UICONTROL Experience Cloud Visitor ID Service].
 
-     Le [!UICONTROL Experience Cloud Visitor ID Service] fournit un identifiant visiteur universel pour toutes les solutions Experience Cloud. Pour plus d’informations, consultez le guide d’utilisation du service d’identification des visiteurs d’Experience Cloud [](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en).
+     Le [!UICONTROL Experience Cloud Visitor ID Service] fournit un identifiant visiteur universel pour toutes les solutions Experience Cloud. Pour plus d’informations, consultez le guide d’utilisation du service d’identification des visiteurs d’Experience Cloud [&#128279;](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en).
 
    * **[!UICONTROL Agency]** : indiquez que la société disposera d’un compte [!UICONTROL Agency].
 
@@ -96,7 +96,7 @@ Pour plus d’informations, voir [Audiences Experience Cloud](https://experience
    * **[!UICONTROL Targeting Partner]** : indiquez que la société agit comme une plateforme de ciblage pour les clients Audience Manager.
    * **[!UICONTROL Visitor ID Service]** : indiquez que la société a été autorisée à utiliser le service d’identification des visiteurs Experience Cloud.
 
-     Le service d’identifiant visiteur Experience Cloud fournit un identifiant visiteur universel pour toutes les solutions Experience Cloud. Pour plus d’informations, consultez le guide d’utilisation du service Experience Cloud ID [](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
+     Le service d’identifiant visiteur Experience Cloud fournit un identifiant visiteur universel pour toutes les solutions Experience Cloud. Pour plus d’informations, consultez le guide d’utilisation du service Experience Cloud ID [&#128279;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
 
    * **[!UICONTROL Agency]** : indiquez que la société disposera d’un compte d’agence.
    * **[!UICONTROL Features]** : sélectionnez les options souhaitées :
