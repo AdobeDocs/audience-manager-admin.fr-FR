@@ -18,7 +18,7 @@ L’outil d’administration d’Audience Manager vous permet d’ajouter et de 
 
 >[!IMPORTANT]
 >
-> L’audience de ce référentiel de documentation est constituée des employés internes à Adobe. Si vous êtes un client Audience Manager, accédez à la présentation du guide [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
+> L’audience de ce référentiel de documentation est constituée des employés internes à Adobe. Si vous êtes un client Audience Manager, accédez à la présentation du guide [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=fr).
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
@@ -34,13 +34,13 @@ L’outil d’administration d’Audience Manager vous permet d’ajouter et de 
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>Notes de mise à jour</b> </p> 
     <ul id="ul_1AA5CED5DA0F4B78B8BC4D74539E97EF"> 
-     <li id="li_1B636241BCC14468980CF415B15A875F">Pour connaître les nouvelles fonctionnalités et les correctifs, voir les dernières <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">notes de mises à jour d’Experience Cloud</a>. </li> 
-     <li id="li_6AD053625237446FB9B581772896F64F">Pour lire les anciennes annonces, reportez-vous aux <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">notes de mise à jour précédentes</a>. </li> 
+     <li id="li_1B636241BCC14468980CF415B15A875F">Pour connaître les nouvelles fonctionnalités et les correctifs, voir les dernières <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr" format="https" scope="external">notes de mises à jour d’Experience Cloud</a>. </li> 
+     <li id="li_6AD053625237446FB9B581772896F64F">Pour lire les anciennes annonces, reportez-vous aux <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr" format="https" scope="external">notes de mise à jour précédentes</a>. </li> 
     </ul> <p class="head"> <b>Ressources d’Experience Cloud</b> </p> 
     <ul id="ul_F8DE07F1ADBC411E894751F927BB1477"> 
      <li id="li_09B0F2E487CA4C55A723ACB5901C7B49"><a href="https://business.adobe.com/products/marketing-cloud/main.html" format="http" scope="external"> Adobe Experience Cloud</a> </li> 
-     <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/support/social.html" format="http" scope="external"> Communauté Adobe Social</a> </li> 
-     <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" format="https" scope="external"> Formations et didacticiels Adobe</a> </li> 
+     <li id="li_B89CEA08B4954C6ABA2BBDA803A88427"> <a href="https://helpx.adobe.com/fr/support/social.html" format="http" scope="external"> Communauté Adobe Social</a> </li> 
+     <li id="li_4F16686C311743C484013D84971EEBD3"> <a href="https://helpx.adobe.com/fr/learning.html?promoid=KAUDK" format="https" scope="external"> Formations et didacticiels Adobe</a> </li> 
      <li id="li_32581A0A26CB4F43833D607221154188"><a href="https://www.adobe.io" format="https" scope="external"> Developer Connection</a> </li> 
      <li id="li_49B2B95B1B4540C9A967F7DDBB4EB457"><a href="https://helpx.adobe.com/fr/support/experience-cloud.html" format="https" scope="external"> Page d’accueil de la documentation du produit</a> </li> 
     </ul> </td> 

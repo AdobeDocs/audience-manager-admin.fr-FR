@@ -50,7 +50,7 @@ Utilisez la page [!UICONTROL Servers] de l’outil d’administration Audience M
 
    >[!NOTE]
    >
-   >Si vous souhaitez activer l’authentification [OAuth 2.0 pour les transferts de données en temps réel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en) pour un partenaire, renseignez les champs comme dans le tableau ci-dessous. Les champs en *italique* doivent être renseignés exactement comme dans le tableau.
+   >Si vous souhaitez activer l’authentification [OAuth 2.0 pour les transferts de données en temps réel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=fr) pour un partenaire, renseignez les champs comme dans le tableau ci-dessous. Les champs en *italique* doivent être renseignés exactement comme dans le tableau.
 
    | Nom | Valeur |
    |---|---|
