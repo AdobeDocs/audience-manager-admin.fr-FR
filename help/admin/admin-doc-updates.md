@@ -16,16 +16,16 @@ ht-degree: 94%
 
 Toutes les mises à jour (ajouts, suppressions et corrections) apportées au guide de l’administrateur d’Audience Manager, classées par date.
 
-Pour plus d’informations sur les sorties, les améliorations et les corrections de bogues de fonctionnalités, consultez les [notes de mise à jour d’Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr). Pour [!DNL Audience Manager] modifications de la documentation, voir [Mises à jour de la documentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=fr).
+Pour plus d’informations sur les sorties, les améliorations et les corrections de bogues de fonctionnalités, consultez les [notes de mise à jour d’Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). Pour [!DNL Audience Manager] les modifications apportées à la documentation, voir [ Mises à jour de la documentation ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
 
-## Mises à jour de la documentation AAM 2019 {#aam-2019-docs-updates}
+## Mises À Jour De La Documentation AAM 2019 {#aam-2019-docs-updates}
 
 | Rubrique | Description |
 |--- |--- |
 | Macros au format HTTP | Nous avons ajouté une nouvelle macro, `REGION_ID_LIST` ainsi que trois nouveaux champs `sda`, `sda` et `sda` à la macro `USER_LIST`. |
 | Macros au format HTTP | Nous avons ajouté deux nouvelles macros : `ECID` et `MCID`. |
 
-## Mises à jour de la documentation AAM 2018 {#aam-2018-docs-updates}
+## Mises À Jour De La Documentation AAM 2018 {#aam-2018-docs-updates}
 
 <!-- c_doc_updates.xml -->
 
@@ -52,7 +52,7 @@ Pour plus d’informations sur les sorties, les améliorations et les correction
  </tbody> 
 </table>
 
-## Mises à jour de la documentation AAM 2017 {#aam-2017-docs-updates}
+## Mises À Jour De La Documentation AAM 2017 {#aam-2017-docs-updates}
 
 <table id="table_81D2DA9293A9417085C630D00A7C96E1"> 
  <thead> 
@@ -100,12 +100,12 @@ Pour plus d’informations sur les sorties, les améliorations et les correction
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> Configuration requise et recommandations pour l’API</a> </p> </td> 
-   <td colname="col2"> <p>Nouvelle documentation qui décrit certaines configurations requises et recommandations à connaître et à transmettre aux clients. Celles-ci sont reproduites dans la documentation publique portant le même titre, malgré certaines modifications apportées en vue d’être lues par une audience différente. Reportez-vous à la section <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=fr#api-requirements-recommendations" format="https" scope="external"> Configuration requise et recommandations pour l’API</a> de la documentation publique. </p> </td> 
+   <td colname="col2"> <p>Nouvelle documentation qui décrit certaines configurations requises et recommandations à connaître et à transmettre aux clients. Celles-ci sont reproduites dans la documentation publique portant le même titre, malgré certaines modifications apportées en vue d’être lues par une audience différente. Reportez-vous à la section <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=en#api-requirements-recommendations" format="https" scope="external"> Configuration requise et recommandations pour l’API</a> de la documentation publique. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Mises à jour de la documentation AAM 2016 {#aam-2016-docs-updates}
+## Mises À Jour De La Documentation AAM 2016 {#aam-2016-docs-updates}
 
 <table id="table_E9D9810EA8244B58A4F27D56CFE521FD"> 
  <thead> 
@@ -145,7 +145,7 @@ Pour plus d’informations sur les sorties, les améliorations et les correction
  </tbody> 
 </table>
 
-## Mises à jour de la documentation AAM 2015 {#aam-2015-docs-updates}
+## Mises À Jour De La Documentation AAM 2015 {#aam-2015-docs-updates}
 
 <table id="table_90F524BAAED44A45A1F6BF8BBA9F26F9"> 
  <thead> 
@@ -162,7 +162,7 @@ Pour plus d’informations sur les sorties, les améliorations et les correction
  </tbody> 
 </table>
 
-## Mises à jour de la documentation AAM 2014 {#aam-2014-docs-updates}
+## Mises À Jour De La Documentation AAM 2014 {#aam-2014-docs-updates}
 
 <table id="table_FA9962E19248418BA73D5A794A378C9D"> 
  <thead> 

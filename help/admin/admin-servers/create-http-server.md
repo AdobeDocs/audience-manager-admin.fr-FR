@@ -1,5 +1,5 @@
 ---
-description: Utilisez la page Serveurs de l’outil d’administration des Audiences Manager pour créer un serveur HTTP ou modifier un serveur existant.
+description: Utilisez la page Serveurs de l’outil d’administration Audience Manager pour créer un serveur HTTP ou pour modifier un serveur existant.
 seo-description: Use the Servers page in the Audience Manager Admin tool to create a new HTTP server or to edit an existing server.
 seo-title: Create or Edit an HTTP Server
 title: Création ou modification d’un serveur HTTP
@@ -14,24 +14,24 @@ ht-degree: 2%
 
 # Création ou modification d’un serveur HTTP {#create-or-edit-an-http-server}
 
-Utilisez la page [!UICONTROL Servers] de l’outil d’administration des Audiences Manager pour créer un serveur HTTP ou modifier un serveur existant.
+Utilisez la page [!UICONTROL Servers] de l’outil d’administration Audience Manager pour créer un serveur HTTP ou modifier un serveur existant.
 
 >[!NOTE]
 >
->Vous devez disposer du rôle [!UICONTROL DEXADMIN] pour créer de nouveaux serveurs ou modifier des serveurs existants.
+>Vous devez disposer du rôle [!UICONTROL DEXADMIN] pour pouvoir créer de nouveaux serveurs ou modifier des serveurs existants.
 
 1. Pour créer un nouveau serveur, accédez à **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. Pour modifier un serveur existant, cliquez sur le serveur de votre choix dans la colonne **[!UICONTROL Label]**.
-1. Indiquez le libellé souhaité pour ce serveur.
+1. Spécifiez le libellé souhaité pour ce serveur.
 1. Dans la liste déroulante **[!UICONTROL Protocol]** , sélectionnez le protocole souhaité : [!DNL HTTP].
 1. Renseignez les champs suivants :
 
-   * **[!UICONTROL Domain]:** Spécifiez le domaine (hôte) souhaité pour ce serveur.
-   * **[!UICONTROL Port]:** Spécifiez le port souhaité pour ce serveur. Le port par défaut s’affiche pour chaque type de chiffrement. Si nécessaire, vous pouvez modifier le port par défaut.
-   * **[!UICONTROL Maximum Users Per Request]:** indiquez le nombre maximal d’utilisateurs par demande autorisée pour ce serveur.
-   * **[!UICONTROL URL Prefix]:** Spécifiez le préfixe [!DNL URL] à utiliser pour ce serveur.
-   * **[!UICONTROL Authentication URL]:** Spécifiez le [!UICONTROL Authentication URL] pour ce serveur `HTTP`.
-   * **[!UICONTROL Authentication]:** Spécifiez la méthode d’authentification souhaitée : **[!UICONTROL None]**, **[!UICONTROL Username/Password]** ou **[!UICONTROL SSH Key]**.
-   * **[!UICONTROL HTTP Signature Header]:** nom de l’en-tête [!DNL HTTP], fourni par le client, qui contient la clé de signature [!DNL HTTP]. La valeur par défaut est [!UICONTROL X-Signature], comme illustré dans l’exemple ci-dessous :
+   * **[!UICONTROL Domain]:** spécifiez le domaine (hôte) souhaité pour ce serveur.
+   * **[!UICONTROL Port]:** spécifiez le port souhaité pour ce serveur. Le port par défaut s’affiche pour chaque type de chiffrement. Vous pouvez modifier le port par défaut, si nécessaire
+   * **[!UICONTROL Maximum Users Per Request]:** spécifiez le nombre maximal d’utilisateurs autorisés par requête pour ce serveur.
+   * **[!UICONTROL URL Prefix]:** spécifiez le préfixe [!DNL URL] à utiliser pour ce serveur.
+   * **[!UICONTROL Authentication URL]:** spécifiez la [!UICONTROL Authentication URL] de ce serveur `HTTP`.
+   * **[!UICONTROL Authentication]:** spécifiez la méthode d’authentification souhaitée : **[!UICONTROL None]**, **[!UICONTROL Username/Password]** ou **[!UICONTROL SSH Key]**.
+   * **[!UICONTROL HTTP Signature Header]:** nom de l’en-tête de [!DNL HTTP], fourni par le client, qui contient la clé de signature [!DNL HTTP]. La valeur par défaut est [!UICONTROL X-Signature], comme illustré dans l’exemple ci-dessous :
 
      ```
      * Connected to partner.website.com (127.0.0.1) port 80 (#0)
@@ -44,13 +44,13 @@ Utilisez la page [!UICONTROL Servers] de l’outil d’administration des Audien
      POST message content
      ```
 
-   * **[!UICONTROL HTTP Signature Key]:** Clé utilisée pour signer la demande [!DNL HTTP], fournie par le client.
-   * **[!UICONTROL Show Signature Key]:** Activez ou non l’affichage de la signature dans le navigateur.
-   * **[!UICONTROL HTTP Signature Encryption Method]:** Spécifiez la méthode utilisée pour chiffrer la signature. Utilisez [!UICONTROL SHA1], sauf si le client préfère le contraire.
+   * **[!UICONTROL HTTP Signature Key]:** clé utilisée pour signer la demande de [!DNL HTTP], fournie par le client.
+   * **[!UICONTROL Show Signature Key]:** Permet d’afficher ou non la signature dans le navigateur.
+   * **[!UICONTROL HTTP Signature Encryption Method]:** spécifiez la méthode que nous utilisons pour chiffrer la signature. Utilisez [!UICONTROL SHA1] sauf si le client préfère autre chose.
 
    >[!NOTE]
    >
-   >Si vous souhaitez activer l’authentification [OAuth 2.0 pour les transferts de données en temps réel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=fr) pour un partenaire, renseignez les champs comme dans le tableau ci-dessous. Les champs de *italics* doivent être renseignés exactement comme dans le tableau.
+   >Si vous souhaitez activer l’authentification [OAuth 2.0 pour les transferts de données en temps réel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en) pour un partenaire, renseignez les champs comme dans le tableau ci-dessous. Les champs en *italique* doivent être renseignés exactement comme dans le tableau.
 
    | Nom | Valeur |
    |---|---|
@@ -68,4 +68,4 @@ Utilisez la page [!UICONTROL Servers] de l’outil d’administration des Audien
    | [!UICONTROL HTTP Signature Key] | [!UICONTROL Leave this field blank] |
    | [!UICONTROL HTTP Signature Encryption Method] | [!UICONTROL None] |
 
-1. Cliquez sur **[!UICONTROL Create]** si vous créez un nouveau serveur ou sur **[!UICONTROL Update]** si vous modifiez un serveur existant.
+1. Cliquez sur **[!UICONTROL Create]** si vous créez un serveur ou sur **[!UICONTROL Update]** si vous modifiez un serveur existant.

@@ -1,5 +1,5 @@
 ---
-description: Gérez les rapports d’Audience Manager en créant de nouveaux rapports ou en modifiant ou supprimant des rapports existants. Vous pouvez également affecter un utilisateur du portail en tant qu’utilisateur Tableau.
+description: Gérez les rapports Audience Manager en créant de nouveaux rapports ou en modifiant ou en supprimant des rapports existants. Vous pouvez également affecter un utilisateur de portail en tant qu'utilisateur Tableau.
 seo-description: Manage Audience Manager reports by creating new reports or by editing or deleting existing reports. You can also assign a portal user as a Tableau user.
 seo-title: Reporting
 title: Création de rapports
@@ -14,12 +14,12 @@ ht-degree: 2%
 
 # Création de rapports {#reporting}
 
-Gérez les rapports d’Audience Manager en créant de nouveaux rapports ou en modifiant ou supprimant des rapports existants. Vous pouvez également affecter un utilisateur de portail en tant qu’utilisateur [!DNL Tableau].
+Gérez les rapports Audience Manager en créant de nouveaux rapports ou en modifiant ou en supprimant des rapports existants. Vous pouvez également affecter un utilisateur du portail en tant qu’utilisateur [!DNL Tableau].
 
 <!-- c_reporting.xml -->
 
 ![](assets/reporting.png)
 
-Vous pouvez trier chaque colonne par ordre croissant ou décroissant en cliquant sur l’en-tête de la colonne de votre choix.
+Vous pouvez trier chaque colonne par ordre croissant ou décroissant en cliquant sur l’en-tête de la colonne souhaitée.
 
-Utilisez la zone [!UICONTROL Search] ou les commandes de pagination au bas de la liste pour trouver le rapport souhaité.
+Utilisez la zone de [!UICONTROL Search] ou les commandes de pagination au bas de la liste pour trouver le rapport souhaité.

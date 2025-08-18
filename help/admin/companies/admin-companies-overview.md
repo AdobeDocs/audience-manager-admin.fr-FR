@@ -1,5 +1,5 @@
 ---
-description: Utilisez la page Sociétés pour afficher une liste des sociétés dans votre configuration d’Audience Manager. Vous pouvez modifier ou supprimer des entreprises existantes ou créer de nouvelles entreprises, à condition que les rôles utilisateur appropriés soient affectés à celles-ci.
+description: Utilisez la page Sociétés pour afficher la liste des sociétés de votre configuration Audience Manager. Vous pouvez modifier ou supprimer des sociétés existantes ou en créer de nouvelles, à condition que les rôles utilisateur appropriés vous soient attribués.
 seo-description: Use the Companies page to view a list of companies in your Audience Manager configuration. You can edit or delete existing companies or create new companies, providing that you have the appropriate user roles assigned.
 seo-title: Companies
 title: Entreprises
@@ -14,10 +14,10 @@ ht-degree: 1%
 
 # Entreprises {#companies}
 
-Utilisez la page [!UICONTROL Companies] pour afficher une liste des sociétés dans votre configuration d’Audience Manager. Vous pouvez modifier ou supprimer des entreprises existantes ou créer de nouvelles entreprises, à condition que les rôles utilisateur appropriés soient affectés à celles-ci.
+Utilisez la page [!UICONTROL Companies] pour afficher la liste des sociétés de votre configuration Audience Manager. Vous pouvez modifier ou supprimer des sociétés existantes ou en créer de nouvelles, à condition que les rôles utilisateur appropriés vous soient attribués.
 
 ![](assets/companies.png)
 
-Vous pouvez trier chaque colonne par ordre croissant ou décroissant en cliquant sur l’en-tête de la colonne de votre choix.
+Vous pouvez trier chaque colonne par ordre croissant ou décroissant en cliquant sur l’en-tête de la colonne souhaitée.
 
-Utilisez la zone [!UICONTROL Search] ou les commandes de pagination au bas de la liste pour trouver la société souhaitée.
+Utilisez la boîte de [!UICONTROL Search] ou les commandes de pagination au bas de la liste pour trouver l’entreprise souhaitée.

@@ -1,5 +1,5 @@
 ---
-description: Utilisez la page Serveurs pour afficher la liste des serveurs dans la configuration de votre Audience Manager. Vous pouvez modifier ou supprimer des serveurs existants ou créer de nouveaux serveurs, à condition que les rôles utilisateur appropriés soient attribués à vous.
+description: Utilisez la page Serveurs pour afficher la liste des serveurs de votre configuration Audience Manager. Vous pouvez modifier ou supprimer des serveurs existants ou en créer de nouveaux, à condition que les rôles utilisateur appropriés vous soient attribués.
 seo-description: Use the Servers page to view a list of servers in your Audience Manager configuration. You can edit or delete existing servers or create new servers, providing that you have the appropriate user roles assigned.
 seo-title: Servers Overview
 title: Présentation des serveurs
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 # Présentation des serveurs {#servers-overview}
 
-Utilisez la page [!UICONTROL Servers] pour afficher une liste de serveurs dans la configuration de votre Audience Manager. Vous pouvez modifier ou supprimer des serveurs existants ou créer de nouveaux serveurs, à condition que les rôles utilisateur appropriés soient attribués à vous.
+Utilisez la page [!UICONTROL Servers] pour afficher la liste des serveurs de votre configuration Audience Manager. Vous pouvez modifier ou supprimer des serveurs existants ou en créer de nouveaux, à condition que les rôles utilisateur appropriés vous soient attribués.
 
 <!-- c_servers.xml -->
 
 ![](assets/servers.png)
 
-Vous pouvez trier chaque colonne par ordre croissant ou décroissant en cliquant sur l’en-tête de la colonne de votre choix. Utilisez la zone [!UICONTROL Search] ou les commandes de pagination au bas de la liste pour trouver le serveur souhaité.
+Vous pouvez trier chaque colonne par ordre croissant ou décroissant en cliquant sur l’en-tête de la colonne souhaitée. Utilisez la zone de [!UICONTROL Search] ou les commandes de pagination au bas de la liste pour trouver le serveur souhaité.

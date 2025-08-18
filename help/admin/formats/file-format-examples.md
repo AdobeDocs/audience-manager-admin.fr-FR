@@ -2,7 +2,7 @@
 description: Exemples d’utilisation des macros pour créer des modèles de fichiers FTP sortants.
 seo-description: Examples of how macros are used to create outbound, FTP file templates.
 seo-title: File Format Macro Examples
-title: Exemples de macro Format du fichier
+title: Exemples de macros de format de fichier
 uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
 exl-id: 132a8e40-8001-4a49-9304-82e852ee28fd
 source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# Exemples de macro Format du fichier {#file-format-macro-examples}
+# Exemples de macros de format de fichier {#file-format-macro-examples}
 
 Exemples d’utilisation des macros pour créer des modèles de fichiers [!DNL FTP] sortants.
 
 >[!NOTE]
 >
->Dans les tableaux, le type **boldface** identifie chaque macro avec sa sortie associée. Pour les exemples de format, les symboles &lt; > ont été ajoutés afin de séparer visuellement chaque macro.
+>Dans les tableaux, le type **gras** identifie chaque macro avec sa sortie associée. Pour les exemples de format, les &lt; > symboles ont été ajoutés pour faciliter la séparation visuelle de chaque macro.
 
 ## Macros courantes {#common-macros}
 
-Ces macros peuvent être utilisées dans n’importe quel champ de format. Pour obtenir une liste complète et des définitions, reportez-vous à la section [Macros au format de fichier](../formats/file-formats.md) .
+Ces macros peuvent être utilisées dans n’importe quel champ de format. Consultez la section [Macros au format de fichier](../formats/file-formats.md) pour obtenir une liste et des définitions complètes.
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -68,9 +68,9 @@ Ces macros peuvent être utilisées dans n’importe quel champ de format. Pour 
  </tbody> 
 </table>
 
-## Macros Champ d’en-tête {#header-field-macros}
+## Macros de champ d’en-tête {#header-field-macros}
 
-Macros utilisées uniquement dans les champs d’en-tête. Pour obtenir une liste complète et des définitions, reportez-vous à la section [Macros au format de fichier](../formats/file-formats.md) .
+Macros utilisées uniquement dans les champs d’en-tête. Consultez la section [Macros au format de fichier](../formats/file-formats.md) pour obtenir une liste et des définitions complètes.
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -82,14 +82,14 @@ Macros utilisées uniquement dans les champs d’en-tête. Pour obtenir une list
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>TAB </code> </p> </td> 
-   <td colname="col2"> <p>Format : <code>&lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Sortie : <code>888 full.sync </code> </p> <p>Dans la sortie, le caractère de tabulation non imprimable sépare chaque élément. </p> </td>
+   <td colname="col2"> <p>Format : <code>&lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Sortie : <code>888 full.sync </code> </p> <p>Dans la sortie, le caractère de tabulation hors impression sépare chaque élément. </p> </td>
   </tr>
  </tbody>
 </table>
 
-## Macros de lignes de données {#data-row-macros}
+## Macros de ligne de données {#data-row-macros}
 
-Macros utilisées uniquement dans les champs d’en-tête. Pour obtenir une liste complète et des définitions, reportez-vous à la section [Macros au format de fichier](../formats/file-formats.md) .
+Macros utilisées uniquement dans les champs d’en-tête. Consultez la section [Macros au format de fichier](../formats/file-formats.md) pour obtenir une liste et des définitions complètes.
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -111,11 +111,11 @@ Macros utilisées uniquement dans les champs d’en-tête. Pour obtenir une list
    <td colname="col1"> <p> <code>SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST </code> </p> </td> 
    <td colname="col2"> <p>Cet exemple crée un format qui renvoie les segments supprimés dans un flux serveur à serveur. </p> <p> 
      <code>
-       &lbrace;"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", 
-      "Data":&lbrack;&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; 
+       {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", 
+      "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; 
       separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; 
-      &lt;REMOVED_SEGMENT_LIST:&lbrace;seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", 
-      "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;&rbrace;;&nbsp;separator=","&gt;&rbrack;&rbrace; 
+      &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", 
+      "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]} 
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -128,7 +128,7 @@ Macros utilisées uniquement dans les champs d’en-tête. Pour obtenir une list
   </tr>
   <tr> 
    <td colname="col1"> <p> <code>TAB </code> </p> </td> 
-   <td colname="col2"> <p>Format : <code>&lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Sortie : <code>123456 UUID1 UUID2 UUID3 </code> </p> <p>Dans la sortie, le caractère de tabulation non imprimable sépare chaque élément. </p> </td> 
+   <td colname="col2"> <p>Format : <code>&lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Sortie : <code>123456 UUID1 UUID2 UUID3 </code> </p> <p>Dans la sortie, le caractère de tabulation hors impression sépare chaque élément. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TRAIT_LIST </code> </p> </td> 
