@@ -53,7 +53,7 @@ Utilisez la page [!UICONTROL Companies] de l’outil d’administration Audience
 
    * **[!UICONTROL Agency]** : indiquez que la société disposera d’un compte [!UICONTROL Agency].
 
-1. Cliquez sur **[!UICONTROL Create]**. Suivez les instructions de la section [ Modifier un profil d’entreprise ](../companies/admin-manage-company-profiles.md#edit-company-profile).
+1. Cliquez sur **[!UICONTROL Create]**. Suivez les instructions de la section [&#x200B; Modifier un profil d’entreprise &#x200B;](../companies/admin-manage-company-profiles.md#edit-company-profile).
 
    ![Résultat de l’étape](assets/add_company.png)
 
