@@ -5,7 +5,7 @@ seo-title: Create or Edit an FTP Server
 title: Créer ou modifier un serveur FTP
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
-source-git-commit: 8af040e49b881302315e0b66baa73db47c5eee28
+source-git-commit: 92bf9b281c71e38d1bd5e0229f550a2124080b21
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Utilisez la page [!UICONTROL Servers] de l’outil d’administration Audience M
 
    >[!NOTE]
    >
-   >Nous vous recommandons d’utiliser la méthode [!DNL Amazon S3] pour récupérer des fichiers et les diffuser auprès des partenaires. [!DNL Amazon S3] fournit une interface de services web simple qui peut être utilisée pour stocker et récupérer n’importe quelle quantité de données, à tout moment et depuis n’importe quel emplacement sur le web. Pour plus d’informations, voir [À propos d’Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=fr) dans le *Guide de l’utilisateur d’Audience Manager*.
+   >Nous vous recommandons d’utiliser la méthode [!DNL Amazon S3] pour récupérer des fichiers et les diffuser auprès des partenaires. [!DNL Amazon S3] fournit une interface de services web simple qui peut être utilisée pour stocker et récupérer n’importe quelle quantité de données, à tout moment et depuis n’importe quel emplacement sur le web. Pour plus d’informations, voir [À propos d’Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) dans le *Guide de l’utilisateur d’Audience Manager*.
 
 1. Renseignez les champs suivants :
 
@@ -44,10 +44,13 @@ Utilisez la page [!UICONTROL Servers] de l’outil d’administration Audience M
    >N’oubliez pas d’ajouter notre [!DNL FTP] de [!DNL IP] de sortie à votre liste d’adresses IP autorisées : **54.204.116.43**.
 
 1. Pour l’authentification **[!UICONTROL SSH Key]** :
+
    >[!NOTE]
    >
    >Lors de la configuration de l’authentification par clé SSH, veillez à toujours générer les clés publiques et privées au format OpenSSH uniquement.
-   >1. Générez la paire de clés publique/privée à partir de n’importe quel ordinateur [!DNL Linux] ou [!DNL Mac].
-   >1. Donnez la **clé publique** au client pour qu’il la mette à jour sur son serveur [!DNL SFTP]. Ils doivent inclure tout le texte de la clé publique sur leur serveur, y compris `-----BEGIN RSA PRIVATE KEY-----` et `-----END RSA PRIVATE KEY-----` . En échange, ils doivent fournir le nom d’utilisateur sous lequel ils installent la clé.
-   >1. Mettez à jour le champ du nom d’utilisateur avec celui fourni par le client et le champ de la clé avec la **clé privée**.
+
+   1. Générez la paire de clés publique/privée à partir de n’importe quel ordinateur [!DNL Linux] ou [!DNL Mac].
+   1. Donnez la **clé publique** au client pour qu’il la mette à jour sur son serveur [!DNL SFTP]. Ils doivent inclure tout le texte de la clé publique sur leur serveur, y compris `-----BEGIN RSA PRIVATE KEY-----` et `-----END RSA PRIVATE KEY-----` . En échange, ils doivent fournir le nom d’utilisateur sous lequel ils installent la clé.
+   1. Mettez à jour le champ du nom d’utilisateur avec celui fourni par le client et le champ de la clé avec la **clé privée**.
+
 1. Cliquez sur **[!UICONTROL Create]** si vous créez un serveur ou sur **[!UICONTROL Update]** si vous modifiez un serveur existant.
