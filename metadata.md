@@ -1,32 +1,31 @@
 ---
 cloud: Experience Cloud
-solution-title: Learn & Support
-solution-hub-url: https://helpx.adobe.com/fr/support/audience-manager.html
-solution-image: assets/aam-icon-24.png
+solution: Audience Manager
+feature-set: Audience Manager
+landing-page-name: audience-manager
+landing-page-breadcrumb-title: Audience Manager
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/fr/audience-manager/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/overview.html?lang=fr
 git-repo: https://github.com/AdobeDocs/audience-manager-admin.fr-FR
 index: false
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+hide: true
+source-git-commit: dcbc5994cd9b9cce18e8f1f59f3be6794eacdb76
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 1%
+source-wordcount: '109'
+ht-degree: 2%
 
 ---
 
 
 # Métadonnées à usage interne
 
-Le fichier metadata.md comprend des métadonnées au niveau du référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier le contenu metadata.md pour n’importe quel guide de l’utilisateur, faites-le dans n’importe quel fichier TOC.md.
+Le fichier metadata.md comprend des métadonnées au niveau du référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier du contenu metadata.md pour n’importe quel guide de l’utilisateur, effectuez vos modifications dans n’importe quel fichier TOC.md.
 
-| metadata | ce qu’il fait |
+| métadonnées | ce qu&#39;il fait |
 |--- |--- |
 | solution-title | Utilisé dans l’en-tête de l’article comme lien |
-| solution-hub-url | Ouvre la page hub helpx |
-| solution-icon | Affiche l’icône de solution en regard du titre de la solution. Pas encore implémenté |
-| getting-started-url | Lien vers la page de prise en main de helpx |
-| tutorials-url | Lien vers des tutoriels vidéo : tutoriels helpx ou KT |
-| mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail droit. la valeur par défaut est 2 |
-| git-repo | Spécifie l’emplacement du référentiel maître pour une utilisation interne. |
+| solution-hub-url | Ouvre la page hub d’aide |
+| solution-icon | Affiche l’icône de la solution en regard du titre de la solution. Pas encore implémenté |
+| getting-started-url | Lien vers la page de prise en main |
+| tutorials-url | Lien vers des tutoriels vidéo : tutoriels d’aide ou tutoriels d’AC. |
+| niveaux de mini-table des matières | Détermine le nombre de niveaux de titre qui apparaissent dans le rail de droite. la valeur par défaut est 2 |
+| git-repo | Spécifie l&#39;emplacement du référentiel principal pour une utilisation interne |
