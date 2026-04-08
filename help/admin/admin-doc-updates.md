@@ -6,9 +6,13 @@ title: Mises à jour de la documentation
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
 TQID: https://experienceleague.adobe.com/QQHJ9VBxkF-pMFYIvgny6JJRS38Q-3nXD1kSzWdGJxQ
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 644
@@ -20,7 +24,7 @@ ht-degree: 88%
 
 Toutes les mises à jour (ajouts, suppressions et corrections) apportées au guide de l’administrateur d’Audience Manager, classées par date.
 
-Pour plus d’informations sur les sorties, les améliorations et les corrections de bogues de fonctionnalités, consultez les [notes de mise à jour d’Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). Pour [!DNL Audience Manager] les modifications apportées à la documentation, voir [ Mises à jour de la documentation ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
+Pour plus d’informations sur les sorties, les améliorations et les corrections de bogues de fonctionnalités, consultez les [notes de mise à jour d’Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). Pour [!DNL Audience Manager] les modifications apportées à la documentation, voir [&#x200B; Mises à jour de la documentation &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
 
 ## Mises À Jour De La Documentation AAM 2019 {#aam-2019-docs-updates}
 

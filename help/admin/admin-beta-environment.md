@@ -7,9 +7,13 @@ title: Environnement Beta
 uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 exl-id: 78d5a1ff-c016-4366-ba34-9814a0d92067
 TQID: https://experienceleague.adobe.com/Y6hON41v53cSXtuTYMW8UMgimwyewWHvfcBvMYDnBa4
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
 source-wordcount: 366
@@ -28,9 +32,9 @@ L’environnement bêta sert à tester les implémentations d’Audience Manager
 | Service | URL/nom d&#39;hôte | Étapes de configuration |
 |--- |--- |--- |
 | S3 | | Voir [Configurer des compartiments Amazon S3](admin-beta-environment.md#provision-s3-buckets). |
-| DCS | https&amp;colon;//dcs-beta.demdex.net/... | Pas besoin d&#39;étapes supplémentaires de notre côté. Voir [Accès au serveur de collecte de données dans l’environnement Beta](admin-beta-environment.md#access-dcs-beta-environment). |
-| IU | https&amp;colon;//bank-beta.demdex.com | Les données sont copiées de l’environnement de production vers l’environnement bêta tous les mois. Les informations d’identification de production sont valides pour la version Beta. |
-| API | https&amp;colon;//api-beta.demdex.com/... | Les données sont copiées de l’environnement de production vers l’environnement bêta tous les mois. Les informations d’identification de production sont valides pour la version Beta. |
+| DCS | https&colon;//dcs-beta.demdex.net/... | Pas besoin d&#39;étapes supplémentaires de notre côté. Voir [Accès au serveur de collecte de données dans l’environnement Beta](admin-beta-environment.md#access-dcs-beta-environment). |
+| IU | https&colon;//bank-beta.demdex.com | Les données sont copiées de l’environnement de production vers l’environnement bêta tous les mois. Les informations d’identification de production sont valides pour la version Beta. |
+| API | https&colon;//api-beta.demdex.com/... | Les données sont copiées de l’environnement de production vers l’environnement bêta tous les mois. Les informations d’identification de production sont valides pour la version Beta. |
 
 ## Configurer les compartiments Amazon S3 {#provision-s3-buckets}
 
