@@ -5,9 +5,12 @@ seo-title: HTTP Format Macros
 title: Macros au format HTTP
 uuid: 91021f60-75d0-4b1d-86ca-91c9dadafac1
 exl-id: 80ed24ac-1b84-4c1b-966f-039b587ea899
-source-git-commit: cfc3396843592d80b017471a0e88cf335a5f81e0
+TQID: https://experienceleague.adobe.com/5j4Tq2P-dNGLa-yLSm8EY8xQWg7MBR9ggzdUi0oBMBQ
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: 394
 ht-degree: 2%
 
 ---
@@ -35,7 +38,7 @@ Consultez la section [Exemples de macros au format HTTP](../formats/web-format-e
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>ID d’utilisateur unique du partenaire de données. Cette macro renvoie l’identifiant que vous avez attribué à un utilisateur si son identifiant a déjà été synchronisé avec un identifiant d’appareil <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col3"> <p>ID d’utilisateur unique du partenaire de données. Cette macro renvoie l’identifiant que vous avez attribué à un utilisateur si son identifiant a déjà été synchronisé avec un identifiant d’appareil </span> Audience Manager <span class="keyword">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -50,7 +53,7 @@ Consultez la section [Exemples de macros au format HTTP](../formats/web-format-e
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Horodatage UTC Unix. Un horodatage interne représente l’heure à laquelle AAM a été informé de la publication de la destination <span class="wintitle"> S2S </span> à nos partenaires. </p> </td> 
+   <td colname="col3"> <p>Horodatage UTC Unix. Un horodatage interne représente l’heure à laquelle AAM a été informé de la publication de la destination </span> S2S <span class="wintitle"> à nos partenaires. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -173,7 +176,7 @@ Consultez la section [Exemples de macros au format HTTP](../formats/web-format-e
      <li><code>user.regionIds</code></li> 
     </ul> <p>Spécifiez ces champs comme illustré dans l’exemple suivant : </p> <p> 
      <codeblock>
-        »AAM_UUID » : « &lt;user.aamUuid&gt; » 
+       « AAM_UUID » : « &lt;user.aamUuid&gt; » 
 « DataPartner_UUID » : « &lt;user.dpUUID&gt; » 
      </codeblock> </p> <p>Consultez également <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> section Exemples de macros au format HTTP </a> pour obtenir un exemple complet. </p> </td> 
   </tr>

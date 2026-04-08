@@ -5,9 +5,14 @@ seo-title: Manage Company Destinations
 title: Gérer les destinations d’entreprise
 uuid: d9a6bfb1-7629-44e0-b7d7-ece44f65ea2b
 exl-id: a2e73613-07cd-4ab8-8c6e-be451ed50bfc
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+TQID: https://experienceleague.adobe.com/-MWpMACN0bFPIRAWejD0-VV5nG8BGAukmV1QXxXal-E
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: 1101
 ht-degree: 0%
 
 ---
@@ -26,7 +31,7 @@ Faites défiler les sections pour obtenir des instructions détaillées sur la c
 
 <!-- create-edit-company-destinations.xml -->
 
-Consultez la page [Intégration des partenaires Experience Cloud](https://wiki.corp.adobe.com/x/mPIMPw) avant de configurer des destinations. La page contient les informations spécifiques à renseigner pour chaque intégration de partenaire [!DNL Audience Manager].
+Consultez la page [Intégration des partenaires &#x200B;](https://wiki.corp.adobe.com/x/mPIMPw) avant de configurer des destinations. La page contient les informations spécifiques à renseigner pour chaque intégration de partenaire [!DNL Audience Manager].
 
 Si votre client souhaite utiliser [!DNL Adobe Media Optimizer] comme destination dans [!DNL Audience Manager] , vous devez le configurer dans [!DNL Adobe Media Optimizer].
 
@@ -56,7 +61,7 @@ Cet identifiant est utilisé comme identifiant de source de données principale.
 
 >[!NOTE]
 >
->Pour le type de destination [!UICONTROL Bulk ID], vous ne pouvez pas utiliser l’[!DNL Audience Manager] [!UICONTROL User ID] ou l’identifiant [!DNL Adobe Experience Cloud].
+>Pour le type de destination [!UICONTROL Bulk ID], vous ne pouvez pas utiliser l’[!UICONTROL User ID] [!DNL Audience Manager] ou l’identifiant [!DNL Adobe Experience Cloud].
 
 Si votre identifiant de source de données ( [!UICONTROL DPID]) ne s’affiche pas dans la liste déroulante, vous devez cocher la case **[!UICONTROL Outbound]** au niveau de la source de données dans la page [Paramètres de Data Source](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=fr).
 
