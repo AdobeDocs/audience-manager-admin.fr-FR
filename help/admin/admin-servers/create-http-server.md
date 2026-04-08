@@ -5,9 +5,13 @@ seo-title: Create or Edit an HTTP Server
 title: Création ou modification d’un serveur HTTP
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
 exl-id: 8b3dfb1e-2dee-4a05-835e-3c32643336bc
-source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
+TQID: https://experienceleague.adobe.com/vcybBl222PvpcEeMFtPZyqbP-YWHCNKF9luqmTZ1C7Y
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: 315
 ht-degree: 2%
 
 ---
@@ -50,7 +54,7 @@ Utilisez la page [!UICONTROL Servers] de l’outil d’administration Audience M
 
    >[!NOTE]
    >
-   >Si vous souhaitez activer l’authentification [OAuth 2.0 pour les transferts de données en temps réel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=fr) pour un partenaire, renseignez les champs comme dans le tableau ci-dessous. Les champs en *italique* doivent être renseignés exactement comme dans le tableau.
+   >Si vous souhaitez activer l’authentification [OAuth 2.0 pour les transferts de données en temps réel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.html?lang=en) pour un partenaire, renseignez les champs comme dans le tableau ci-dessous. Les champs en *italique* doivent être renseignés exactement comme dans le tableau.
 
    | Nom | Valeur |
    |---|---|

@@ -5,9 +5,13 @@ seo-title: Destination Setup Troubleshooting
 title: Dépannage de la configuration de la destination
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
+TQID: https://experienceleague.adobe.com/R21EJzuvrPlTAa3n92xgT74wdAKKKZxlJL8nWNn3mgA
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: 1343
 ht-degree: 3%
 
 ---
@@ -70,11 +74,11 @@ Pour plus d’informations sur la configuration des formats et l’utilisation d
 
 ### Pas assez de temps pour la génération sortante
 
-Le processus sortant s’exécute deux fois par jour et plusieurs processus (sortant, publication, envoi vers des emplacements externes, etc.) doivent s’exécuter avant qu’un fichier ne soit envoyé à sa destination finale. Une bonne règle de base est qu’une destination doit être entièrement configurée au moins 24 heures avant que vous puissiez vous attendre à ce que les données soient transmises à un emplacement externe.
+Le processus sortant s’exécute deux fois par jour et plusieurs processus (sortant, publication, envoi vers des emplacements externes, etc.) doit s’exécuter avant qu’un fichier ne soit envoyé à sa destination finale. Une bonne règle de base est qu’une destination doit être entièrement configurée au moins 24 heures avant que vous puissiez vous attendre à ce que les données soient transmises à un emplacement externe.
 
 ### Tailles de partage de fichier trop grandes
 
-Lorsque vous envoyez des fichiers sortants vers des destinations, vous pouvez fractionner les fichiers sortants plus volumineux en blocs de fichiers. Assurez-vous que les blocs de fichiers individuels ne dépassent pas 10 Go. Voir aussi [Nom du fichier de données sortant : syntaxe et exemples](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=fr).
+Lorsque vous envoyez des fichiers sortants vers des destinations, vous pouvez fractionner les fichiers sortants plus volumineux en blocs de fichiers. Assurez-vous que les blocs de fichiers individuels ne dépassent pas 10 Go. Voir aussi [Nom du fichier de données sortant : syntaxe et exemples](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
 
 
 ## Comment configurer vos destinations pour exporter des Experience Cloud ID, des Customer ID ou des Audience Manager ID dans des fichiers de données sortants {#set-up-destinations-export}
@@ -89,7 +93,7 @@ Les destinations permettent à nos clients d’activer leurs données sur un nom
 >
 >Pour une présentation détaillée de la création de destinations dans l’interface utilisateur d’administration, reportez-vous à l’article [Création ou modification de destinations d’entreprise](companies/admin-manage-company-destinations.md#create-edit-company-destinations).
 
-Vos clients souhaitent exporter différents types d’ID en fonction de la destination. Le graphique de configuration ci-dessous montre les options que vous devez sélectionner pour exporter les informations de profil liées aux différents types d’ID. Nous vous recommandons de vous reporter également à l’[Index des identifiants dans Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=fr). Il y a trois paramètres importants à considérer, le [!UICONTROL User ID Key], le [!UICONTROL Data Source Type] et le [!UICONTROL Format]. Nous les détaillons tous ci-dessous.
+Vos clients souhaitent exporter différents types d’ID en fonction de la destination. Le graphique de configuration ci-dessous montre les options que vous devez sélectionner pour exporter les informations de profil liées aux différents types d’ID. Nous vous recommandons de vous reporter également à l’[Index des identifiants dans Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en). Il y a trois paramètres importants à considérer, le [!UICONTROL User ID Key], le [!UICONTROL Data Source Type] et le [!UICONTROL Format]. Nous les détaillons tous ci-dessous.
 
 * [!UICONTROL User ID Key]. Dans la [!UICONTROL Admin UI], allez à **[!UICONTROL Companies]**. Recherchez l’entreprise de votre client et cliquez dessus. Recherchez l’onglet **[!UICONTROL Destinations]** et appuyez sur **[!UICONTROL Add Destination]**. Dans le workflow **[!UICONTROL Add Destination]**, sélectionnez le [!UICONTROL User ID Key]. L’[!UICONTROL User ID Key] filtre les identifiants entrants de la source de données cible et n’autorise la transmission que des identifiants.
 

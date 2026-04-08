@@ -5,9 +5,11 @@ seo-title: Create or Edit an FTP Server
 title: Créer ou modifier un serveur FTP
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
-source-git-commit: 92bf9b281c71e38d1bd5e0229f550a2124080b21
+TQID: https://experienceleague.adobe.com/vXm5k1APT6BVn0Ub7ntfDCnAdSfOWTLRo6ci-yK5cWk
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: 397
 ht-degree: 1%
 
 ---
@@ -26,7 +28,7 @@ Utilisez la page [!UICONTROL Servers] de l’outil d’administration Audience M
 
    >[!NOTE]
    >
-   >Nous vous recommandons d’utiliser la méthode [!DNL Amazon S3] pour récupérer des fichiers et les diffuser auprès des partenaires. [!DNL Amazon S3] fournit une interface de services web simple qui peut être utilisée pour stocker et récupérer n’importe quelle quantité de données, à tout moment et depuis n’importe quel emplacement sur le web. Pour plus d’informations, voir [À propos d’Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=fr) dans le *Guide de l’utilisateur d’Audience Manager*.
+   >Nous vous recommandons d’utiliser la méthode [!DNL Amazon S3] pour récupérer des fichiers et les diffuser auprès des partenaires. [!DNL Amazon S3] fournit une interface de services web simple qui peut être utilisée pour stocker et récupérer n’importe quelle quantité de données, à tout moment et depuis n’importe quel emplacement sur le web. Pour plus d’informations, voir [À propos d’Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) dans le *Guide de l’utilisateur d’Audience Manager*.
 
 1. Renseignez les champs suivants :
 
@@ -41,7 +43,7 @@ Utilisez la page [!UICONTROL Servers] de l’outil d’administration Audience M
 
    >[!NOTE]
    >
-   >N’oubliez pas d’ajouter notre [!DNL FTP] de [!DNL IP] de sortie à votre liste d’adresses IP autorisées : **54.204.116.43**.
+   >N’oubliez pas d’ajouter notre [!DNL IP] de [!DNL FTP] de sortie à votre liste d’adresses IP autorisées : **54.204.116.43**.
 
 1. Pour l’authentification **[!UICONTROL SSH Key]** :
 

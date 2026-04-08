@@ -5,9 +5,11 @@ seo-title: File Format Macros
 title: Macros de format de fichier
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 exl-id: e686bc33-da3e-49a9-8c71-2bc6ca399bfb
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+TQID: https://experienceleague.adobe.com/ATzqYmfRIVDeQ3DZpbcZkCP4Jjsapw9Nfyli1QFR8-o
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: 686
 ht-degree: 1%
 
 ---
@@ -46,7 +48,7 @@ Ces macros peuvent être utilisées dans n’importe quel champ de format. Pour 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>PIDALIAS</code> </p> </td> 
-   <td colname="col2"> <p>Alias pour un identifiant de commande/destination. </p> <p>La valeur de cet alias est définie dans le champ <span class="wintitle"> de l’ID de compte étranger </span> pour une destination (dans la section <span class="wintitle"> Paramètres de base </span> ). </p> </td> 
+   <td colname="col2"> <p>Alias pour un identifiant de commande/destination. </p> <p>La valeur de cet alias est définie dans le champ </span> de l’ID de compte étranger <span class="wintitle"> pour une destination (dans la section </span> Paramètres de base <span class="wintitle"> ). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>SYNC_MODE</code> </p> </td> 
@@ -105,7 +107,7 @@ Macros utilisées uniquement dans les lignes de données. Pour obtenir des exemp
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Insère un crochet fermé <code>&rbrace;</code> caractère. </p> </td> 
+   <td colname="col2"> <p>Insère un crochet fermé <code>}</code> caractère. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -113,7 +115,7 @@ Macros utilisées uniquement dans les lignes de données. Pour obtenir des exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> d’identifiant d’utilisateur unique du partenaire de données </span>. Renvoie l’ID que vous avez attribué à un utilisateur/visiteur du site si cet ID a déjà été synchronisé avec un ID d’appareil <span class="keyword"> Audience Manager </span>. </p> <p>Si le DPID est 0, cette macro renvoie l’ID de <span class="keyword"> Audience Manager </span> au lieu de votre ID pour l’utilisateur. </p> </td> 
+   <td colname="col2"> <p> </span> d’identifiant d’utilisateur unique du partenaire de données <span class="term">. Renvoie l’ID que vous avez attribué à un utilisateur/visiteur du site si cet ID a déjà été synchronisé avec un ID d’appareil </span> Audience Manager <span class="keyword">. </p> <p>Si le DPID est 0, cette macro renvoie l’ID de </span> Audience Manager <span class="keyword"> au lieu de votre ID pour l’utilisateur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID_LIST</code> </p> </td> 
@@ -137,7 +139,7 @@ Macros utilisées uniquement dans les lignes de données. Pour obtenir des exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Insère un crochet ouvert <code>&lbrace;</code> caractère. </p> </td> 
+   <td colname="col2"> <p>Insère un crochet ouvert <code>{</code> caractère. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
@@ -153,7 +155,7 @@ Macros utilisées uniquement dans les lignes de données. Pour obtenir des exemp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>PID</code> </p> </td> 
-   <td colname="col2"> <p>Identifiant partenaire (PID). Le PID s’affiche sous l’onglet <span class="wintitle"> de profil </span> dans l’interface utilisateur d’administration. </p> </td> 
+   <td colname="col2"> <p>Identifiant partenaire (PID). Le PID s’affiche sous l’onglet </span> de profil <span class="wintitle"> dans l’interface utilisateur d’administration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -186,7 +188,7 @@ Macros utilisées uniquement dans les lignes de données. Pour obtenir des exemp
      <li id="li_859E1F4F21D645519F150DC512B3EB1A"> <code>type</code> : types de caractéristiques identifiées par un identifiant numérique. Cette variable renvoie : 
       <ul id="ul_C9839266783D42CCADAAC3FEA33BE4D7"> 
        <li id="li_6996A218E3F04EC3BC70032559DD87FC"> <code>10</code> qui identifie une caractéristique DPM (hors ligne, intégrée par une tâche entrante). </li> 
-       <li id="li_831FF929BF50434C8804C13E5786DF79"> <code>3</code> qui identifie une caractéristique basée sur des règles (en temps réel, intégrée à l’aide du <span class="wintitle"> DCS </span>). </li> 
+       <li id="li_831FF929BF50434C8804C13E5786DF79"> <code>3</code> qui identifie une caractéristique basée sur des règles (en temps réel, intégrée à l’aide du </span> DCS <span class="wintitle">). </li> 
       </ul> </li> 
      <li id="li_E84D6BC80AEE4F10963C9882C4151ED4"> <code>traitId</code> : ID de caractéristique. </li> 
      <li id="li_D30A849BA35248E6B9110FA3ADEFC332"> <code>lastRealized</code> : Dernière fois que la caractéristique a été réalisée. Horodatage Unix. </li> 

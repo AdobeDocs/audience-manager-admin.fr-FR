@@ -5,10 +5,12 @@ seo-title: Create or Edit an S3 Server
 title: Créer ou modifier un serveur S3
 uuid: 94fee787-eb26-45aa-b602-d61ab12969ea
 exl-id: 89310de0-e24e-4d4b-8171-56faf0b441f6
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+TQID: https://experienceleague.adobe.com/rtXpkVovwbjCwLk3caZ7Ii-LLcr2n3eL73OADaLoul0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: d2bed13a6ac7d38ae79b65d492b6de0ca6b6d488
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 2%
+source-wordcount: 211
+ht-degree: 1%
 
 ---
 
@@ -26,7 +28,7 @@ Utilisez la page [!UICONTROL Servers] de l’outil d’administration Audience M
 
    >[!NOTE]
    >
-   >Nous vous recommandons d’utiliser [!DNL Amazon S3] comme méthode pour obtenir des fichiers de et les diffuser auprès des partenaires. [!DNL Amazon S3] fournit une interface de services web simple qui peut être utilisée pour stocker et récupérer n’importe quelle quantité de données, à tout moment et depuis n’importe quel emplacement sur le web. Pour plus d’informations, voir [À propos d’Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html?lang=fr) dans le *Guide de l’utilisateur d’Audience Manager*.
+   >Nous vous recommandons d’utiliser [!DNL Amazon S3] comme méthode pour obtenir des fichiers de et les diffuser auprès des partenaires. [!DNL Amazon S3] fournit une interface de services web simple qui peut être utilisée pour stocker et récupérer n’importe quelle quantité de données, à tout moment et depuis n’importe quel emplacement sur le web. Pour plus d’informations, voir [À propos d’Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) dans le *Guide de l’utilisateur d’Audience Manager*.
 
 1. Renseignez les champs suivants :
 
